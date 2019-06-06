@@ -1,7 +1,6 @@
 <meta charset="utf-8" />
 <?php
 
-//lalslalals
 /**
  * * search current folder and its subfolder for anyfile named as pic type file
  * * but getimagesize fails
