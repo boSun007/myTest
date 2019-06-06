@@ -1,6 +1,7 @@
 <meta charset="utf-8" />
 <?php
 
+//lalslalals
 /**
  * * search current folder and its subfolder for anyfile named as pic type file
  * * but getimagesize fails
@@ -14,7 +15,7 @@ function myError($type,$message,$file,$line){
     throw new \Exception($message . 'zyf错当做异常');
 }
 
-
+  
 
 $path = './';
 
