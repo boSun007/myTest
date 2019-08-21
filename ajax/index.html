@@ -1,0 +1,31 @@
+
+
+<script>
+
+    let request;
+    if(window.XMLHttpRequest){
+        request = new XMLHttpRequest();
+    }else{
+        request = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+
+    //Post
+    request.open('POST','post.php',true);
+    request.setRequestHeader('Content-type','Application/x-www-form-urlencoded');
+    request.send("name=a&sex=M");
+    request.onreadystatechange=function(){
+        if(request.readyState===4 && request.status===200){
+            alert(request.responseText);
+            var result = JSON.parse(request.responseText);
+            result.forEach(function(a,b,c){
+               alert(a.name);
+
+                });
+        }
+    }
+
+    //
+    // request.open('GET','get.php?a=1&b=2',false);
+    // request.send();
+
+</script>

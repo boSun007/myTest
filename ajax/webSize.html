@@ -1,0 +1,30 @@
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
+<div id="context"></div>
+
+
+<button type="button" onclick="getContext()">Getsize</button>
+
+<script>
+$.ajax({
+	url:"websize.php",
+	dataType:'json',
+	success:function(data){
+		for(var i=0; i<data;i++){
+			$("#context").append("abc"+i+"<br />");
+			for(var a=0; a<20;a++){
+				$("#context").append("abc"+a+"<br />");
+				}
+		}
+	}
+
+
+
+
+});
+</script>

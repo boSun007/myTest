@@ -1,0 +1,67 @@
+@startuml
+
+package "Some Group" {
+HTTP - [First Component]
+[Another Component]
+}
+
+package "Other Groups" {
+FTP - [Second Component]
+
+[First Component] --> FTP
+}
+
+@enduml
+@startuml
+Class11 <|.. Class12
+Class13 --> Class14
+Class15 ..> Class16
+Class17 ..|> Class18: > implements
+Class19 <--* Class20
+@enduml
+@startuml
+Class21 #-- Class22
+Class23 x-- Class24
+Class25 }-- Class26
+Class27 +-- Class28
+Class29 ^-- Class30
+Class31 <|-- Class32
+Class33 <-- Class34
+@enduml
+@startuml
+Class01 <|-- Class02
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 -- Class10
+@enduml
+
+@startuml
+Object <|-- ArrayList
+
+Object : equals()
+Object : equals()
+Object : equals()
+ArrayList : Object[] elementData
+ArrayList : size()
+
+@enduml
+
+@startuml
+class Dummy {
+  String data
+  void methods()
+}
+
+class Dummy2 {
+ -field1
+ #field2
+ ~method1()
+ +method2()
+}
+
+class Flight {
+   flightNumber : Integer
+   departureTime : Date
+}
+@enduml

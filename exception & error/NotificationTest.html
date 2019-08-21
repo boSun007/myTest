@@ -1,0 +1,20 @@
+
+
+ <button id="btn" onclick="abc()">显示通知</button>
+
+<script type="text/javascript">  
+    function abc(){
+		Notification.requestPermission();
+            alert("FF");
+            new Notification("Here I am!",{
+                body:'Thanks for clicking that button. Hope you liked.',
+                icon:'http://img06.tooopen.com/images/20160712/tooopen_sy_170083325566.jpg',
+                dir:'auto',
+
+            });
+			alert("CC");
+
+
+        }
+
+</script>
