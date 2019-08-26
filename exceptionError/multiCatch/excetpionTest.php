@@ -3,7 +3,7 @@
 use exceptionError\multiCatch\exception1;
 use exceptionError\multiCatch\exception2;
 
-include_once "../../autoload.php";
+include_once "D:\website\myTest/autoload.php";
 
 
 try{
