@@ -1,7 +1,7 @@
 <?php
 
-use exceptionError\exceptionHandler\exception1;
-use exceptionError\exceptionHandler\exception2;
+use exceptionError\multiCatch\exception1;
+use exceptionError\multiCatch\exception2;
 
 include_once "../../autoload.php";
 

@@ -1,5 +1,5 @@
 <?php
-namespace exceptionError\exceptionHandler;
+namespace exceptionError\multiCatch;
 
 use Exception;
 

@@ -1,5 +1,5 @@
 <?php
-namespace exceptionError\exceptionHandler;
+namespace exceptionError\multiCatch;
 
 class exception1 extends myHandler{
 
