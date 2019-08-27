@@ -8,9 +8,10 @@ function myFunction($p1,$p2){
 //myFunction(2,5);
 
 call_user_func_array('myFunction',[2,4]);
+echo PHP_EOL;
+
 call_user_func('myFunction',2,4);
-
-
+echo PHP_EOL;
 
 
 
@@ -26,8 +27,10 @@ function f1($arg1,$arg2)
   
   }
 call_user_func('f1','han','wen');
-
+echo PHP_EOL;
 call_user_func_array('f1',array('han','wen'));
+echo PHP_EOL;
+
 
 class A
 {
@@ -49,8 +52,11 @@ class A
 $a = new A;
 $a->name = 'wen';
 call_user_func_array(array($a,'show'),array('han'));
+echo PHP_EOL;
 call_user_func_array(array($a,'show1'),array('han123','wen456'));
+echo PHP_EOL;
 //call_user_func_array(array($a,'show2'),array('arrrg1','arrrrg2'));//������Ϊ$a�Ƕ������ַ���
+echo PHP_EOL;
 call_user_func_array(array('A','show2'),array('arrrg1','arrrrg2'));
 
 class MyClass3
