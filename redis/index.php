@@ -1,13 +1,23 @@
 <?php
+namespace redis;
 
-include_once dirname(__FILE__)."/../autoload.php";
+use Predis\Client;
+
+include dirname(__FILE__).'/../'."vendor/autoload.php";
+
 
 // require 'Predis/Autoloader.php';
 
 
-$host = [
-    '192.168.10.82',
-    '127.0.0.1',
-];
+// $host = [
+//     '127.0.0.1',
+//     '192.168.10.177',
+// ];
 
-$redis = new Predis\Client();
+// $host = '192.168.10.177';
+// $host = '127.0.0.1';
+$redis = new Client($host);
+// $redis->select(0);
+$val = $redis->set('myNameIs','boSun');
+$val = $redis->get('myNameIs');
+var_dump($val);

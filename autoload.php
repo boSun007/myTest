@@ -5,6 +5,6 @@ function autoload($class){
 	
 
 	$file = str_replace('\\','/',$class).".php";
-	// echo $file;exit;
-	include $file;
+	// echo dirname(__FILE__).'/'.$file;;exit;
+	include  dirname(__FILE__).'/'.$file;
 }
