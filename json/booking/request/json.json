@@ -1,0 +1,65 @@
+{
+    "arrival": "2013-11-07",
+    "departure": "2013-11-09",
+    "guestcounts": [
+        {
+            "code": 10,
+            "count": 1
+        }
+    ],
+    "room": "SUIT",
+    "rate": "BAR",
+    "roomallocation": 1,
+    "promotion": null,
+    "guest": {
+        "title": "Mr",
+        "firstname": "John",
+        "lastname": "Smith",
+        "address": {
+            "type": "postal",
+            "lines": [
+                "123 Long street",
+                "Green Pastures"
+            ],
+            "city": "Cape Town",
+            "region": "Western Cape",
+            "country": "ZA",
+            "postcode": "1234"
+        },
+        "contacts": {
+            "phones": [
+                {
+                    "type": "phone",
+                    "number": "1234567890"
+                },
+                {
+                    "type": "phone",
+                    "number": "22222222222"
+                },
+                {
+                    "type": "mobile",
+                    "number": "0820822082"
+                }
+            ],
+            "emails": [
+                {
+                    "type": "email",
+                    "address": "test@example.com"
+                },
+                {
+                    "type": "email",
+                    "address": "test2@example.com"
+                }
+            ]
+        }
+    },
+    "comments": {
+        "public": [
+            "A first public comment",
+            "A second public comment"
+        ],
+        "private": [
+            "A private comment"
+        ]
+    }
+}

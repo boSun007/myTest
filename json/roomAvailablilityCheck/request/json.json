@@ -1,0 +1,23 @@
+{
+    "arrival": "2015-08-09",
+    "departure": "2015-08-12",
+    "guestcounts": [
+        {
+            "code": 10,
+            "count": 2
+        },
+        {
+            "code": 8,
+            "count": 1
+        }
+    ],
+    "roomallocation": 2,
+    "roomtypes":[
+        "EXEC",
+        "Suit",
+        "DBL"
+
+
+    ]
+    
+}

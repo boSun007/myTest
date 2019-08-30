@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BookRequest>
+   <LoginDetails>
+      <Login>USER</Login>
+      <Password>PASS</Password>
+      <Version>5.0</Version>
+   </LoginDetails>
+   <BookDetails>
+      <ArrivalDate>2013-08-01</ArrivalDate>
+      <Duration>5</Duration>
+      <LeadGuest>
+         <FirstName>Jim</FirstName>
+         <LastName>Watsworth</LastName>
+         <Title>Mr</Title>
+      </LeadGuest>
+      <RoomBookings>
+         <RoomBooking>
+            <RoomID>14384</RoomID>
+            <MealBasisID>1</MealBasisID>
+            <Adults>2</Adults>
+            <Children>1</Children>
+            <Infants>0</Infants>
+            <Guests>
+               <Guest>
+                  <Type>Adult</Type>
+                  <FirstName>Sally</FirstName>
+                  <LastName>Smith</LastName>
+                  <Title>Mrs</Title>
+                  <Nationality>French</Nationality>
+               </Guest>
+               <Guest>
+                  <Type>Child</Type>
+                  <FirstName>Jimmy</FirstName>
+                  <LastName>Smith</LastName>
+                  <Age>5</Age>
+                  <Nationality>French</Nationality>
+               </Guest>
+            </Guests>
+         </RoomBooking>
+      </RoomBookings>
+   </BookDetails>
+</BookRequest>

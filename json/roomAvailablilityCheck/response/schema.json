@@ -1,0 +1,245 @@
+{
+    "$schema": "http:\/\/json-schema.org\/draft-04\/schema#",
+    "type": "object",
+    "properties": {
+        "property": {
+            "type": "string",
+            "description": "The property code"
+        },
+        "propertyname": {
+            "type": "string",
+            "description": "The property name"
+        },
+        "arrival": {
+            "type": "string",
+            "description": "The arrival date"
+        },
+        "departure": {
+            "type": "string",
+            "description": "The departure date"
+        },
+        "nights": {
+            "type": "integer",
+            "description": "The amount of nights",
+            "minimum": 1
+        },
+        "roomallocation": {
+            "type": "integer",
+            "description": "The amount of rooms required",
+            "minimum": 1
+        },
+        "guestcounts": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "type": "integer",
+                        "enum": [
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            18,
+                            19
+                        ]
+                    },
+                    "count": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "code",
+                    "count"
+                ],
+                "additionalProperties": false,
+                "uniqueItems": true
+            },
+            "minItems": 1,
+            "uniqueItems": true,
+            "description": "The number of guests (per room) according to each specific OTA Age Qualifying Code (AQC)"
+        },
+        "promotion": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Promotion code"
+        },
+        "group": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Group or block code"
+        },
+        "trace": {
+            "type": "string",
+            "description": "Unique response identifier"
+        },
+        "available": {
+            "type": "boolean",
+            "description": "Whether one or more rooms are available"
+        },
+        "rooms": {
+            "type": "array",
+            "description": "A list of room types",
+            "items": {
+                "type": "object",
+                "required": [
+                    "code",
+                    "name",
+                    "availability"
+                ],
+                "properties": {
+                    "code": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "availability": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                }
+            },
+            "minItems": 1
+        },
+        "rates": {
+            "type": "array",
+            "description": "A list of rate plans",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "depositrequired": {
+                        "type": "boolean",
+                        "description": "Mandatory deposit"
+                    },
+                    "deposit": {
+                        "type": "object",
+                        "properties": {
+                            "amount": {
+                                "type": "number"
+                            },
+                            "date": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "date"
+                        ]
+                    },
+                    "category": {
+                        "type": "string"
+                    },
+                    "cancel": {
+                        "type": "object",
+                        "properties": {
+                            "date": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "date"
+                        ]
+                    },
+                    "description": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "code",
+                    "name"
+                ]
+            },
+            "minItems": 1
+        },
+        "roomrates": {
+            "type": "array",
+            "description": "A list of room rates",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "type": "string"
+                    },
+                    "room": {
+                        "type": "string"
+                    },
+                    "rate": {
+                        "type": "string"
+                    },
+                    "base": {
+                        "type": "number"
+                    },
+                    "average": {
+                        "type": "number"
+                    },
+                    "total": {
+                        "type": "number"
+                    },
+                    "currency": {
+                        "type": "string"
+                    },
+                    "ratechange": {
+                        "type": "boolean"
+                    },
+                    "packages": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "code": {
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "code",
+                                "name"
+                            ]
+                        },
+                        "minItems": 1
+                    }
+                },
+                "required": [
+                    "code",
+                    "room",
+                    "rate",
+                    "base",
+                    "average",
+                    "total",
+                    "currency",
+                    "ratechange"
+                ]
+            },
+            "minItems": 1
+        }
+    },
+    "required": [
+        "arrival",
+        "departure",
+        "nights",
+        "roomallocation",
+        "guestcounts",
+        "property",
+        "propertyname",
+        "available"
+    ]
+}

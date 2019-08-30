@@ -1,0 +1,25 @@
+{
+    "booking":"unique-booking-reference",
+    "property": "00001",
+    "propertyname": "The Test Hotel",
+    "confirmation": "12345",
+    "arrival": "2013-11-07T00:00:00+02:00",
+    "departure": "2013-11-09T00:00:00+02:00",
+    "nights": 2,
+    "guestcounts": [
+        {
+            "code": 10,
+            "count": 1
+        }
+    ],
+    "promotion": null,
+    "roomallocation": 1,
+    "room": "SUIT",
+    "rate": "BAR",
+    "roomrate": "SUIT__BAR",
+    "roomname": "Suite",
+    "base": 3465,
+    "total": 6930,
+    "currency": "ZAR",
+    "trace": "5cf9edb8-f698-4194-b295-af704c1c8ef1"
+}

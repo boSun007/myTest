@@ -1,0 +1,133 @@
+{
+    "$schema": "http:\/\/json-schema.org\/draft-04\/schema#",
+    "type": "object",
+    "properties": {
+        "property": {
+            "type": "string",
+            "description": "The property code"
+        },
+        "propertyname": {
+            "type": "string",
+            "description": "The property name"
+        },
+        "confirmation": {
+            "type": "string",
+            "description": "The booking confirmation number"
+        },
+        "booking": {
+            "type": "string",
+            "description": "The unique booking identifier"
+        },
+        "arrival": {
+            "type": "string",
+            "description": "The arrival date"
+        },
+        "departure": {
+            "type": "string",
+            "description": "The departure date"
+        },
+        "nights": {
+            "type": "integer",
+            "minimum": 1
+        },
+        "roomallocation": {
+            "type": "integer",
+            "description": "The amount of rooms reserved",
+            "minimum": 1
+        },
+        "guestcounts": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "type": "integer",
+                        "enum": [
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            18,
+                            19
+                        ]
+                    },
+                    "count": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "code",
+                    "count"
+                ],
+                "additionalProperties": false,
+                "uniqueItems": true
+            },
+            "minItems": 1,
+            "uniqueItems": true,
+            "description": "The number of guests (per room) according to each specific OTA Age Qualifying Code (AQC)"
+        },
+        "promotion": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Promotion code"
+        },
+        "group": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Group or block code"
+        },
+        "roomname": {
+            "type": "string"
+        },
+        "room": {
+            "type": "string",
+            "description": "Room type"
+        },
+        "rate": {
+            "type": "string",
+            "description": "Rate plan"
+        },
+        "roomrate": {
+            "type": "string"
+        },
+        "base": {
+            "type": "number",
+            "description": "The base room rate amount"
+        },
+        "total": {
+            "type": "number",
+            "description": "The total room rate amount"
+        },
+        "currency": {
+            "type": "string",
+            "description": "The room rate currency code"
+        }
+    },
+    "required": [
+        "property",
+        "confirmation",
+        "booking",
+        "arrival",
+        "departure",
+        "nights",
+        "roomallocation",
+        "guestcounts",
+        "room",
+        "rate",
+        "roomrate",
+        "base",
+        "total",
+        "currency"
+    ]
+}
