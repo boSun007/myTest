@@ -1,0 +1,25 @@
+{
+    "property": "ABCDEFGHIJ",
+    "confirmation": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "booking": "ABCDEFGHIJKLMNOPQ",
+    "arrival": "ABCDEFGHIJKLM",
+    "departure": "ABCDEF",
+    "nights": 986,
+    "roomallocation": 295,
+    "guestcounts": [
+      {
+        "code": 945,
+        "count": 663
+      }
+    ],
+    "room": "ABCDEFGHIJKLMNOPQRST",
+    "rate": "ABCDEFGHIJKLMNOPQR",
+    "roomrate": "ABCDE",
+    "base": 307.0,
+    "total": 572.5,
+    "currency": "ABCDEFGHIJKLMNOPQRST",
+    "propertyname": "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+    "promotion": "ABCDEFGHIJKLMNOPQ",
+    "group": "ABCDEFGHIJKLMNOPQR",
+    "roomname": "ABCDEFGHIJKLMNOPQRSTU"
+  }

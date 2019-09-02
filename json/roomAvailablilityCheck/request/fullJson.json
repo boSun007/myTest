@@ -1,0 +1,19 @@
+{
+    "arrival": "2935-20-62",
+    "departure": "9985-14-59",
+    "roomallocation": 115,
+    "guestcounts": [
+      {
+        "code": 897,
+        "count": 485
+      }
+    ],
+    "promotion": "ABCDEFGHIJKLMNOPQR",
+    "group": "ABCDEFGHIJKLMNOPQRSTU",
+    "rateplans": [
+      "ABCDEF"
+    ],
+    "roomtypes": [
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZABC"
+    ]
+  }

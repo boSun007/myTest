@@ -1,0 +1,59 @@
+{
+    "arrival": "ABCDEFGHIJ",
+    "departure": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "nights": 505,
+    "roomallocation": 347,
+    "guestcounts": [
+      {
+        "code": 994,
+        "count": 659
+      }
+    ],
+    "property": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
+    "propertyname": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
+    "available": true,
+    "promotion": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "group": "ABCDEFG",
+    "trace": "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+    "rooms": [
+      {
+        "code": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
+        "name": "ABCDEF",
+        "availability": 365
+      }
+    ],
+    "rates": [
+      {
+        "code": "ABCDEFGHIJKLMNOPQ",
+        "name": "ABCDEFGHIJKLMNOPQR",
+        "depositrequired": false,
+        "deposit": {
+          "date": "ABCDEFGHIJKLMNOPQ",
+          "amount": 662.5
+        },
+        "category": "ABCDEF",
+        "cancel": {
+          "date": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB"
+        },
+        "description": "ABCDEFGHIJKL"
+      }
+    ],
+    "roomrates": [
+      {
+        "code": "ABCDEFGHIJKLMNOPQRSTUVWXY",
+        "room": "ABCDEFGHIJKLMNOPQRSTU",
+        "rate": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "base": 231.75,
+        "average": 561.5,
+        "total": 200.0,
+        "currency": "ABCDEFGH",
+        "ratechange": false,
+        "packages": [
+          {
+            "code": "ABCDEFGHIJKLMNOPQR",
+            "name": "ABCDEFGHIJKLMNOPQRSTU"
+          }
+        ]
+      }
+    ]
+  }

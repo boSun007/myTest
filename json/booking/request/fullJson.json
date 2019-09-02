@@ -1,0 +1,83 @@
+{
+    "arrival": "2935-20-62",
+    "departure": "9985-14-59",
+    "roomallocation": 115,
+    "guestcounts": [
+      {
+        "code": 18,
+        "count": 4
+      }
+    ],
+    "room": "ABCDEFGHIJKLMNOPQR",
+    "rate": "ABCDEFGHIJKLMNOPQRSTU",
+    "guest": {
+      "firstname": "ABCDEF",
+      "lastname": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
+      "title": "ABCDEFGHIJ",
+      "address": {
+        "type": "postal",
+        "country": "ABCDEFGHIJKL",
+        "city": "ABCDEFGHIJKL",
+        "lines": [
+          "ABCDEFGHIJKLMNOPQRSTU"
+        ],
+        "postcode": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "region": "ABCDEFGHIJK"
+      },
+      "contacts": {
+        "emails": [
+          {
+            "type": "email",
+            "address": "ABCDEFGH"
+          }
+        ],
+        "phones": [
+          {
+            "type": "phone",
+            "number": "ABCDEFGHIJKLMNOPQR"
+          }
+        ]
+      }
+    },
+    "promotion": null,
+    "group": null,
+    "reference": {
+      "number": "ABCDEFGHIJKLMNOPQR",
+      "type": "ABCDEFGHIJKLMNOPQRSTU"
+    },
+    "comments": {
+      "private": [
+        "ABCDEFGHIJKLMNOPQRSTUVWXY"
+      ],
+      "public": [
+        "ABCDEFGHIJ"
+      ]
+    },
+    "payment": {
+      "creditcard": {
+        "type": "ABCDEFGHIJKLMNOPQRSTUVWX",
+        "number": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "holder": "ABCDEFGHIJKLMNOPQRSTUV",
+        "expiry": "14/8952"
+      }
+    },
+    "fields": [
+      {
+        "type": "date",
+        "name": "ABCDEFGHIJKLMNOPQRSTUVWX3212",
+        "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC1"
+      },
+      {
+        "type": "date",
+        "name": "ABCDEFGHIJKLMNOPQRSTUVWX31232122",
+        "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC111"
+      }
+    ],
+    "roomrates": [
+      {
+        "date": "0119-18-51",
+        "base": 869.75
+      }
+    ]
+  }
+  
