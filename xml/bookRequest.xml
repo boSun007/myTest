@@ -1,42 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BookRequest>
+<SearchRequest>
    <LoginDetails>
-      <Login>USER</Login>
-      <Password>PASS</Password>
+      <Login>Virgin</Login>
+      <Password>L_9oe2INRuqMW</Password>
       <Version>5.0</Version>
    </LoginDetails>
-   <BookDetails>
-      <ArrivalDate>2013-08-01</ArrivalDate>
+   <SearchDetails>
+      <ArrivalDate>2020-08-01</ArrivalDate>
       <Duration>5</Duration>
-      <LeadGuest>
-         <FirstName>Jim</FirstName>
-         <LastName>Watsworth</LastName>
-         <Title>Mr</Title>
-      </LeadGuest>
-      <RoomBookings>
-         <RoomBooking>
-            <RoomID>14384</RoomID>
-            <MealBasisID>1</MealBasisID>
+      <Properties>
+         <PropertyID>17</PropertyID>
+         <PropertyID>19</PropertyID>
+         <PropertyID>21</PropertyID>
+         <PropertyID>73</PropertyID>
+      </Properties>
+      <MealBasisID>0</MealBasisID>
+      <MinStarRating>0</MinStarRating>
+      <MinimumPrice>0</MinimumPrice>
+      <MaximumPrice>0</MaximumPrice>
+      <RoomRequests>
+         <RoomRequest>
             <Adults>2</Adults>
-            <Children>1</Children>
+            <Children>2</Children>
             <Infants>0</Infants>
-            <Guests>
-               <Guest>
-                  <Type>Adult</Type>
-                  <FirstName>Sally</FirstName>
-                  <LastName>Smith</LastName>
-                  <Title>Mrs</Title>
-                  <Nationality>French</Nationality>
-               </Guest>
-               <Guest>
-                  <Type>Child</Type>
-                  <FirstName>Jimmy</FirstName>
-                  <LastName>Smith</LastName>
-                  <Age>5</Age>
-                  <Nationality>French</Nationality>
-               </Guest>
-            </Guests>
-         </RoomBooking>
-      </RoomBookings>
-   </BookDetails>
-</BookRequest>
+            <ChildAges>
+               <ChildAge>
+                  <Age>8</Age>
+               </ChildAge>
+               <ChildAge>
+                  <Age>3</Age>
+               </ChildAge>
+            </ChildAges>
+         </RoomRequest>
+         <RoomRequest>
+            <Adults>2</Adults>
+            <Children>2</Children>
+            <Infants>0</Infants>
+            <ChildAges>
+               <ChildAge>
+                  <Age>8</Age>
+               </ChildAge>
+               <ChildAge>
+                  <Age>8</Age>
+               </ChildAge>
+            </ChildAges>
+         </RoomRequest>
+      </RoomRequests>
+   </SearchDetails>
+</SearchRequest>
