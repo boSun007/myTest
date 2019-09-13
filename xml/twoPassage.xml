@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+            <BookingInfoResponses>
+                <ResponseList>
+                    <anyType >
+                        <BookingID>204135</BookingID>
+                        <PassengerID>0</PassengerID>
+                        <ClientID>1312</ClientID>
+                        <CLIENT_NAME>Virgin Holidays</CLIENT_NAME>
+                        <AGENCY_TYPE_ID>1</AGENCY_TYPE_ID>
+                        <AGENCY_TYPE_NAME>Tour Operator</AGENCY_TYPE_NAME>
+                        <CONTACTID>685</CONTACTID>
+                        <CONTACT_SALUTATION_TEXT>Ms</CONTACT_SALUTATION_TEXT>
+                        <CONTACT_FIRST_NAME>Beverley</CONTACT_FIRST_NAME>
+                        <CONTACT_MIDDLE_NAME />
+                        <CONTACT_LAST_NAME />
+                        <SMC_PASSENGER_FIRST_NAME />
+                        <SMC_PASSENGER_MIDDLE_NAME />
+                        <SMC_PASSENGER_LAST_NAME />
+                        <SYSTEM_USER_ID>376</SYSTEM_USER_ID>
+                        <SYSTEM_USER_NAME>.</SYSTEM_USER_NAME>
+                        <ORGANISATION_ID>2</ORGANISATION_ID>
+                        <ORGANISATION_NAME>Thompsons Africa</ORGANISATION_NAME>
+                        <COMMISSION_SCHEME_ID>2</COMMISSION_SCHEME_ID>
+                        <COMMISSION_SCHEME_NAME>No Commission</COMMISSION_SCHEME_NAME>
+                        <COMMISSION_PAYMENT_STATUS_ID>2</COMMISSION_PAYMENT_STATUS_ID>
+                        <COMMISSION_PAYMENT_STATUS_NAME>To be approved</COMMISSION_PAYMENT_STATUS_NAME>
+                        <BROCHURE_ID>0</BROCHURE_ID>
+                        <BROCHURE_NAME />
+                        <SECONDARY_SYSTEM_USER_ID>376</SECONDARY_SYSTEM_USER_ID>
+                        <SECONDARY_SYSTEM_USER_NAME>Beverley</SECONDARY_SYSTEM_USER_NAME>
+                        <CANCELLATION_POLICY_ID>0</CANCELLATION_POLICY_ID>
+                        <CANCELLATION_POLICY_NAME />
+                        <SALES_ANALYSIS_1_ID>26</SALES_ANALYSIS_1_ID>
+                        <SALES_ANALYSIS_1_NAME>Worldwide FIT Department</SALES_ANALYSIS_1_NAME>
+                        <SALES_ANALYSIS_2_ID>211</SALES_ANALYSIS_2_ID>
+                        <SALES_ANALYSIS_2_NAME>XML</SALES_ANALYSIS_2_NAME>
+                        <SALES_ANALYSIS_3_ID>1</SALES_ANALYSIS_3_ID>
+                        <SALES_ANALYSIS_3_NAME>None</SALES_ANALYSIS_3_NAME>
+                        <BOOKING_MODIFICATION_DATE>2019-09-06</BOOKING_MODIFICATION_DATE>
+                        <BOOKING_CANCELLATION_DATE />
+                        <BOOKING_CONFIRMATION_DATE />
+                        <BOOKING_EXPIRY_DATE />
+                        <BOOKING_TYPE_ID>369</BOOKING_TYPE_ID>
+                        <BOOKING_TYPE_NAME>Thompsons Africa</BOOKING_TYPE_NAME>
+                        <CANCELLATION_INSURANCE_TYPE_ID>1</CANCELLATION_INSURANCE_TYPE_ID>
+                        <CANCELLATION_INSURANCE_TYPE_NAME>Per Booking</CANCELLATION_INSURANCE_TYPE_NAME>
+                        <ORIGIN_TYPE_ID>0</ORIGIN_TYPE_ID>
+                        <ORIGIN_TYPE_NAME />
+                        <SOURCE_TYPE_ID>2</SOURCE_TYPE_ID>
+                        <SOURCE_TYPE_NAME />
+                        <BOOKING_STATUS_ID>6</BOOKING_STATUS_ID>
+                        <BookingReference>TA203975</BookingReference>
+                        <BookingName>000661</BookingName>
+                        <BookingStartDate>2020-02-05T00:00:00</BookingStartDate>
+                        <BookingEndDate>2020-02-06T00:00:00</BookingEndDate>
+                        <PaymentPlanID>0</PaymentPlanID>
+                        <BookedServices>
+                            <BookedService>
+                                <BOOKEDSERIVCESERVICEREFERENCE>12820</BOOKEDSERIVCESERVICEREFERENCE>
+                                <FreeTextData />
+                                <ServiceTypeName>Accommodation</ServiceTypeName>
+                                <BookedServiceID>2180495</BookedServiceID>
+                                <ServiceID>52235</ServiceID>
+                                <InternalCode />
+                                <ServiceLedgerCode />
+                                <ServiceName>Vineyard Hotel.</ServiceName>
+                                <RegionID>6188</RegionID>
+                                <BookedOptions>
+                                    <BookedOption>
+                                        <BookedOptionID>2699585</BookedOptionID>
+                                        <OptionID>103429</OptionID>
+                                        <Quantity>1</Quantity>
+                                        <NoOfAdults>2</NoOfAdults>
+                                        <BookedChildArray />
+                                        <FromDate>2020-02-05T00:00:00</FromDate>
+                                        <ToDate>2020-02-06T00:00:00</ToDate>
+                                        <OptionStatus>OnRequest</OptionStatus>
+                                        <Amount>3600</Amount>
+                                        <CurrencyID>3</CurrencyID>
+                                        <CurrencyISOCode>ZAR</CurrencyISOCode>
+                                        <CostAmount>3213</CostAmount>
+                                        <ServiceCurrencyID>3</ServiceCurrencyID>
+                                        <ServiceCurrencyISOCode>ZAR</ServiceCurrencyISOCode>
+                                        <ServiceCostAmount>3213</ServiceCostAmount>
+                                        <MealPlanName />
+                                        <MealPlanCode />
+                                        <BookedOptionStatusName>Confirmed</BookedOptionStatusName>
+                                        <CurrencySymbol>ZAR</CurrencySymbol>
+                                        <BookedOptionName>Courtyard Deluxe</BookedOptionName>
+                                        <OptionClassName />
+                                        <PackageElementId>0</PackageElementId>
+                                        <BookedPackageId>0</BookedPackageId>
+                                        <SellAmount>3600</SellAmount>
+                                        <AssignedOccupanciesArray>
+                                            <AssignedOccupancy_x0020_>
+                                                <OccupancyTypeID>3</OccupancyTypeID>
+                                                <OccupancyTypeName>Double</OccupancyTypeName>
+                                                <OccupancyTypeCapacity>2</OccupancyTypeCapacity>
+                                                <ChildCapacity>3</ChildCapacity>
+                                                <MinimumCapacity>2</MinimumCapacity>
+                                                <MinimumChildCapacity>0</MinimumChildCapacity>
+                                            </AssignedOccupancy_x0020_>
+                                        </AssignedOccupanciesArray>
+                                        <AssignedPassengersArray>
+                                            <AssignedPassenger_x0020_>
+                                                <FirstName>Test</FirstName>
+                                                <LastName>Test</LastName>
+                                                <PassengerAge>41</PassengerAge>
+                                                <ISLEADPASSENGER>true</ISLEADPASSENGER>
+                                                <CountryId>0</CountryId>
+                                                <SmcPaxDOB>1978-12-31T00:00:00</SmcPaxDOB>
+                                                <SMCPassengerID>0</SMCPassengerID>
+                                                <PaxID>1</PaxID>
+                                                <PassengerTypeID>1</PassengerTypeID>
+                                                <OccupancyTypeID>3</OccupancyTypeID>
+                                                <LogicalRoomID>1</LogicalRoomID>
+                                                <GenderId>1</GenderId>
+                                                <NationalityID>0</NationalityID>
+                                                <SubGroupID>0</SubGroupID>
+                                                <StatusId>0</StatusId>
+                                                <ClassId>0</ClassId>
+                                                <Travelled>0</Travelled>
+                                                <ThirdPartyPayer>false</ThirdPartyPayer>
+                                                <VisaFlag>0</VisaFlag>
+                                                <BusinessTraveller>false</BusinessTraveller>
+                                                <PassengerID>838163</PassengerID>
+                                                <FixedInsuranceAmount />
+                                                <IsTravelAgent>0</IsTravelAgent>
+                                                <AssignedPassengerID>13947144</AssignedPassengerID>
+                                                <CreditCardDetailId />
+                                                <FlightPassengerTypeID />
+                                            </AssignedPassenger_x0020_>
+                                            <AssignedPassenger_x0020_>
+                                                <FirstName>TEST</FirstName>
+                                                <LastName>TESTE</LastName>
+                                                <PassengerAge>41</PassengerAge>
+                                                <ISLEADPASSENGER>false</ISLEADPASSENGER>
+                                                <CountryId>0</CountryId>
+                                                <SmcPaxDOB>1978-12-31T00:00:00</SmcPaxDOB>
+                                                <SMCPassengerID>0</SMCPassengerID>
+                                                <PaxID>2</PaxID>
+                                                <PassengerTypeID>1</PassengerTypeID>
+                                                <OccupancyTypeID>3</OccupancyTypeID>
+                                                <LogicalRoomID>1</LogicalRoomID>
+                                                <GenderId>1</GenderId>
+                                                <NationalityID>0</NationalityID>
+                                                <SubGroupID>0</SubGroupID>
+                                                <StatusId>0</StatusId>
+                                                <ClassId>0</ClassId>
+                                                <Travelled>0</Travelled>
+                                                <ThirdPartyPayer>false</ThirdPartyPayer>
+                                                <VisaFlag>0</VisaFlag>
+                                                <BusinessTraveller>false</BusinessTraveller>
+                                                <PassengerID>838164</PassengerID>
+                                                <FixedInsuranceAmount />
+                                                <IsTravelAgent>0</IsTravelAgent>
+                                                <AssignedPassengerID>13947145</AssignedPassengerID>
+                                                <CreditCardDetailId />
+                                                <FlightPassengerTypeID />
+                                            </AssignedPassenger_x0020_>
+                                        </AssignedPassengersArray>
+                                        <IsExtra>false</IsExtra>
+                                        <ServiceTypeTypeID>0</ServiceTypeTypeID>
+                                        <ServiceTypeTypeName />
+                                        <BookedOptionDayOverlap>true</BookedOptionDayOverlap>
+                                        <RoomID>0</RoomID>
+                                        <Confirmed>true</Confirmed>
+                                        <BookingTypeID>369</BookingTypeID>
+                                        <PriceTypeID>4062</PriceTypeID>
+                                        <RateCode>STFX4B</RateCode>
+                                        <PriceCode>STFX4B~12820</PriceCode>
+                                        <ItineraryDaysArray>
+                                            <ItineraryDay_x0020_>
+                                                <ItineraryDayID>1683757</ItineraryDayID>
+                                                <ItineraryDayDate>05 Feb 2020</ItineraryDayDate>
+                                            </ItineraryDay_x0020_>
+                                        </ItineraryDaysArray>
+                                        <AppliedRules />
+                                        <OriginalCostPrice>0</OriginalCostPrice>
+                                        <OriginalSellPrice>0</OriginalSellPrice>
+                                        <CommissionAmount>0</CommissionAmount>
+                                        <SplitPrice>0</SplitPrice>
+                                        <CommissionPercentage>0.00</CommissionPercentage>
+                                    </BookedOption>
+                                </BookedOptions>
+                                <AddressCity>Cape Town</AddressCity>
+                                <Country>South Africa</Country>
+                                <ServiceStatus>Active excluded from Tariff</ServiceStatus>
+                                <SupplierLedgerCode>THE VI</SupplierLedgerCode>
+                                <BoookedPackageId>0</BoookedPackageId>
+                                <OptionQuantity>1</OptionQuantity>
+                                <OptionAdults>2</OptionAdults>
+                                <InternetType>0</InternetType>
+                                <ServiceTypeID>2</ServiceTypeID>
+                                <IsVoucherIssued>false</IsVoucherIssued>
+                                <PickUpTime />
+                                <PickUpLocation />
+                                <PickUpName />
+                                <DropOffTime />
+                                <DropOffLocation />
+                                <DropOffName />
+                                <DateOfServiceAddedToBooking>9/6/2019 12:00:00 AM</DateOfServiceAddedToBooking>
+                                <BookedServiceNotes />
+                                <TransportFrom />
+                                <TransportTo />
+                                <TransportNrCode />
+                                <TransportTime />
+                                <Duration />
+                                <EndpointServiceID>71002               </EndpointServiceID>
+                                <SupplierName>Vineyard Hotel</SupplierName>
+                                <ServiceTypeCarRental>false</ServiceTypeCarRental>
+                                <XMLMetadata />
+                                <IsFastBuildService>false</IsFastBuildService>
+                            </BookedService>
+                        </BookedServices>
+                        <BookedPackageElements />
+                        <Notes>
+                            <Note Subject="Update Booking Prices" NoteDate="2019-09-06T17:09:58" NoteUser="IRS" NoteID="38693761" NoteTypeID="5" BookedServiceID="0" NoteStatusID="6" NoteOrigin="">UpdateBookingPriceForRemoteService Failure :Index was out of range. Must be non-negative and less than the size of the collection.Parameter name: index</Note>
+                            <Note Subject="API Notes" NoteDate="2019-09-06T17:09:58" NoteUser="." NoteID="38693758" NoteTypeID="5" BookedServiceID="0" NoteStatusID="6" NoteOrigin="User Note" />
+                        </Notes>
+                        <BookingStatus>Booking in Progress</BookingStatus>
+                        <BookingClientReferenceNumber />
+                        <BookingBookingDate>2019-09-06T00:00:00</BookingBookingDate>
+                        <PassengerDetails>
+                            <PassengerDetails>
+                                <FirstName>Test</FirstName>
+                                <LastName>Test</LastName>
+                                <PassengerAge>41</PassengerAge>
+                                <EmailAddress />
+                                <PassengerType>Adult</PassengerType>
+                                <ISLEADPASSENGER>true</ISLEADPASSENGER>
+                                <Address />
+                                <CITY />
+                                <POSTCODE />
+                                <TELEPHONENUMBER />
+                                <FAXNUMBER />
+                                <CountryId>0</CountryId>
+                                <CountryName />
+                                <CountryIsoCode />
+                                <StateName />
+                                <SmcPaxDOB>1978-12-31T00:00:00</SmcPaxDOB>
+                                <SMCPassengerID>0</SMCPassengerID>
+                                <PaxID>1</PaxID>
+                                <PassengerTypeID>1</PassengerTypeID>
+                                <OccupancyTypeID>3</OccupancyTypeID>
+                                <OccupancyTypeName>Double</OccupancyTypeName>
+                                <LogicalRoomID>1</LogicalRoomID>
+                                <GenderId>1</GenderId>
+                                <GenderName>Male</GenderName>
+                                <NationalityID>3</NationalityID>
+                                <NationalityName>Non South African</NationalityName>
+                                <SubGroupID>1</SubGroupID>
+                                <Title>Mr</Title>
+                                <Initials />
+                                <StatusId>0</StatusId>
+                                <StatusName />
+                                <ClassId>0</ClassId>
+                                <ClassName />
+                                <ClubName />
+                                <Travelled>0</Travelled>
+                                <BookingNotes>0</BookingNotes>
+                                <ThirdPartyPayer>false</ThirdPartyPayer>
+                                <VisaFlag>0</VisaFlag>
+                                <BusinessTraveller>false</BusinessTraveller>
+                                <PassengerID>838163</PassengerID>
+                                <PassengerVisaNumber />
+                                <PassengerPassportNumber />
+                                <FixedInsuranceAmount>0.0000</FixedInsuranceAmount>
+                                <PassengerNameSuffix>0</PassengerNameSuffix>
+                                <IsTravelAgent>0</IsTravelAgent>
+                                <AssignedPassengerID>13947144</AssignedPassengerID>
+                                <BillToStreetAddress />
+                                <BillToCity />
+                                <BillToState />
+                                <BillToPostalCode />
+                                <BillToCountry />
+                                <CreditCardDetailId>0</CreditCardDetailId>
+                                <AttentionPaxName />
+                                <AttentionAdditionalInfo />
+                                <FlightPassengerTypeID>0</FlightPassengerTypeID>
+                                <FlightPassengerTypeName />
+                                <MobileNumber />
+                            </PassengerDetails>
+                            <PassengerDetails>
+                                <FirstName>TEST</FirstName>
+                                <LastName>TESTE</LastName>
+                                <PassengerAge>41</PassengerAge>
+                                <EmailAddress />
+                                <PassengerType>Adult</PassengerType>
+                                <ISLEADPASSENGER>false</ISLEADPASSENGER>
+                                <Address />
+                                <CITY />
+                                <POSTCODE />
+                                <TELEPHONENUMBER />
+                                <FAXNUMBER />
+                                <CountryId>0</CountryId>
+                                <CountryName />
+                                <CountryIsoCode />
+                                <StateName />
+                                <SmcPaxDOB>1978-12-31T00:00:00</SmcPaxDOB>
+                                <SMCPassengerID>0</SMCPassengerID>
+                                <PaxID>2</PaxID>
+                                <PassengerTypeID>1</PassengerTypeID>
+                                <OccupancyTypeID>3</OccupancyTypeID>
+                                <OccupancyTypeName>Double</OccupancyTypeName>
+                                <LogicalRoomID>1</LogicalRoomID>
+                                <GenderId>1</GenderId>
+                                <GenderName>Male</GenderName>
+                                <NationalityID>3</NationalityID>
+                                <NationalityName>Non South African</NationalityName>
+                                <SubGroupID>1</SubGroupID>
+                                <Title>Mrs</Title>
+                                <Initials />
+                                <StatusId>0</StatusId>
+                                <StatusName />
+                                <ClassId>0</ClassId>
+                                <ClassName />
+                                <ClubName />
+                                <Travelled>0</Travelled>
+                                <BookingNotes>0</BookingNotes>
+                                <ThirdPartyPayer>false</ThirdPartyPayer>
+                                <VisaFlag>0</VisaFlag>
+                                <BusinessTraveller>false</BusinessTraveller>
+                                <PassengerID>838164</PassengerID>
+                                <PassengerVisaNumber />
+                                <PassengerPassportNumber />
+                                <FixedInsuranceAmount>0.0000</FixedInsuranceAmount>
+                                <PassengerNameSuffix>0</PassengerNameSuffix>
+                                <IsTravelAgent>0</IsTravelAgent>
+                                <AssignedPassengerID>13947145</AssignedPassengerID>
+                                <BillToStreetAddress />
+                                <BillToCity />
+                                <BillToState />
+                                <BillToPostalCode />
+                                <BillToCountry />
+                                <CreditCardDetailId>0</CreditCardDetailId>
+                                <AttentionPaxName />
+                                <AttentionAdditionalInfo />
+                                <FlightPassengerTypeID>0</FlightPassengerTypeID>
+                                <FlightPassengerTypeName />
+                                <MobileNumber />
+                            </PassengerDetails>
+                        </PassengerDetails>
+                        <PassengerOccupancies>
+                            <PassengerOccupancies>
+                                <BookingPaxOccupancyId>288342</BookingPaxOccupancyId>
+                                <BookingId>204135</BookingId>
+                                <OccupancyTypeId>3</OccupancyTypeId>
+                                <PassengerTypeId>1</PassengerTypeId>
+                                <BookingPaxOccupancyQty>2</BookingPaxOccupancyQty>
+                            </PassengerOccupancies>
+                        </PassengerOccupancies>
+                        <Waitlisted>0</Waitlisted>
+                        <PriceType>299</PriceType>
+                        <Currency>3</Currency>
+                        <MainPackageId>0</MainPackageId>
+                        <ItineraryInfo>
+                            <ItineraryDays>
+                                <ItineraryID>1683757</ItineraryID>
+                                <ItineraryDayDate>05 Feb 2020</ItineraryDayDate>
+                                <ItineraryDayDescription />
+                                <ItineraryItems>
+                                    <ItineraryItem>
+                                        <ItineraryItemID>2117329</ItineraryItemID>
+                                        <ItineraryItemSequenceNo>1</ItineraryItemSequenceNo>
+                                        <BookedServices>
+                                            <BookedService>
+                                                <BookedPackageID>0</BookedPackageID>
+                                                <ServiceLongName>Vineyard Hotel.</ServiceLongName>
+                                                <MaxNights>1</MaxNights>
+                                                <MaxPax>2</MaxPax>
+                                                <BookedServiceID>2180495</BookedServiceID>
+                                                <ServiceStatusCode>AX</ServiceStatusCode>
+                                                <SumOptions>3600.0000</SumOptions>
+                                                <AssignedBookedServiceID>3256666</AssignedBookedServiceID>
+                                                <ServiceID>52235</ServiceID>
+                                                <CurrencySymbol>ZAR</CurrencySymbol>
+                                                <PackageServiceEstimated>0</PackageServiceEstimated>
+                                                <ServiceTypeId>0</ServiceTypeId>
+                                                <ServiceTypeName>Accommodation</ServiceTypeName>
+                                                <ISQUOTEALTERNATESERVICE>0</ISQUOTEALTERNATESERVICE>
+                                                <QuatedServiceID>0</QuatedServiceID>
+                                                <SeatOnBus>false</SeatOnBus>
+                                                <FixedDeparture>false</FixedDeparture>
+                                                <IsPackageDepartureStatusCancelled>false</IsPackageDepartureStatusCancelled>
+                                                <BookedServiceOptions>
+                                                    <BookedOption>
+                                                        <BookedPackageID>0</BookedPackageID>
+                                                        <BookedOptionID>2699585</BookedOptionID>
+                                                        <ServiceOptionExtra>DOUBLE</ServiceOptionExtra>
+                                                        <BookedOptionNumberOfPassengers>2</BookedOptionNumberOfPassengers>
+                                                        <Price>3600.0000</Price>
+                                                        <BookedOptionStatusName>Confirmed</BookedOptionStatusName>
+                                                        <ServiceOptionInserviceID>103429</ServiceOptionInserviceID>
+                                                        <ServiceExtraID>0</ServiceExtraID>
+                                                        <BookedOptionStatusID>2</BookedOptionStatusID>
+                                                        <BookedOptionElementID>0</BookedOptionElementID>
+                                                        <BookedOptionInDate>2020-02-05</BookedOptionInDate>
+                                                        <BookedOptionOutDate>2020-02-06</BookedOptionOutDate>
+                                                        <BookedOptionItineraryNodeColor>0</BookedOptionItineraryNodeColor>
+                                                        <ChildCount>0</ChildCount>
+                                                        <OptionQuantity>1</OptionQuantity>
+                                                        <OptionAdults>2</OptionAdults>
+                                                        <BookedOptionStatus>1</BookedOptionStatus>
+                                                        <BookedOptionNotCosted>false</BookedOptionNotCosted>
+                                                        <BookedOptionStatusCancelled>false</BookedOptionStatusCancelled>
+                                                        <BookedOptionInsuranceBased>false</BookedOptionInsuranceBased>
+                                                        <BookedOptionPackageFlexible>false</BookedOptionPackageFlexible>
+                                                        <IsTravelInsurance>false</IsTravelInsurance>
+                                                        <DayOverLap>true</DayOverLap>
+                                                        <AssignedPassengers>
+                                                            <AssignedPassenger>
+                                                                <PassengerID>838163</PassengerID>
+                                                                <AssignedPassengerID>13947144</AssignedPassengerID>
+                                                                <SMCPassengerID>0</SMCPassengerID>
+                                                            </AssignedPassenger>
+                                                            <AssignedPassenger>
+                                                                <PassengerID>838164</PassengerID>
+                                                                <AssignedPassengerID>13947145</AssignedPassengerID>
+                                                                <SMCPassengerID>0</SMCPassengerID>
+                                                            </AssignedPassenger>
+                                                        </AssignedPassengers>
+                                                        <Price_Type>0</Price_Type>
+                                                    </BookedOption>
+                                                </BookedServiceOptions>
+                                                <BOOKEDPACKAGEFLEXIBLE>0</BOOKEDPACKAGEFLEXIBLE>
+                                                <PackageServiceID>0</PackageServiceID>
+                                                <BOARDBASIS />
+                                                <AssignedPassengerFlag>0</AssignedPassengerFlag>
+                                                <ServiceRegionID>6188</ServiceRegionID>
+                                                <GEOLOCATIONOFSERVICE>Constantia / Newlands / Tokai</GEOLOCATIONOFSERVICE>
+                                                <MilageBasedOptionQty>0</MilageBasedOptionQty>
+                                                <IsCancelled>false</IsCancelled>
+                                                <PACKAGESERVICESTATUSID>false</PACKAGESERVICESTATUSID>
+                                                <PACKAGESERVICESTATUSCANNOTDELORMOVE>false</PACKAGESERVICESTATUSCANNOTDELORMOVE>
+                                                <IsRemote>false</IsRemote>
+                                                <IsCancelledService>false</IsCancelledService>
+                                                <PackageServiceSellChanged>false</PackageServiceSellChanged>
+                                            </BookedService>
+                                        </BookedServices>
+                                        <BookedFlights />
+                                    </ItineraryItem>
+                                </ItineraryItems>
+                            </ItineraryDays>
+                            <ItineraryDays>
+                                <ItineraryID>1683758</ItineraryID>
+                                <ItineraryDayDate>06 Feb 2020</ItineraryDayDate>
+                                <ItineraryDayDescription />
+                                <ItineraryItems />
+                            </ItineraryDays>
+                        </ItineraryInfo>
+                        <LinkBookingDetails />
+                        <ClientFinanceLedgercode>VI11</ClientFinanceLedgercode>
+                        <BookingFee>0.0000</BookingFee>
+                        <PaymentDueDate>2019-09-06T17:10:05.94</PaymentDueDate>
+                        <PromoPackageStatus />
+                        <CurrencyISOcode>ZAR</CurrencyISOcode>
+                        <PriceTypeName>GRP0A</PriceTypeName>
+                        <BookedPackageTransferDetails />
+                        <ActualBookingAgentName />
+                        <ExternalBookingReference />
+                        <CommissionAmount>0</CommissionAmount>
+                        <CommissionPercentage>0.00</CommissionPercentage>
+                    </anyType>
+                </ResponseList>
+                <ErrorList />
+            </BookingInfoResponses>
+       
