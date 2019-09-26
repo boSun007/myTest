@@ -1,11 +1,10 @@
 <?php
 
-function abc(){
-    static $a=0;
+function abc($a){
     echo $a."---";
     if($a++<10){
     echo $a."<br />";
-        abc();
+        abc($a);
     }else{
         echo "<hr />";
         return $a;
@@ -20,9 +19,9 @@ function c(){
     static $c=1;
     echo $c;
 }
-abc();
-echo d();
-c();
+abc(8);
+//echo d();
+//c();
 
 ?>
 
