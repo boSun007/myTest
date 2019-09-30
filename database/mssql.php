@@ -15,12 +15,15 @@ $database = "Serenity";
 
 // $pdo = new PDO("sqlsrv:Server=$host;Database=$database", $userName, $password);
 // return $pdo;
+for($i=0;$i<20000000000;$i++){
+   $conn = sqlsrv_connect($host, $dbSettings);
+   sqlsrv_close($conn);
 
-  $conn = sqlsrv_connect($host, $dbSettings);
-
+}
+exit;
   $sql = "select * from XMLBookingLogin WHERE Login ='sdfasfasdfsa'";
 $rtn=array();
-$stmt = sqlsrv_prepare()
+// $stmt = sqlsrv_prepare();
   $stmt = sqlsrv_query($conn, $sql);
   while($row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC)) {
     $rtn[]=$row;
