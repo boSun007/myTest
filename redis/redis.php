@@ -4,6 +4,7 @@ $redis = new redis();
 $redis->connect('localhost');
 $string = $redis->get('myNameIs');
 
+
 $hash = $redis->hGet('myHash','name');
 
 var_dump($hash);
