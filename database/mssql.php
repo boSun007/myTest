@@ -20,6 +20,7 @@ $database = "Serenity";
 
   $sql = "select * from XMLBookingLogin WHERE Login ='sdfasfasdfsa'";
 $rtn=array();
+$stmt = sqlsrv_prepare()
   $stmt = sqlsrv_query($conn, $sql);
   while($row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC)) {
     $rtn[]=$row;
