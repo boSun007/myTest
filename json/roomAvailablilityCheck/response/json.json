@@ -1,0 +1,115 @@
+{
+    "property": "00001",
+    "propertyname": "The Test Hotel",
+    "arrival": "2015-08-09T00:00:00+02:00",
+    "departure": "2015-08-12T00:00:00+02:00",
+    "nights": 3,
+    "guestcounts": [
+        {
+            "code": 10,
+            "count": 2
+        },
+        {
+            "code": 8,
+            "count": 1
+        }
+    ],
+    "roomallocation": 1,
+    "available": true,
+    "rates": [
+        {
+            "code": "BAR",
+            "name": "Best Available Rate",
+            "description": "Dinner, Bed & Breakfast",
+            "depositrequired": true,
+            "cancel": {
+                "date": "2013-08-09T10:00:00+02:00"
+            },
+            "deposit": {
+                "date": "2015-06-18T10:00:00+02:00",
+                "amount": 3200
+            },
+            "category": "BB"
+        },
+        {
+            "code": "S1G1",
+            "name": "Stay 3 Pay 2",
+            "cancel": {
+                "date": "2013-08-09T10:00:00+02:00"
+            }
+        }
+    ],
+    "rooms": [
+        {
+            "code": "SUIT",
+            "name": "Suites",
+            "availability": 27
+        },
+        {
+            "code": "EXEN",
+            "name": "Executive Room Smoking",
+            "availability": 4
+        }
+    ],
+    "roomrates": [
+        {
+            "code": "SUIT__BAR",
+            "room": "SUIT",
+            "rate": "BAR",
+            "base": 3365,
+            "average": 3365,
+            "total": 10095,
+            "currency": "ZAR",
+            "ratechange": false,
+            "packages": [
+                {
+                    "code": "BRK",
+                    "name": "Breakfast Inclusive"
+                },
+                {
+                    "code": "PAR",
+                    "name": "Overnight Parking"
+                },
+                {
+                    "code": "TRF",
+                    "name": "Travel Agent Fee"
+                }
+            ]
+        },
+        {
+            "code": "EXEN__BAR",
+            "room": "EXEN",
+            "rate": "BAR",
+            "base": 3115,
+            "average": 3115,
+            "total": 9345,
+            "currency": "ZAR",
+            "ratechange": false,
+            "packages": [
+                {
+                    "code": "TRF",
+                    "name": "Travel Agent Fee"
+                },
+                {
+                    "code": "PAR",
+                    "name": "Overnight Parking"
+                },
+                {
+                    "code": "BRK",
+                    "name": "Breakfast Inclusive"
+                }
+            ]
+        },
+        {
+            "code": "EXEN__S1G1",
+            "room": "EXEN",
+            "rate": "S1G1",
+            "base": 3750,
+            "average": 2500,
+            "total": 7500,
+            "currency": "ZAR",
+            "ratechange": true
+        }
+    ],
+    "trace": "41fa410c-8380-43d8-b837-9be20a5c38b0"
+}

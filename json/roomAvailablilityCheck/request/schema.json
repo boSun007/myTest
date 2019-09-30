@@ -1,0 +1,97 @@
+{
+    "$schema": "http:\/\/json-schema.org\/draft-04\/schema#",
+    "type": "object",
+    "properties": {
+        "arrival": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+            "description": "The arrival date"
+        },
+        "departure": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+            "description": "The departure date"
+        },
+        "roomallocation": {
+            "type": "integer",
+            "description": "The amount of rooms required",
+            "minimum": 1
+        },
+        "guestcounts": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "type": "integer",
+                        "enum": [
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            18,
+                            19
+                        ]
+                    },
+                    "count": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "code",
+                    "count"
+                ],
+                "additionalProperties": false,
+                "uniqueItems": true
+            },
+            "minItems": 1,
+            "uniqueItems": true,
+            "description": "The number of guests (per room) according to each specific OTA Age Qualifying Code (AQC). The following AQCs are supported: 1 (Over 21), 2 (Over 65), 3 (Under 2), 4 (Under 12), 5 (Under 17), 6 (Under 21), 7 (Infant), 8 (Child), 9 (Teenager), 10 (Adult), 11 (Senior), 18 (Under 10), 19 (Junior)"
+        },
+        "promotion": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Promotion code"
+        },
+        "group": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Group or block code"
+        },
+        "rateplans": {
+            "type": "array",
+            "description": "A list of rate plans to consider",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "roomtypes": {
+            "type": "array",
+            "description": "A list of room types to consider",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    },
+    "required": [
+        "arrival",
+        "departure",
+        "roomallocation",
+        "guestcounts"
+    ]
+}

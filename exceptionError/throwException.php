@@ -25,3 +25,8 @@
     }catch (\Exception $e){
         echo $e->getMessage();
     }
+
+
+    echo "aaa";
+    throw new Exception('lala lala');
+     echo 'BBBBC';

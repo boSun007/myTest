@@ -1,0 +1,13 @@
+{
+    "$schema": "http:\/\/json-schema.org\/draft-04\/schema#",
+    "type": "object",
+    "properties": {
+        "reason": {
+            "type": "string",
+            "description": "An optional reason for the cancellation"
+        }
+    },
+    "required": [
+        
+    ]
+}

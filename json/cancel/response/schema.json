@@ -1,0 +1,21 @@
+{
+    "$schema": "http:\/\/json-schema.org\/draft-04\/schema#",
+    "type": "object",
+    "properties": {
+        "property": {
+            "type": "string",
+            "description": "The property code"
+        },
+        "propertyname": {
+            "type": "string",
+            "description": "The property name"
+        },
+        "cancellation": {
+            "type": "string",
+            "description": "The booking cancellation number"
+        }
+    },
+    "required": [
+        "cancellation"
+    ]
+}
