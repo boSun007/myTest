@@ -15,9 +15,9 @@ $database = "Serenity";
 
 // $pdo = new PDO("sqlsrv:Server=$host;Database=$database", $userName, $password);
 // return $pdo;
-for($i=0;$i<20000000000;$i++){
+for($i=0;$i<2000000;$i++){
    $conn = sqlsrv_connect($host, $dbSettings);
-   sqlsrv_close($conn);
+  //  sqlsrv_close($conn);
 
 }
 exit;
