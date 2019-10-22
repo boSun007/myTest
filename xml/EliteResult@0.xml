@@ -1,0 +1,3316 @@
+<SearchResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RequestInfo>
+        <Timestamp>1571414003</Timestamp>
+        <TimestampISO>2019-10-18T15:53:23+00:00</TimestampISO>
+        <Host>xml.centriumres.com.localdomain.ee</Host>
+        <ReqID>5da9dff3014c8</ReqID>
+    </RequestInfo>
+    <ReturnStatus>
+        <Success>True</Success>
+        <Exception/>
+    </ReturnStatus>
+    <PropertyResults>
+        <PropertyResult>
+            <TotalProperties>7</TotalProperties>
+            <PropertyID>17</PropertyID>
+            <RoomTypes>
+                <RoomType>
+                    <RoomID>43113</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Palm View Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>4788</SubTotal>
+                    <Total>4438</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>PALM ISLAND FLIGHTS 7+ NIGHTS</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Person</Multiplier>
+                            <PaxType>All</PaxType>
+                            <Total>560</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>20</Value>
+                            <Desc/>
+                            <Total>925</Total>
+                            <ID>25665</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>290.34</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>403.45</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>4438</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43114</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Beach Front Beachfront</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>5544</SubTotal>
+                    <Total>5052</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>PALM ISLAND FLIGHTS 7+ NIGHTS</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Person</Multiplier>
+                            <PaxType>All</PaxType>
+                            <Total>560</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>20</Value>
+                            <Desc/>
+                            <Total>1067</Total>
+                            <ID>25665</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>330.5</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>459.27</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>5052</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43115</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Superior Beachfront Beachfront</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>6048</SubTotal>
+                    <Total>5455</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>PALM ISLAND FLIGHTS 7+ NIGHTS</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Person</Multiplier>
+                            <PaxType>All</PaxType>
+                            <Total>560</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>20</Value>
+                            <Desc/>
+                            <Total>1168</Total>
+                            <ID>25665</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>356.87</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>495.91</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>5455</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43118</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>SeaFeather Villa (3Bed) Ocean View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>True</OnRequest>
+                    <SubTotal>8064</SubTotal>
+                    <Total>8639</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>PALM ISLAND FLIGHTS 7+ NIGHTS</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Person</Multiplier>
+                            <PaxType>All</PaxType>
+                            <Total>560</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers/>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>565.17</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>785.36</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>8639</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43119</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Southern Cross Villa (2Bed) Ocean View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>True</OnRequest>
+                    <SubTotal>8512</SubTotal>
+                    <Total>9087</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>PALM ISLAND FLIGHTS 7+ NIGHTS</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Person</Multiplier>
+                            <PaxType>All</PaxType>
+                            <Total>560</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers/>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>594.48</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>826.09</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>9087</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+            </RoomTypes>
+            <PropertyName>Palm Island Resort</PropertyName>
+            <GiataID>48033</GiataID>
+            <Currency>USD</Currency>
+            <Rating>4.5</Rating>
+            <GeographyLevel1ID>1</GeographyLevel1ID>
+            <GeographyLevel2ID>14</GeographyLevel2ID>
+            <GeographyLevel3ID>14</GeographyLevel3ID>
+            <Country>St Vincent and The Grenadines</Country>
+            <Region>Palm Island</Region>
+            <Resort>Palm Island</Resort>
+            <Strapline>Intimate, exotic and all-inclusive,</Strapline>
+            <Description>Palm Island Resort is an eco-friendly, Green Globe certified island with a dash of sophistication.  The luxury, all-inclusive, 135-acre resort offers a range of amenities, activities, dining options and accommodations. 
+
+Palm Island is located near the southern tip of St. Vincent and the Grenadines, a chain of 32 islands and cays known for natural beauty and clear, tranquil waters. The area’s abundant sea life, coral reefs and unique shipwrecks attract recreational sailors and divers from around the world. 
+
+Palm Island does not accept bookings that include children younger than 12 years old.
+
+GETTING THERE
+Flights from Barbados to Union Island, plus onward travel by boat to Palm Island, are included within your accommodation price. Currently flights run daily from BGI. 
+
+WHAT’S NEW	
+Recently, Palm Island Resort was named the number four resort in the Caribbean in the Condé Nast Traveler Readers’ Choice Awards.    
+Over the past year, all aspects of the resort’s culinary experience have been upgraded, including menu offerings, presentation and service.  The resort’s menu changes based on season and availability, incorporating locally grown herbs and produce, some of which are from the on-property greenhouse.  These ingredients are also used in new flavour-infused waters and cocktails.  This chilled, naturally flavoured water as well as frozen fruit popsicles are served during peak hours each day at the beach and along pool areas.  
+
+Another new local food and beverage initiative is the resort’s coconut program.  With more than 2,000 coconut-bearing trees spread across the 135-acre island, Palm Island naturally provides a seemingly endless supply of coconuts.  This local, naturally beneficial product is now harvested and incorporated into the daily rotating menu.  Sample breakfast items include coconut-flavored bread, waffles and pancakes.  Lunch and dinner items include coconut rice and peas, coconut shrimp, coconut layer cake, coconut macaroons and more, all made with local Palm Island coconuts.
+
+New offerings have also been added to the daily activity program and excursions, including volleyball and cricket matches, a presentation on the history of the island and weekly receptions.  For action-seeking guests, the thrill of kitesurfing and the beauty of stand-up paddle boarding are also available. 
+
+The resort has also added an informal weekly sunset photo contest.  Guests gather each evening at the Sunset Bar to watch the western sky as the sun dips below the horizon.  Photos taken by guests’ cameras are submitted for a friendly competition, and a winner is selected each week.
+
+ACCOMMODATION
+Ideal for romantic escapes, girlfriend getaways, mother-daughter retreats as well as solo travelers, this intimate hideaway has only 41 guestrooms and two private villas. More than half of the 43 are set directly on the beach while the rest are located just a few steps away.  	
+
+All accommodations provide the following in-room amenities:  air conditioning; soft bathrobes; daily housekeeping service; nightly turndown service; personal safe; hair dryer; coffee maker; alarm clock; iron; and ironing board.  In addition, all beachfront rooms are now outfitted with glass shutters.  
+
+A TV, computer and Internet lounge is available for guests, who may also bring their own laptops and take advantage of WiFi access.
+
+Palm View rooms have sitting areas, furnished terraces, two queen-sized beds or a king-sized bed (some with canopies) and master baths (some with deep-soaking tubs).
+
+Beach Front rooms have king-sized beds, furnished terraces with views of the Caribbean Sea and Union Island, small sitting areas and bathrooms with showers.  These 20 rooms are perfect for romance and are situated in ten single-story buildings set side-by-side along the beach. 
+
+Island Lofts are located in charming, wooden cottages and feature two queen-sized beds or one king-sized bed, private terraces with ocean views toward the Tobago Cays or gardens, deep soaking tubs and separate single showers. These five airy lofts provide an abundance of charm and privacy.  The island lofts are perched above the ground on stilts, set back from the beach amid lush gardens. 
+
+Four beach front Seagrape Suites offer king-sized beds and bathrooms with double showers for two as well as large soaking bathtubs.  Suites feature pull-out couches in sitting areas as well as over-sized master baths.  Of all the accommodations, these suites offer the best view of sunset as they face directly westward.
+
+Southern Cross Villa, which sleeps up to four adults, is the ultimate escape for couples. The oceanfront villa is designed with honey-toned woods, comfortable rattans and stone finishes blending into the natural environment, a panoramic bluff.  The villa includes its own 10-by-10-foot infinity pool, a tiled dining terrace, an arbor patio and two master bedrooms, each with a king-sized bed, flat screen televisions, a marble bathroom and a step-in, ocean-view shower, where a large door opens to the sea. The villa’s state-of-the-art marble kitchen is stocked with pantry staples including cereal, fruit, snacks, coffee and tea. For refreshment, soft drinks, beer and complimentary bottles of champagne, red wine and white wine are provided upon arrival. A complimentary golf cart is also provided for the villa.
+
+Seafeather Villa is the resort’s newest villa and is situated on the northern shore on the longest of the island’s five beaches. The villa has three bedrooms with a king-sized bed, a queen-sized bed and a twin-sized bed, a living room and a covered deck adjacent to the ocean’s edge. Refreshments are stocked upon arrival, and a complimentary golf cart is provided.  The villa features televisions in all rooms, Internet, a full kitchen and a washer and dryer. 
+
+DINING	
+Palm Island Resort offers daily afternoon tea, premium alcoholic beverages and three meals per day. A wonderful, acclaimed Chef is the culinary artist behind both restaurants.
+
+Sunset Grill is a casual beachfront restaurant, offering an extensive lunch and dinner menu.  Seating is available inside the restaurant or directly on the sand.  Highlights include the fresh catch of the day, a mouth-watering Palm Island pizza and a local specialty dish, which changes daily. 
+
+Royal Palm Restaurant sits on the island’s white-sand beach and offers a more formal dining experience.  The menu highlights include croissants, eggs Benedict and cinnamon French toast with Vicentian rum butter for breakfast, salad, pizzas and pastas for lunch and an a la carte menu with a variety of international and local dishes for dinner.  A wide array of coconut delicacies are also presented to guests at breakfast, lunch and dinner via the coconut treasure chest.  
+
+DRESS CODE 	
+During the day, the restaurant dress code permits covered and dry bathing suits.  After 6:30 p.m. men are requested to wear long trousers or tailored (Bermuda) shorts, a collared shirt and dress shoes. Ladies are requested to wear long trousers including premium denim, dresses, skirts, dress shorts and dress sandals.  Flip flops, tennis shoes, t-shirts and tank top/sleeveless shirts are not permitted in the evening.
+
+SPA 	
+Palm Island Spa offers a diverse menu of treatments for individuals and couples, from traditional Swedish and Shiatsu treatments to reflexology techniques.  All treatments incorporate natural oils and creams, including tea tree, ylang ylang and peppermint.  The spa offers face, hand, foot and full-body massages as well as a detox seaweed wrap and pedicure. 
+
+ACTIVITIES	
+Guests can enjoy a scenic tour via bicycle or explore the ocean’s wildlife during a snorkelling excursion.  In addition, the resort features a lagoon-style swimming pool, complimentary tennis, croquet, table tennis, beanbag toss and horseshoe game pit, cycling, shuffleboard and water activities such as kayaking, hobie cats and paddle boarding.  Volleyball is scheduled for 4:00 p.m. daily, and a friendly cricket match takes place every Sunday, bringing together both resort guests and staff.  Guests can choose to sunbathe, stroll along one of the white-sand beaches or enjoy nighttime entertainment on most evenings.  Guests can enjoy a weekly presentation on Palm Island’s history in the art gallery.  Three hiking trails, a tennis court, a full fitness center and a cozy library are also available.  The resort offers a chef’s demo and full botanical stroll each week, along with various local crafting classes throughout the week.
+
+EXCURSIONS 	
+For guests seeking a memorable off-island experience, daily excursions depart from Palm Island and can be arranged by the tour desk for an additional fee.  Guests can explore the Tobago Cays and Mayreau on-board the Yannis catamaran; take in the area’s natural beauty above and below water on the resort’s signature Pink Lady schooner; reel in the catch of a lifetime on a deep sea fishing trip; or explore mainland St. Vincent and nearby Union Island.  Sunset and starlight cruises can be arranged on a luxury yacht as well as overnight island-hopping to other islands such as Bequia.  Kitesurfing lessons and stand-up paddle boarding are also available.</Description>
+            <CMSBaseURL>http://www.rmidirect.co.uk/custom/content/</CMSBaseURL>
+            <MainImage>CMSImage_539.jpg</MainImage>
+            <MainImageThumbnail>CMSImageThumb_539.jpg</MainImageThumbnail>
+            <Images>
+                <Image>
+                    <FullSize>CMSImage_299.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_299.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_384.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_384.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_385.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_385.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_541.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_541.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_601.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_601.jpg</Thumbnail>
+                </Image>
+            </Images>
+        </PropertyResult>
+        <PropertyResult>
+            <TotalProperties>7</TotalProperties>
+            <PropertyID>20</PropertyID>
+            <RoomTypes>
+                <RoomType>
+                    <RoomID>43120</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Hillside Suite Garden/Resort views</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>2870</SubTotal>
+                    <Total>2290</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>595</Total>
+                            <ID>25669</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>263.45</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>208.18</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2290</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43121</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>WaterView Suite Water View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3094</SubTotal>
+                    <Total>2470</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>639</Total>
+                            <ID>25669</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>284.16</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>224.55</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2470</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43122</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>WaterFront Suite Water View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3360</SubTotal>
+                    <Total>2679</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>696</Total>
+                            <ID>25669</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>308.2</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>243.55</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2679</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43123</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Superior Waterfront Suite Waterfront View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3542</SubTotal>
+                    <Total>2824</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>733</Total>
+                            <ID>25669</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>324.88</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>256.73</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2824</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43124</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Waterfront Spa Suites Ocean Front</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>4438</SubTotal>
+                    <Total>3532</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>921</Total>
+                            <ID>25669</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>406.34</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>321.09</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>3532</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43125</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>2 Bedroom Villa Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>True</OnRequest>
+                    <SubTotal>5061</SubTotal>
+                    <Total>4025</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>1051</Total>
+                            <ID>25669</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>463.05</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>365.91</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>4025</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43126</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>2 Bedroom villa with plunge pool Bay/Ocean/Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>True</OnRequest>
+                    <SubTotal>5957</SubTotal>
+                    <Total>4739</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>1233</Total>
+                            <ID>25669</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>545.19</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>430.82</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>4739</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+            </RoomTypes>
+            <PropertyName>The Verandah Resort  Spa</PropertyName>
+            <GiataID>90596</GiataID>
+            <Currency>USD</Currency>
+            <Rating>4</Rating>
+            <GeographyLevel1ID>1</GeographyLevel1ID>
+            <GeographyLevel2ID>1</GeographyLevel2ID>
+            <GeographyLevel3ID>1</GeographyLevel3ID>
+            <Country>Antigua</Country>
+            <Region>Antigua</Region>
+            <Resort>Antigua</Resort>
+            <Strapline>Antigua’s newest eco-friendly retreat</Strapline>
+            <Description>The Verandah Resort  Spa, located just 30 minutes from Antigua’s V.C. Bird International Airport (ANU), is a 30-acre, eco-luxury all-inclusive resort. Situated on Antigua’s northeast coastline and bordered by Devil’s Bridge National Park with its dramatic landmark rock arch, The Verandah Resort  Spa is an ideal holiday for family getaways or romantic escapes.  
+
+ACCOMMODATIONS	
+The Verandah Resort  Spa has 186 villa-style one and two-bedroom suites that have vaulted ceilings and Caribbean décor with bamboo accents.  Built as side-by-side, single-story duplexes, the resort’s one-bedroom suites offer the look and feel of a Caribbean villa while comfortably accommodating up to four guests with a king-sized bed and queen sleeper sofa.  All suites have now been updated with electronic key access. They come equipped with LCD satellite televisions, air conditioning, ceiling fans, in-room safes, direct-dial telephones, mini refrigerators, microwaves, coffeemakers, hairdryers, irons and ironing boards. Spa Suites are as above with 5 spa treatments per person (non transferable) included weekly except on day of arrivals or departure.  
+
+Perfect for families and small gatherings of up to six guests, six two-bedroom villas are included in the resort’s inventory.  Situated on top of a hill with an idyllic bay view, each villa has a living/dining area, a flat-screen television and a verandah.  Kitchens are fully equipped with a breakfast bar with seating for two, a microwave oven, a two-burner stovetop, a small refrigerator, a toaster, a coffee maker, granite countertops and a dining table with seating for up to six guests.  The master bedroom has a private verandah, a flat-screen television and an en suite shower room with two pedestal sinks.  The second bedroom offers twin beds, an en suite bathroom with a bathtub/shower combo, a flat-screen television and a large walk-in closet.  Additionally there is a pull-out queen sofa bed in the living room with flat-screen television.
+
+DINING	
+The Verandah Resort  Spa has four restaurants on the resort property.
+
+Seabreeze, the resort’s main restaurant, serves breakfast, lunch and dinner. It offers a wide range of choices that are sure to please guests of all ages. A fully air-conditioned dining room is enhanced by light pine pergolas, ceiling fans, exposed beams and lofty vaulted ceilings for an airy, outdoor feeling. Seabreeze offers buffet-style dining seven days a week with internationally themed evenings.
+
+Nicole’s, a fine dining air-conditioned restaurant, offers a blend of elegantly presented, modern French and Italian cuisine. Warm red walls and dark wood trim create a cozy ambiance, and rattan, bamboo and upholstered furnishings create a welcoming, Caribbean feel. For a $40 (USD) per person surcharge, guests can celebrate a special occasion or have a romantic private dinner. Dinner reservations are required. The restaurant is now open for a fifth night in the week due to demand, in order to support this extra night the resort will be extending the kitchens onsite herb garden. This will ensure that all three of the resorts restaurants and the two grills are in bountiful supply of fresh herbs and vegtables.
+
+The Buccaneer, an a la carte dining restaurant, serves Caribbean-inspired, family-friendly fare. Dinner reservations are required.
+
+The Beach Bar  Grill, perched above Lovers’ Beach, offers spectacular views of the cove along with light lunches, snacks, beer and alcoholic beverages. An evening grill menu is served. Dinner reservations are required.   
+
+Wadadli Snack Shack, our newest addition to the property is situated directly on Rasta Beach near the dock and reception building.  Enjoy a variety of grilled snacks while relaxing on the beach with views of the turquoise bay. Due to its popularity the opening hours have now been extended!
+
+Afternoon tea is served by the main pool bar daily from 3:00 to 5:00 p.m.
+
+DRESS CODE	
+During the day, the restaurants’ dress code permits covered and dry bathing suits.  After 6:30 p.m. a summer casual dress code applies. At Nicole’s Restaurant dress is elegant (long trousers and a collared shirt). Ripped jeans, flip flops, all beachwear, t-shirts and trainers are not considered summer casual.
+
+BARS AND LOUNGES	
+The resort has four bars and lounges with a wide variety of signature cocktails, top-shelf liquors, wines, beers and non-alcoholic beverages.  Guests can get into the island spirit at the beach side Rasta Bar.
+
+The resort additionally features a poolside bar and The Common, where guests can enjoy refreshments during the day and evenings as well as live entertainment on select evenings, ranging from fire-limbo dancers and steel bands to a variety of live bands. 
+
+The Beach Bar opens daily at 10:00 a.m. and serves guests’ favourite tropical cocktails.
+
+The Seabreeze Bar offers a variety of wines and cocktails during meal times.
+
+SPA	
+Tranquility Body  Soul Spa offers eco-conscious, restorative treatments for the body and skin.  Guests can settle in with a relaxing cup of herbal tea, accompanied by the sounds of Caribbean waters lapping upon the shore.  Treatments include a well-being massage, a Sabai Stone treatment, a caviar and pearl anti-aging facial and a green coffee wrap designed to reduce cellulite and water retention.  Spa Tranquility uses Pevonia Botanica products.  A full-service salon, offering hair and nail treatments, is also available.
+
+ACTIVITIES	
+Guests can sunbathe on the resort’s two white-powdered beaches, play tennis, exercise in the fitness center or swim in the resort’s main pool, the Oasis Pool (adults-only), the Villa Pool or the kids-splash mushroom pool.  Other activities include weekly aqua Soca-aerobics, a variety of fitness classes, Caribbean cooking classes, nature walks, beach volleyball, and other beach games.  Non-motorized water sports include windsurfing, Hobie cat sailing, snorkeling, pedalos, stand-up paddle boarding, water hammocks and kayaking, which are ideal activities in the resort’s reef-sheltered waters.
+
+Guests can take the short walk to neighboring Devil’s Bridge National Park to hike. A visit to the historic town of St. John’s, only 30 minutes from the resort, can be arranged for sightseeing, shopping and dining.  All excursions can be coordinated by the tour desk.
+
+A 18-hole tropical mini-golf course, set amidst waterfalls, ponds and local landscaping, has been designed to replicate the bends and breaks found on real golf courses. Complete with tunnels, bridges, sharp corners and obstacles, this well-designed course is a welcomed addition for guests. Golf clubs are available for guests’ use. In addition, families can have fun playing a game of pool or ping pong.
+
+Kid-friendly amenities include the adult-supervised Kids’ Club, which is open daily from 9:00 a.m. to 10:00 p.m. for potty-trained children ages 2 to 12.  
+
+Kids eight and older can enjoy sailing, kayaking and paddle boats as well as guided nature walks and swimming.  Counsellors lead organized beach games, arts and crafts and other age-appropriate activities.	
+
+Teenagers can have hours of fun in the Pirates Den game room, which serves a range of non-alcoholic fruit punches to quench the thirst of any teen playing a game of pool, foosball or Nintendo Wii. 
+
+Babysitting services are also provided at the resort for an additional charge. Guests are advised to give management a 24-hour notice prior to using the babysitting service. There is a minimum babysitting time of two hours.
+
+USEFUL INFORMATION
+Please note guests are required to present a valid form of ID (passport, driving license, ID card) along with a valid credit card at check-in. At check-in a US$350 pre-authorisation will be processed on your card to cover any incidental purchases or similar expenses. Incidental purchases may include things like tours, excursions, gift shop purchases, and dining in our specialty restaurant. We understand that not all guests incur additional charges during their stay, but this process assists the resort with fraud prevention. The pre-authorisation is released at check-out, assuming you have not charged any purchases to your room.</Description>
+            <CMSBaseURL>http://www.rmidirect.co.uk/custom/content/</CMSBaseURL>
+            <MainImage>CMSImage_596.jpg</MainImage>
+            <MainImageThumbnail>CMSImageThumb_596.jpg</MainImageThumbnail>
+            <Images>
+                <Image>
+                    <FullSize>CMSImage_573.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_573.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_574.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_574.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_575.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_575.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_597.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_597.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_598.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_598.jpg</Thumbnail>
+                </Image>
+            </Images>
+        </PropertyResult>
+        <PropertyResult>
+            <TotalProperties>7</TotalProperties>
+            <PropertyID>78</PropertyID>
+            <RoomTypes>
+                <RoomType>
+                    <RoomID>43127</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Garden View Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3150</SubTotal>
+                    <Total>2352</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>30</Value>
+                            <Desc/>
+                            <Total>813</Total>
+                            <ID>25680</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>164.09</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>213.82</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2352</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43128</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Superior Garden View Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3318</SubTotal>
+                    <Total>2477</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>30</Value>
+                            <Desc/>
+                            <Total>856</Total>
+                            <ID>25680</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>172.81</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>225.18</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2477</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43129</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Ocean Loft Ocean View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3486</SubTotal>
+                    <Total>2602</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>30</Value>
+                            <Desc/>
+                            <Total>899</Total>
+                            <ID>25680</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>181.53</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>236.55</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2602</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43130</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>One Bedroom Pool Garden View Suite Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3738</SubTotal>
+                    <Total>2789</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>30</Value>
+                            <Desc/>
+                            <Total>964</Total>
+                            <ID>25680</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>194.58</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>253.55</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2789</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43131</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Superior Oceanfront Ocean View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3906</SubTotal>
+                    <Total>2914</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>30</Value>
+                            <Desc/>
+                            <Total>1007</Total>
+                            <ID>25680</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>203.3</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>264.91</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2914</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43133</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>One Bedroom Pool Garden Spa Suite Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>4662</SubTotal>
+                    <Total>3475</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>30</Value>
+                            <Desc/>
+                            <Total>1202</Total>
+                            <ID>25680</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>242.44</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>315.91</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>3475</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+            </RoomTypes>
+            <PropertyName>The Club Barbados Resort  Spa</PropertyName>
+            <GiataID>7439</GiataID>
+            <Currency>USD</Currency>
+            <Rating>4</Rating>
+            <GeographyLevel1ID>1</GeographyLevel1ID>
+            <GeographyLevel2ID>3</GeographyLevel2ID>
+            <GeographyLevel3ID>3</GeographyLevel3ID>
+            <Country>Barbados</Country>
+            <Region>Barbados</Region>
+            <Resort>Barbados</Resort>
+            <Strapline>The Club Barbados Resort  Spa</Strapline>
+            <Description>The Club Barbados, Resort  Spa, an Elite Island Resort, is located just 30 minutes from Grantley Adams International Airport and 20 minutes from the capital of Bridgetown. Set on 3.2 acres of Barbados’ west coast, also known as the Gold Coast, this resort offers an idyllic waterfront setting that enhances the natural beauty of the Caribbean Sea.  The Club Barbados is a complete all-inclusive, adults-only resort, providing amenities and activities to meet the needs of even the most discerning adult clientele, ages 16 years or older.
+
+ACCOMMODATIONS	
+With 143 rooms and suites spanning six categories, The Club Barbados features three and four-story buildings accessed by stairways surrounding tropical gardens, pools, lounges and restaurants. Guests are welcomed to comfortable accommodations with dark wood furnishings and brightly coloured décor, offering either one king or two twin beds.  All rooms and suites are equipped with a private bath/shower or walk-in shower, in-room safe, hair dryer, direct-dial telephone, alarm clock radio, tea/coffee maker, fridge, iron and ironing board, satellite TV and beach towels. Wireless Internet access is available in all the rooms for a minimal charge as well as in the lobby and main bar on a complimentary basis. 
+
+Garden View rooms are located on various floors with views of the tropical gardens or sparkling pool from a balcony or patio. (Some rooms feature panoramic windows only.)
+
+Superior Garden View rooms overlook the tropical gardens or pool from oversized windows or a balcony. All ground-floor rooms feature an extended private patio with a stylish awning.
+
+Ocean Lofts are located on the fourth floors with views of the Caribbean Sea through panoramic windows.
+
+Ideal for those wanting a location within steps of the beach, Superior Oceanfront rooms offer breathtaking views of the Caribbean Sea from a French balcony.
+
+Each One-bedroom Garden View Suite features a living room and separate spacious bedroom overlooking the pool or tropical gardens. Upper-floor rooms feature a balcony, and all ground-floor units have a private patio with a stylish awning.
+
+One-bedroom Garden View Spa Suites feature a private terrace or balcony that spans the entire width of the suite with panoramic views of hotels gardens and resort. The suite offers a spacious bedroom, an adjoining living area and bathrooms featuring a large Roman tub and shower combination. A Daily* 45 Minute treatment is included from a set menu. 
+*No treatments on day of arrival or departure
+
+The One-bedroom Oceanfront Suite is ideal for those wanting a spacious place to relax within steps of the beach. Each premium suite features a spacious bedroom and separate living area with sweeping views of the Caribbean Sea.
+
+The maximum occupancy is limited to two adults for all rooms except the One-bedroom Garden View Suites which can accommodate 3 guests.
+
+DINING	
+Dining at The Club Barbados provides oceanfront dining with international flare. Guests have two on-property restaurants to choose from: Sunset Restaurant and Enid’s Restaurant. Sunset Restaurant, the resort's main restaurant and lounge area, serves a buffet-style breakfast with made-to-order omelets and egg dishes, a full lunch buffet and for dinner a combination of a la carte fine dining and the weekly Beach Barbecue. Serving Bajan and Caribbean creations in a colourful, festive atmosphere, Enid’s Restaurant is the best place to discover delightfully authentic Bajan cuisine. Due to its popularity among guests, reservations are required.  Enid’s Restaurant is open for dinner only.
+
+DRESS CODE	
+Shoes and bathing suit cover-ups are required at all times. After 6:30 p.m. the attire is Caribbean resort casual dress for men and women.  "Short shorts", flip flops, cutoffs, athletic t-shirts and tank tops are not permitted. 
+
+BARS AND LOUNGES	
+The Rum Shop Bar offers a variety of rum specialty drinks for guests’ pleasure as well as a big screen TV for sporting events. The resort offers two additional bars for guests’ convenience: the Beach Bar and the Sunset Bar  Lounge.  The resort’s Piano Bar is open for late evening enjoyment.
+
+SPA	
+Enjoy the ambience of tranquil surroundings at the Tranquility Spa where guests take a spiritual journey with spa rituals designed to elevate the senses. The extensive treatment menu offers massages, hydrotherapy services, body treatments, men's and women's facials, waxing and hair and nail care.  Spa patrons may also use the saunas and steam rooms.
+
+ACTIVITIES	
+The Club Barbados, Resort  Spa offers a wide selection of activities for guests to enjoy, including three freshwater swimming pools, a freshwater Jacuzzi, tennis (court-lit for night play), an activities program, a fitness centre and a wealth of water sports such as Hobie Cat sailing, snorkeling, windsurfing, fishing, water skiing, kayaking and paddle boarding. Off-property excursions such as a rum and history tour, a turtle feeding trip or a sunset cocktail cruise can also be arranged for a truly authentic Bajan experience.
+
+USEFUL INFORMATION
+Please note guests are required to present a valid form of ID (passport, driving license, ID card) along with a valid credit card at check-in. At check-in a US$350 pre-authorisation will be processed on your card to cover any incidental purchases or similar expenses. Incidental purchases may include things like tours, excursions, gift shop purchases, and dining in our specialty restaurant. We understand that not all guests incur additional charges during their stay, but this process assists the resort with fraud prevention. The pre-authorisation is released at check-out, assuming you have not charged any purchases to your room.</Description>
+            <CMSBaseURL>http://www.rmidirect.co.uk/custom/content/</CMSBaseURL>
+            <MainImage>CMSImage_566.jpg</MainImage>
+            <MainImageThumbnail>CMSImageThumb_566.jpg</MainImageThumbnail>
+            <Images>
+                <Image>
+                    <FullSize>CMSImage_567.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_567.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_568.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_568.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_569.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_569.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_570.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_570.jpg</Thumbnail>
+                </Image>
+            </Images>
+        </PropertyResult>
+        <PropertyResult>
+            <TotalProperties>7</TotalProperties>
+            <PropertyID>73</PropertyID>
+            <RoomTypes>
+                <RoomType>
+                    <RoomID>43134</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Garden View Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>2730</SubTotal>
+                    <Total>2032</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>32</Value>
+                            <Desc/>
+                            <Total>713</Total>
+                            <ID>25689</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>184.73</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>184.73</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2032</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43135</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Ocean View Sea View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>2940</SubTotal>
+                    <Total>2191</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>32</Value>
+                            <Desc/>
+                            <Total>764</Total>
+                            <ID>25689</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>199.18</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>199.18</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2191</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43136</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Premium Double Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3066</SubTotal>
+                    <Total>2281</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>32</Value>
+                            <Desc/>
+                            <Total>800</Total>
+                            <ID>25689</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>207.36</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>207.36</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2281</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43137</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Beach Front Beachfront</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3234</SubTotal>
+                    <Total>2405</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>32</Value>
+                            <Desc/>
+                            <Total>844</Total>
+                            <ID>25689</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>218.64</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>218.64</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2405</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43138</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Deluxe Ocean View Ocean View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3402</SubTotal>
+                    <Total>2529</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>32</Value>
+                            <Desc/>
+                            <Total>888</Total>
+                            <ID>25689</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>229.91</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>229.91</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2529</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43139</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>One Bedroom Garden Spa Suite Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>4368</SubTotal>
+                    <Total>3247</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>32</Value>
+                            <Desc/>
+                            <Total>1136</Total>
+                            <ID>25689</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>295.18</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>295.18</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>3247</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43140</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>One Bedroom Ocean View Ocean View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3654</SubTotal>
+                    <Total>2716</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>32</Value>
+                            <Desc/>
+                            <Total>953</Total>
+                            <ID>25689</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>246.91</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>246.91</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2716</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43141</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Family Suite Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>6426</SubTotal>
+                    <Total>4767</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>32</Value>
+                            <Desc/>
+                            <Total>1674</Total>
+                            <ID>25689</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>433.36</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>433.36</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>4767</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43142</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>2 Bedroom Suite Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>7140</SubTotal>
+                    <Total>5299</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>32</Value>
+                            <Desc/>
+                            <Total>1856</Total>
+                            <ID>25689</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>481.73</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>481.73</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>5299</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+            </RoomTypes>
+            <PropertyName>St James's Club Morgan Bay Saint Lucia</PropertyName>
+            <GiataID>6926</GiataID>
+            <Currency>USD</Currency>
+            <Rating>4</Rating>
+            <GeographyLevel1ID>1</GeographyLevel1ID>
+            <GeographyLevel2ID>15</GeographyLevel2ID>
+            <GeographyLevel3ID>15</GeographyLevel3ID>
+            <Country>St Lucia</Country>
+            <Region>Saint Lucia</Region>
+            <Resort>Saint Lucia</Resort>
+            <Strapline>St James's Club Morgan Bay Saint Lucia</Strapline>
+            <Description>St. James’s Club Morgan Bay, Saint Lucia, an Elite Island Resort, is located just one hour from St. Lucia’s Hewanorra International Airport (UVF). Distinguished by its romantic beachfront setting amidst 25 acres of beautiful tropical gardens overlooking the Caribbean Sea, St. James’s Club, Morgan Bay, Saint Lucia is located just minutes from the world-class Rodney Bay Marina, the Cap Estate Golf Course and the capital city of Castries. This vibrantly colourful and refreshingly informal all-inclusive resort is also just a short drive from Pigeon Point National Park, home of St. Lucia’s world-famous annual jazz and arts festival.
+
+With a wide array of accommodations, activities and amenities, St. James’s Club Morgan Bay, Saint Lucia is ideal for couples and families seeking a fun and relaxing tropical getaway on the picturesque island of St. Lucia.
+
+ACCOMMODATION	
+St James’s Club Morgan Bay, Saint Lucia’s 334 guestrooms and suites include the following accommodation categories: Garden View rooms; Ocean View rooms; Premium Double rooms, Beachfront rooms; Deluxe Ocean View rooms; One-bedroom Garden Spa Suites; One-bedroom Ocean View Suites, Family Suites and Two-bedroom Suites. All guestrooms feature air conditioning, satellite television, a coffee and tea maker, hair dryers, a safe, direct-dial telephones, a private terrace or balcony and ceiling fans in the suites.
+
+Garden View rooms feature a private terrace or balcony with views of the tropical gardens.
+
+Ocean View rooms feature a terrace or balcony with full or partial ocean views, and the hillside. 
+
+Premium Double rooms feature 2 double beds. 
+
+Beachfront rooms feature a terrace or balcony and are on situated on the beach.
+
+Deluxe Ocean View rooms have panoramic views of the Caribbean Sea, the resort and the lights of Castries in the evening.
+
+One-bedroom Ocean View Suites feature a private terrace or balcony that spans the entire width of the suite with panoramic views of St. Lucia’s coast, the Caribbean Sea and the resort. The suite offers a spacious bedroom, an adjoining living area and bathrooms featuring a large Roman tub and shower combination.
+
+One-bedroom Garden Spa Suites feature a private terrace or balcony that spans the entire width of the suite with panoramic views of hotels gardens and resort. The suite offers a spacious bedroom, an adjoining living area and bathrooms featuring a large Roman tub and shower combination. A Daily* 45 Minute treatment is included from a set menu. 
+*No treatments on day of arrival or departure*
+
+Family Suites have 2 interconnecting garden view rooms that feature a private terrace or balcony in each room, 2 bathrooms and views of the tropical gardens.
+
+Two-bedroom Suites are our newest room category offering two spacious bedrooms each with private bath, adjoining living room with pull-out sofa bed and two private terraces or balconies spanning the entire width of the suite. These are set in the hillside with varying views depending on location. 
+
+DINING	
+St. James’s Club Morgan Bay, Saint Lucia has six distinct restaurants offering delightful buffets and an attentive a la carte service.    
+
+Take a culinary tour around the world in the classic Caribbean architecture and lush garden setting at The Palms Restaurant. The restaurant offers buffet dining for breakfast, lunch and dinner that will keep you coming back for more. The lunch and dinner menus change daily.    
+
+Bambou Restaurant is an alfresco beachfront restaurant with modern Caribbean flare and ocean views.  Bambou serves a wide variety of Mediterranean favorites for dinner nightly. The Bambou Restaurant also offers British-style high tea every afternoon from 3:00 to 4:00 p.m. 
+
+Le Jardin Restaurant offers upscale dining with white-glove service in a romantic, fully air-conditioned indoor setting. This chef’s restaurant serves modernly elegant cuisine. A nominal $25 + tax surcharge per person is required, and reservations are recommended.    
+
+Situated on a beautiful rustic pier over the ocean, Morgan’s Pier offers an array of seafood and grilled fare on a private covered pier sitting in the Caribbean Sea.     
+
+Room service is available at an extra cost from 11:00 a.m. to 9:00 p.m. 
+
+Open daily, The Plum Tree Grill offers dining in a unique setting.  Dishes include crowd-pleasing favourites such as mouth-watering burgers, fresh seafood and salads as well as kid-friendly items such as popcorn, ice cream and delicious homemade cakes. 
+
+Tree Tops Pizza  Pasta is the resort’s new pizza and pasta restaurant, offering classic, gourmet or made-to-order pizzas, a selection of mix-and-match pastas and sauces, fresh salads and decadent desserts. 
+
+Our Choc Bay Café is an island-style coffee house featuring freshly made coffee beverages, pastries, and afternoon tea. 
+
+DRESS CODE	
+The dress code at St. James’s Club Morgan Bay, Saint Lucia is casual and relaxed with beach attire welcomed from breakfast to lunch.  In the evenings, trousers or tailored shorts and collared shirts are preferred.  Dinner at Le Jardin Restaurant requires casually elegant attire (no cutoffs, shorts or t-shirts). Shoes are required for all meals in all restaurants. 
+
+BARS AND LOUNGES	
+The Sunset Lounge is St. James’s Club Morgan Bay, Saint Lucia’s main entertainment area with full bar service in the evening and daytime during high season.  Guests can also enjoy fun activities during the day and live entertainment most night.  The Lazy Lagoon Pool Bar overlooks the resort’s main free-form swimming pool near the beach, offering full bar service throughout the day and evening.   
+
+Open most days during the high season as well as high occupancy days throughout the rest of the year, the Plum Tree Bar  Grill offers snacks and full beverage and bar service at the family pool area adjacent to the tennis courts and fitness center.   Open for private cocktail parties and during most days during the high season, Hilltop Bar  Pool provides full bar service from its hillside setting overlooking the resort with sweeping views and dramatic sunsets. 
+
+ACTIVITIES	
+Guests can enjoy countless water sports at St. James’s Club Morgan Bay, Saint Lucia such as kayaking, windsurfing, paddle boarding, sailing, aqua cycling, pool activities and much more. Lessons are also available upon request.  For land activities, the resort also offers four new tennis courts, two of which are floodlit, as well as an in-house professional tennis player, who can also offer lessons to guests. 
+
+The resort also offers a daily activities program featuring classes for guests to enjoy, such as Aquasize, water and beach volleyball, Pilates, Thai Chi, circuit training, stretch classes and more. 
+
+Golf is available nearby at the 18-hole St. Lucia Golf  Country Club, less than two miles from the resort.  Transportation to and from the course, cart and equipment rental, fees and tips for caddies are an additional charge. 
+
+St. James’s Club Morgan Bay, Saint Lucia also offers a playground for children as well as a kids’ club open daily for 2 to 11 year olds (children must be potty-trained and able to communicate) from 9:00 a.m. to 6:30 p.m., allowing parents some free time and providing kids with great vacation experiences such as cooking classes, kids yoga, beach games and treasure hunts, all supervised by resort staff.  The resort also offers evening supervision for children ages 4 to 11 from 7:30 p.m. to 10:30 p.m.  Parents can enjoy a private romantic dinner alone while the kids have their own fun with an in-house mini disco, karaoke, Wii games and more, all under the supervision of  trained staff.
+
+A fully equipped fitness centre is also available at the property.  
+
+For an additional charge, guests can explore the island of St. Lucia by booking tours and excursions at the resort’s on-site tour desk.  Tours include snorkeling, a rainforest canopy zipline adventure, hiking, sport fishing, scuba diving, horseback riding, helicopter rides and more. 
+
+SPA		
+Tranquility Body  Soul Spa is located in an all-new peaceful hillside setting offering tranquil water views of the Caribbean Sea. Treatments include an aromatic salt glow scrub, reflexology treatments, a spa tranquility well-being massage, aromatherapy massage, deep cleaning facials, and detox seaweed wraps.  Tranquility Body  Soul Spa uses Pevonia Botanica products.
+
+USEFUL INFORMATION
+Please note guests are required to present a valid form of ID (passport, driving license, ID card) along with a valid credit card at check-in. At check-in a US$350 pre-authorisation will be processed on your card to cover any incidental purchases or similar expenses. Incidental purchases may include things like tours, excursions, gift shop purchases, and dining in our specialty restaurant. We understand that not all guests incur additional charges during their stay, but this process assists the resort with fraud prevention. The pre-authorisation is released at check-out, assuming you have not charged any purchases to your room.</Description>
+            <CMSBaseURL>http://www.rmidirect.co.uk/custom/content/</CMSBaseURL>
+            <MainImage>CMSImage_594.jpg</MainImage>
+            <MainImageThumbnail>CMSImageThumb_594.jpg</MainImageThumbnail>
+            <Images>
+                <Image>
+                    <FullSize>CMSImage_350.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_350.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_551.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_551.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_552.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_552.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_553.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_553.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_595.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_595.jpg</Thumbnail>
+                </Image>
+            </Images>
+        </PropertyResult>
+        <PropertyResult>
+            <TotalProperties>7</TotalProperties>
+            <PropertyID>19</PropertyID>
+            <RoomTypes>
+                <RoomType>
+                    <RoomID>43143</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Club Room Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3045</SubTotal>
+                    <Total>2297</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>763</Total>
+                            <ID>25701</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>264.26</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>208.82</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2297</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43144</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Premium Oceanview Partial Ocean View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3178</SubTotal>
+                    <Total>2395</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>798</Total>
+                            <ID>25701</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>275.53</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>217.73</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2395</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43145</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Beach Front Ocean View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3451</SubTotal>
+                    <Total>2605</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>861</Total>
+                            <ID>25701</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>299.69</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>236.82</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2605</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43146</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Junior Suite Ocean Facing</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3626</SubTotal>
+                    <Total>2731</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>910</Total>
+                            <ID>25701</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>314.19</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>248.27</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2731</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43147</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Royal Suite Bay View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3899</SubTotal>
+                    <Total>2941</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>973</Total>
+                            <ID>25701</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>338.35</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>267.36</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2941</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43148</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Royal Spa Suites Bay View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>4928</SubTotal>
+                    <Total>3711</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>1232</Total>
+                            <ID>25701</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>426.93</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>337.36</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>3711</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43149</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Two Bdr Villa Garden/Ocean View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>5957</SubTotal>
+                    <Total>4481</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>1491</Total>
+                            <ID>25701</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>515.51</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>407.36</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>4481</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43150</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>3 Bedroom Villa Bay/Ocean/Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>True</OnRequest>
+                    <SubTotal>6405</SubTotal>
+                    <Total>4817</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>25</Value>
+                            <Desc/>
+                            <Total>1603</Total>
+                            <ID>25701</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>554.17</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>437.91</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>4817</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+            </RoomTypes>
+            <PropertyName>St James's Club  Villas, Antigua</PropertyName>
+            <GiataID>22083</GiataID>
+            <Currency>USD</Currency>
+            <Rating>4.5</Rating>
+            <GeographyLevel1ID>1</GeographyLevel1ID>
+            <GeographyLevel2ID>1</GeographyLevel2ID>
+            <GeographyLevel3ID>1</GeographyLevel3ID>
+            <Country>Antigua</Country>
+            <Region>Antigua</Region>
+            <Resort>Antigua</Resort>
+            <Strapline>Antigua’s most famous address ...</Strapline>
+            <Description>Located just 40 minutes from Antigua’s V.C. Bird International Airport (ANU), the 240-room St. James’s Club  Villas, is ideal for family getaways or romantic retreats.  Tucked away on a secluded, 100-acre peninsula on the south-eastern coast of Antigua, the combination of the island’s atmosphere with the resort’s amenities and activities makes a one-of-a-kind island experience. 
+
+ACCOMMODATION
+At St. James’s Club, guests can choose from spacious suites, villas or chic guestrooms.  The resort features two distinct accommodations choices:  The Club with 215 guestrooms, plus restaurants, lounges and activity centres or The Village with 13 villas set along a softly sloping hillside.  
+
+Guests staying at The Club enjoy guestrooms and suites decorated with hardwood furnishings and terracotta floors.  Each includes a private balcony or terrace, air conditioning, ceiling fans, cable television, a full bathroom, a hair dryer, a safe, a direct-dial telephone and a radio-alarm clock.
+
+Guests staying in The Club’s 48 waterfront Royal Suites can enjoy the following in-suite amenities:  HD, flat-screen televisions; iPod docking stations; DVD players and free WiFi. The Royal Suites have now introduced a dedicated concierge service with private check in, plus a weekly cocktail party just for Royal Suite guests.
+
+Ideal for couples, families and groups, The Village offers 13 Two-Bedroom Villas. Each Two-Bedroom Villa has a private bath and shower, separate dining and living areas, a full kitchen, a balcony or patio overlooking Mamora Bay, plush bathrobes, air conditioning, ceiling fans and televisions. The Village also features two luxurious Three-Bedroom Villas that accommodate up to eight guests.
+
+DINING	
+St. James’s Club  Villas features five restaurants, plus a beachside grill on Mamora Beach. 	
+
+Children’s menus or options are available. 
+
+Rainbow Garden is set amidst the resort’s tropical gardens and is open for breakfast and lunch daily for buffet or a la carte dining.  A nightly a la carte menu is also available for dinner.
+
+Coco’s Restaurant  Bar, open 11 a.m. to 11 p.m., offers a casual Caribbean ambiance with ocean views and a selection of salads, soups, burgers and pastas. 
+
+The Docksider Grill offers waterfront dining overlooking Mamora Bay with a bountiful selection of buffet of dishes, including seafood and Caribbean cuisine. Sit back in the nautical themed surroundings and enjoy the sound of the steel pan players every Thursday night.
+
+The Beach Bar  Grill serves up hamburgers, grilled chicken sandwiches, hot dogs, drinks, cocktails, and other beachside favourites until 6 p.m. daily.  
+
+Piccolo Mondo is the resort's fine dining restaurant and offers Mediterranean and Caribbean cuisine. Its hillside setting provides breath-taking bay views.  A nominal surcharge of US$40 per person + tax is required for this wonderfully romantic dining experience.
+
+DRESS CODE	
+During the day, the restaurants’ dress code permits covered and dry bathing suits.  After 6:30 p.m. a summer casual dress code applies. At Piccolo Mondo Restaurant dress is elegant (long trousers and a collared shirt). Ripped jeans, flip flops, all beachwear, t-shirts and sneakers are not considered summer casual.
+
+BARS AND LOUNGES	
+St. James’s Club  Villas offers five bars and lounges.  The Reef Deck Bar offers daytime service by the main pool, and the three beach bars, Mamora Bay Bar, Coco’s Beach Bar and Royal St. James’s Club Poolside Bar, specialize in the resort’s delicious rum punch.  A beach cart with soda, beer, rum and fruit punch serves refreshments to sun bathers. In the evening, enjoy the relaxed sophistication of our air-conditioned Jacaranda Bar  Lounge.
+
+SPA	
+Our Tranquillity Body  Soul Spa has five treatment suites and one couples’ treatment suite, all treatment suites offer private bathrooms and showers. The spa also features an outdoor treatment area that provides stunning views overlooking the bay. Guests can choose from a wide selection of treatments, including the black magma treatment, which incorporates a natural healing mud. Spa Tranquility features Pevonia Botanica spa products as well as a full-service salon offering manicures, pedicures, professional make-up application as well as hair treatments. 
+
+ACTIVITIES
+Featuring four tennis courts, that have now been transformed from hard surface courts to artificial courts. Along with six pools, a marina and a spa, St. James’s Club offers a diverse selection of activities from which guests can choose.  Complimentary non-motorized water sports include stand-up paddle boarding, snorkelling, windsurfing, Hobie Cat sailing, pedal boating and kayaking. Diving and scuba instruction are also available.  Off-property excursions such as deep sea fishing can be arranged at the tour desk for an additional fee. Ensure you head to the beach once a month to enjoy music, food and entertainment at the resorts Full Moon Party!
+
+FAMILIES 
+The award-winning Just for Kids Club offers adult supervision and activities for potty-trained children, ages 4 to 11, from 9:15 a.m. to 11 p.m.  Children can even dine at the club while parents enjoy a private dinner alone.  Babysitting can be arranged for an additional fee. 
+
+A new beachside, open-air Teen Room features pool tables and other fun games.  Activities include karaoke, food, music, dancing and more.</Description>
+            <CMSBaseURL>http://www.rmidirect.co.uk/custom/content/</CMSBaseURL>
+            <MainImage>CMSImage_591.jpg</MainImage>
+            <MainImageThumbnail>CMSImageThumb_591.jpg</MainImageThumbnail>
+            <Images>
+                <Image>
+                    <FullSize>CMSImage_360.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_360.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_548.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_548.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_550.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_550.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_592.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_592.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_593.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_593.jpg</Thumbnail>
+                </Image>
+            </Images>
+        </PropertyResult>
+        <PropertyResult>
+            <TotalProperties>7</TotalProperties>
+            <PropertyID>181</PropertyID>
+            <RoomTypes>
+                <RoomType>
+                    <RoomID>43151</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Pool Terrace Unspecified View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3045</SubTotal>
+                    <Total>2275</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>30</Value>
+                            <Desc/>
+                            <Total>785</Total>
+                            <ID>25712</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>GOVERNMENT TAX</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>261.73</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>SERVICE CHARGE</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>206.82</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2275</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43152</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Garden View Garden and Partial  Ocean View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3143</SubTotal>
+                    <Total>2351</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>30</Value>
+                            <Desc/>
+                            <Total>807</Total>
+                            <ID>25712</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>GOVERNMENT TAX</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>270.47</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>SERVICE CHARGE</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>213.73</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2351</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43155</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Beach Front Ocean and Beach</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3570</SubTotal>
+                    <Total>2664</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>30</Value>
+                            <Desc/>
+                            <Total>921</Total>
+                            <ID>25712</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>GOVERNMENT TAX</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>306.48</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>SERVICE CHARGE</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>242.18</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2664</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43156</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Tropical Waterfront Ocean and Beach</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>3668</SubTotal>
+                    <Total>2740</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>30</Value>
+                            <Desc/>
+                            <Total>943</Total>
+                            <ID>25712</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>GOVERNMENT TAX</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>315.22</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>SERVICE CHARGE</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>249.09</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>2740</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43157</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Chairman's Suite Ocean View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>True</OnRequest>
+                    <SubTotal>5712</SubTotal>
+                    <Total>5727</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers/>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>GOVERNMENT TAX</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>658.86</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>SERVICE CHARGE</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>520.64</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>5727</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+            </RoomTypes>
+            <PropertyName>Pineapple Beach Club</PropertyName>
+            <GiataID>7411</GiataID>
+            <Currency>USD</Currency>
+            <Rating>4</Rating>
+            <GeographyLevel1ID>1</GeographyLevel1ID>
+            <GeographyLevel2ID>1</GeographyLevel2ID>
+            <GeographyLevel3ID>1</GeographyLevel3ID>
+            <Country>Antigua</Country>
+            <Region>Antigua</Region>
+            <Resort>Antigua</Resort>
+            <Strapline>Antigua's most laid back all-inclusive resort!</Strapline>
+            <Description>Pineapple Beach Club Antigua is the island’s most laid-back all-inclusive resort. Pineapple is located on over a quarter mile stretch of white sand beach, just 30 minutes from both V.C Bird International Airport and the capital city of St. John’s. The resort is situated on 30 relaxing beachfront acres, with amazing ocean views and an authentic Caribbean vibe. 
+
+Pineapple Beach Club has adopted an adults-only policy. All guests must be 16 years of age or older.    
+
+ACCOMMODATION
+There are 180 guest rooms in one, two- and three-story buildings, each reflecting easy-going Caribbean architecture and lifestyle. 
+
+Pool Terrace room - Views of the gardens and new pool from private balcony or patio; En suite bathroom with walk-in shower.
+
+Garden View room - Views of the gardens from shared balcony or private patio; En suite bathroom with shower.
+
+Ocean View room - Panoramic views of the resort and ocean from private balcony or patio; En suite bathroom with tub/shower combo.
+
+Premium Ocean View room - Single story rooms with panoramic views of the resort and ocean from a private balcony; En suite bathroom with walk-in shower.
+
+Beachfront room - View of the beach and ocean from shared balcony or private patio; En suite bathroom with tub/shower combo.
+
+Waterfront room - Panoramic views of the ocean from private balcony or patio; En suite bathroom with walk-in shower.
+
+DINING
+Topaz – This eatery boasts gorgeous seascapes to go along with its buffet breakfasts, lunches and special, themed buffet dinners.
+
+Chef Pietro’s – Reserve an idyllic table right next to the beach and indulge in delectable Italian specialties.
+
+Pineapple Grill – Tucked amidst lush gardens, this á la carte grill will satisfy your longing for authentic Caribbean favourites. Has A/C.
+
+Pelican Snack Grill – Enjoy snacks and grilled fare while bathing in the sun or relaxing by the pool.
+
+The Outhouse – An original rustic grill sitting above majestic Long Bay. Be sure to bring along an appetite for authentic BBQ ribs, chicken  ice-cold beer. Take part in the revered tradition and personalise a sign that will immortalise your visit in this truly one-of-a-kind spot.
+
+BARS AND LOUNGES
+Mongoose Bar - Nightly entertainment serving a variety of signature cocktails, blended drinks, wine and beer.
+
+Tickled Turtle Bar - Tucked behind the Terrace Pool, serving daily drinks  cocktails.
+
+SPA
+For those looking to unwind guests can book into the new Tranquility Body  Soul Spa for a relaxing treatment or two!
+
+ACTIVITIES
+There is an excellent range of activities including three swimming pools, four tennis courts, a library, fitness centre as well a full activities programme. 
+
+Pineapple provides the perfect blend of fun and relaxation in a stunning location. This quiet oasis showcases the best of Antigua....casual, relaxed, laid back and unhurried.
+
+USEFUL INFORMATION
+Please note guests are required to present a valid form of ID (passport, driving license, ID card) along with a valid credit card at check-in. At check-in a US$350 pre-authorisation will be processed on your card to cover any incidental purchases or similar expenses. Incidental purchases may include things like tours, excursions, gift shop purchases, and dining in our specialty restaurant. We understand that not all guests incur additional charges during their stay, but this process assists the resort with fraud prevention. The pre-authorisation is released at check-out, assuming you have not charged any purchases to your room.</Description>
+            <CMSBaseURL>http://www.rmidirect.co.uk/custom/content/</CMSBaseURL>
+            <MainImage>CMSImage_599.jpg</MainImage>
+            <MainImageThumbnail>CMSImageThumb_599.jpg</MainImageThumbnail>
+            <Images>
+                <Image>
+                    <FullSize>CMSImage_542.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_542.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_543.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_543.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_544.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_544.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_600.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_600.jpg</Thumbnail>
+                </Image>
+            </Images>
+        </PropertyResult>
+        <PropertyResult>
+            <TotalProperties>7</TotalProperties>
+            <PropertyID>21</PropertyID>
+            <RoomTypes>
+                <RoomType>
+                    <RoomID>43158</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Deluxe Beachfront Beachfront</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>4536</SubTotal>
+                    <Total>4064</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>15</Value>
+                            <Desc/>
+                            <Total>487</Total>
+                            <ID>25720</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>467.54</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>369.45</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>4064</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43159</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Superior Deluxe Beachfront Beachfront</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>4536</SubTotal>
+                    <Total>4064</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>15</Value>
+                            <Desc/>
+                            <Total>487</Total>
+                            <ID>25720</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>467.54</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>369.45</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>4064</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43160</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Gauguin Suite Garden View</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>4746</SubTotal>
+                    <Total>4251</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>15</Value>
+                            <Desc/>
+                            <Total>510</Total>
+                            <ID>25720</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>489.05</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>386.45</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>4251</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43161</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Premium Beachfront Suite Beachfront</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>4956</SubTotal>
+                    <Total>4439</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>15</Value>
+                            <Desc/>
+                            <Total>532</Total>
+                            <ID>25720</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>510.68</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>403.55</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>4439</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+                <RoomType>
+                    <RoomID>43162</RoomID>
+                    <MealBasisID>1</MealBasisID>
+                    <Name>Premium Beachfront Spa Suite Beachfront</Name>
+                    <Adults>2</Adults>
+                    <Children>0</Children>
+                    <Infants>0</Infants>
+                    <OnRequest>False</OnRequest>
+                    <SubTotal>5964</SubTotal>
+                    <Total>5341</Total>
+                    <RoomsAppliesTo>
+                        <RoomRequest>1</RoomRequest>
+                    </RoomsAppliesTo>
+                    <Supplements>
+                        <Supplement>
+                            <Name>EIR Direct</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>15</Total>
+                        </Supplement>
+                        <Supplement>
+                            <Name>test</Name>
+                            <Duration>Per Holiday</Duration>
+                            <Multiplier>Per Room</Multiplier>
+                            <PaxType/>
+                            <Total>0</Total>
+                        </Supplement>
+                    </Supplements>
+                    <SpecialOffers>
+                        <SpecialOffer>
+                            <Name>Early Bird Discount %</Name>
+                            <Type>Discount Percentage</Type>
+                            <PaxType>Adult Only</PaxType>
+                            <Value>15</Value>
+                            <Desc/>
+                            <Total>638</Total>
+                            <ID>25720</ID>
+                        </SpecialOffer>
+                    </SpecialOffers>
+                    <Taxes>
+                        <Tax>
+                            <TaxName>Government Tax</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>614.45</Total>
+                        </Tax>
+                        <Tax>
+                            <TaxName>Service Charge</TaxName>
+                            <Inclusive>True</Inclusive>
+                            <Total>485.55</Total>
+                        </Tax>
+                    </Taxes>
+                    <CancellationPolicies>
+                        <CancellationPolicy>
+                            <CancelBy>2019-10-11</CancelBy>
+                            <Penalty>5341</Penalty>
+                        </CancellationPolicy>
+                    </CancellationPolicies>
+                </RoomType>
+            </RoomTypes>
+            <PropertyName>Galley Bay Resort  Spa</PropertyName>
+            <GiataID>13073</GiataID>
+            <Currency>USD</Currency>
+            <Rating>4.5</Rating>
+            <GeographyLevel1ID>1</GeographyLevel1ID>
+            <GeographyLevel2ID>1</GeographyLevel2ID>
+            <GeographyLevel3ID>1</GeographyLevel3ID>
+            <Country>Global</Country>
+            <Region>Antigua</Region>
+            <Resort>Antigua</Resort>
+            <Strapline>Antigua’s most exotic hideaway...</Strapline>
+            <Description>Galley Bay Resort  Spa, located just 20 minutes from Antigua’s V.C. Bird International Airport (ANU), defines Caribbean beachfront ease. An intimate hideaway for discerning travellers who want a refined yet unpretentious experience, this all-inclusive, adults-only, beachfront resort is situated on 40 acres of private paradise, surrounded by a bird sanctuary and a three-quarter-mile-long stretch of beach on the sunset side of Antigua.  A Green Globe Certified resort, Galley Bay offers a number of eco-friendly, on-property initiatives, including a reverse osmosis water purification plant, the use of recycled paper products and energy-efficient lighting throughout the resort.  
+
+Galley Bay Resort  Spa has adopted an adults-only policy. All guests must be 16 years of age or older.    
+
+ACCOMMODATION	
+Galley Bay’s 98 rooms and suites include Deluxe Beachfront rooms, Superior Deluxe beachfront rooms, Premium Beachfront Suites and Gauguin Suites.  A majority of the resort’s rooms have direct beach access.  All guestrooms feature air conditioning, ceiling fans, satellite television, mini refrigerators, ample-sized closets, coffee makers, hair dryers, safes, radio alarm clocks, direct-dial telephones and oversized chaise lounges on terraces and balconies.
+
+Deluxe Beachfront rooms feature walk-in closets and en suite bathrooms with showers. Balconies or large beach patios offer stunning ocean views.
+
+Superior Deluxe Beachfront rooms are the same as above but single story.
+
+Premium Beachfront Suites offer living rooms with wet bars and floor-to-ceiling windows, private furnished terraces or balconies, wall-mounted LCD televisions, DVD players, iPod alarm clocks, wireless Internet access and individual climate control.  Baths feature Gilchrist  Soames luxury amenities, oversized bathtubs and his-and-her showers.  
+
+Premium Spa Suites as above with the addition of 5 spa treatments per week. Treatments are non-transferable and are not included on the day of arrival or departure.
+
+The Gauguin Suites are situated on the edge of a bird sanctuary lagoon, starting just 50 yards from the beach. Each romantic suite consists of two rondovals with a large enclosed air conditioned sitting area that provides views of the garden and plunge pool - one rondoval is the bedroom - the other a bath/dressing room (shower only).  The Gauguin Suites have cool white tile flooring with stone accents. Each Gauguin Suite has a plunge pool which is either rectangular or freeform in shape, each one concealed from its neighbour by a combination of the lush tropical vegetation and screens made from natural wood branches. Flanked by paved sun decks with outdoor showers they measure either 7 ft. by 9 ft. or 7 ft. by 13 ft. and are either step-up or level to the ground.  
+Maximum occupancy: 2 persons
+
+DINING	
+Galley Bay has three open-air, beachfront restaurants and a casual beachside grill.  Menus offer Euro-Caribbean cuisine, featuring fresh, local produce and seafood. 
+
+The resort’s award-winning Executive Chef Andrew “Stan” Baxter has won several gold medals and was trained at London’s Dorchester Hotel and Ritz Casino, among other fine restaurants. 
+
+The Seagrape, a restaurant serving breakfast, lunch and dinner, blends European culinary techniques with tropical Caribbean and Creole flavours, such as citrus-roasted pork shoulder with pumpkin and cilantro pilaf and a grenadine glaze as well as escalope of snapper with home-grown eggplant caponata and a cherry tomato confit.  The casual, beachside experience comes complete with live, steel drum music, and soothing sounds of the resort’s newly added waterfall mixed with Caribbean waves lapping upon the shore.  
+
+The Gauguin, a more intimate restaurant, serves lunch and dinner in beachside, thatched cabanas for two.  Dishes are inspired by European and West Indian cuisine.  Highlights include island-style goat curry with red beans and corn meal-crusted chicken with mango and spinach stuffing. 
+
+Ismay’s, a dining option for a special occasion, is a restaurant surrounded by tropical gardens along the resort’s white-sand beach.  Named after a popular 49-year resort team member, Ismay Mason, Ismay’s incorporates the island’s fresh, local ingredients into its menu. Favourites include pressed duck and liver with a smoked beef brisket and oregano brioche as well as grill-seared swordfish with a saffron mash maltaise sauce and olives. For a spot of romantic stargazing guests can enjoy the new telescope at Ismay’s restaurant. The dining surcharge for Ismay’s is $45 per guest + tax.
+
+In addition to serving three delicious meals, the resort also provides afternoon tea, evening hors d’oeuvres, top-shelf beverages, live entertainment, cocktail parties and a Caribbean beachside barbeque on Thursday evenings.
+
+The Barefoot Beach Grill, the latest addition to Galley Bay’s culinary offerings, offers guests a relaxed and laid-back, beachside atmosphere.  Open daily for lunch, the Barefoot Grill serves up hot and tasty “basket-style” sandwiches such as the classic Cuban as well as grilled quesadillas. 
+
+DRESS CODE	
+Breakfast  Lunch: Shoes must be worn at all times and bathing suits must be covered and dry.
+
+Dinner: Men are required to wear collared shirts with long trousers or stylish jeans. T-shirts, shorts, caprise and ripped jeans are not accepted. We ask that women wear dresses, skirts, long trousers or stylish tailored shorts or jeans. No short shorts, tank tops or beach flip-flops are allowed.
+
+For all guests in June, July and August: Tailored Bermuda-length shorts (no short shorts or cutoffs) can be worn.
+
+BARS AND LOUNGES	
+The Tee Pee Bar is an informal, seaside bar best known for its signature drink, the Antigua kiss. The Gauguin Bar, a part of The Gauguin restaurant, offers drinks both pre- and post-lunch and dinner. The Lounge Bar opens at lunchtime and serves cocktails, hors d’oeuvres and live entertainment well into the night.
+
+SPA 	
+Indulge Spa is surrounded by the bird sanctuary and lagoon and features tree-top treatment rooms.  The spa offers an extensive range of therapeutic, rejuvenating treatments using Pevonia Botanic skincare products.  Treatments range from body wraps and facials to a romantic Swedish massage for two.  An a la carte spa menu is available upon request.	
+
+ACTIVITIES	
+Guests can stroll the three-quarter-mile-long, white-sand beach; sail; take a sea kayak; sunbathe by the resort’s pool and waterfall; enjoy tennis, billiards or table tennis; or play a traditional game of lawn tennis, croquet or horseshoes at no extra charge. Work out at the state of the art fitness centre, twice the size of the old gym it gives guests a more spacious experience with additional machines, a shower room and toilet facilities. Lagoon fishing, bicycle rentals, on-property vegetable and herb garden tours and Internet access in communal areas are also complimentary for guests.  
+
+For an additional fee, island excursions can be arranged, including tours of historic St. John’s as well as diving and snorkelling excursions in the tranquil, emerald waters of the Caribbean Sea.
+
+USEFUL INFORMATION
+Please note guests are required to present a valid form of ID (passport, driving license, ID card) along with a valid credit card at check-in. At check-in a US$350 pre-authorisation will be processed on your card to cover any incidental purchases or similar expenses. Incidental purchases may include things like tours, excursions, gift shop purchases, and dining in our specialty restaurant. We understand that not all guests incur additional charges during their stay, but this process assists the resort with fraud prevention. The pre-authorisation is released at check-out, assuming you have not charged any purchases to your room.</Description>
+            <CMSBaseURL>http://www.rmidirect.co.uk/custom/content/</CMSBaseURL>
+            <MainImage>CMSImage_616.jpg</MainImage>
+            <MainImageThumbnail>CMSImageThumb_616.jpg</MainImageThumbnail>
+            <Images>
+                <Image>
+                    <FullSize>CMSImage_534.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_534.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_538.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_538.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_617.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_617.jpg</Thumbnail>
+                </Image>
+                <Image>
+                    <FullSize>CMSImage_618.jpg</FullSize>
+                    <Thumbnail>CMSImageThumb_618.jpg</Thumbnail>
+                </Image>
+            </Images>
+        </PropertyResult>
+    </PropertyResults>
+</SearchResponse>
