@@ -1,10 +1,13 @@
 <?php
 
-$a = array(1,2,3);
-$b = array(3,5,5);
-$c = 'ABC';
+$string1 = "ABCDE";
 
-// var_dump(md5($a.$b.$c)==md5($b.$a.$c));
+$string2 =null;
+echo md5($string2);
+echo PHP_EOL;
 
-echo json_encode([$a,$b]);
-echo json_encode($a);
+echo $hash = md5(md5($string1).md5($string2));
+echo PHP_EOL;
+echo $newHash = md5(md5($string1));
+
+var_dump($hash === $newHash);
