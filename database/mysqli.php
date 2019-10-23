@@ -73,7 +73,7 @@ $stmt->execute();
 
 
 $result = $stmt->get_result();
-$row = $result->fetch_all(MYSQLI_ASSOC);
+$row = $result->fetch_all(MYSQLI_ASSOC); 
 // $row = mysqli_fetch_all($result, MYSQLI_ASSOC);
 var_dump($row);
 $result->close();
