@@ -1,5 +1,6 @@
 <?php
-/* RESTful·þÎñÀà*/
+/* RESTfulï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
+namespace Site;
 Class Site
 {
 	private $sites = array(
