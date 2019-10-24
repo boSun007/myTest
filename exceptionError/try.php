@@ -1,6 +1,7 @@
 <?php
 $data = ["C", "F"];
 try {
+    $a = 3/0;
     if (!is_numeric($data[1])) {
         throw new \Exception("this line is not valid: line", 985);
     }
@@ -9,4 +10,4 @@ try {
     echo $e->getMessage();
 }
 
-$a = "abcde";
+echo $a = "abcde";
