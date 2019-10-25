@@ -1,6 +1,6 @@
 <?php
 /* RESTful������*/
-namespace Site;
+namespace restful\demo1;
 Class Site
 {
 	private $sites = array(

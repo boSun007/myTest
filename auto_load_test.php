@@ -1,12 +1,29 @@
 <?php
-include 'autoload.php';
+
+/**
+ * namespace in the class are used for use 
+ * e.g
+ * namespace restful\demo1;
+ * Class Site{}
+ * 
+ * then when you new the Site(), 
+ * the use restful\demo1\Site will be auto generated
+ */
+
 
 
 
 use restful\demo1\Site;
+
+include 'autoload.php';
+
+
+
+// use restful\demo1\Site;
 // include 'C:\Users\Bo Sun\Documents\Bo\myTest\restful\demo1\Site.php';
+// $site = new Site();
 $site = new Site();
- 
+
 var_dump($site);
 die();
 
