@@ -14,86 +14,86 @@ $conn =  sqlsrv_connect($host, $dbSettings) or die(print_r(sqlsrv_errors()));
 
 
 
-/**************selsect *********************/
-$rtn = array();
-$sql = 'select * from XMLBookingLogin where XMLBookingLoginID >20';
-$result = sqlsrv_query($conn, $sql);
-while ($row = sqlsrv_fetch_array($result, SQLSRV_FETCH_ASSOC)) {
-  $rtn[] = $row;
-}
+// /**************selsect *********************/
+// $rtn = array();
+// $sql = 'select * from XMLBookingLogin where XMLBookingLoginID >20';
+// $result = sqlsrv_query($conn, $sql);
+// while ($row = sqlsrv_fetch_array($result, SQLSRV_FETCH_ASSOC)) {
+//   $rtn[] = $row;
+// }
 
-// var_dump($rtn);
-
-
-/**************selsect ADV*********************/
-$rtn = array();
-$sql = 'select * from XMLBookingLogin where XMLBookingLoginID >?';
-$arr = [75];
-$result = sqlsrv_query($conn, $sql, $arr);
-while ($row = sqlsrv_fetch_array($result, SQLSRV_FETCH_ASSOC)) {
-  $rtn[] = $row;
-}
-
-// var_dump($rtn);
+// // var_dump($rtn);
 
 
+// /**************selsect ADV*********************/
+// $rtn = array();
+// $sql = 'select * from XMLBookingLogin where XMLBookingLoginID >?';
+// $arr = [75];
+// $result = sqlsrv_query($conn, $sql, $arr);
+// while ($row = sqlsrv_fetch_array($result, SQLSRV_FETCH_ASSOC)) {
+//   $rtn[] = $row;
+// }
 
-/**************selsect PARE STMT *********************/
-$rtn = array();
-$sql = 'select * from XMLBookingLogin where XMLBookingLoginID >?';
-$arr = [75];
-$result = sqlsrv_prepare($conn, $sql, $arr);
-sqlsrv_execute($result);
-while ($row = sqlsrv_fetch_array($result, SQLSRV_FETCH_ASSOC)) {
-  $rtn[] = $row;
-}
-
-// var_dump($rtn);
+// // var_dump($rtn);
 
 
 
-/**************INSRT PARE  *********************/
-$rtn = false;
-$sql = 'INSERT INTO TransactionBlc(Customer,Amount,Currency,Email,Address,City,Tel,Postcode,Country,PSPID,TransTime) VALUES (?,?,?,?,?,?,?,?,?,?,?);';
+// /**************selsect PARE STMT *********************/
+// $rtn = array();
+// $sql = 'select * from XMLBookingLogin where XMLBookingLoginID >?';
+// $arr = [75];
+// $result = sqlsrv_prepare($conn, $sql, $arr);
+// sqlsrv_execute($result);
+// while ($row = sqlsrv_fetch_array($result, SQLSRV_FETCH_ASSOC)) {
+//   $rtn[] = $row;
+// }
 
-$arr = json_decode('["Mr test test","314065","GBP","test@ser.se","asdf","asdfds","01245785477","se123se","UK","epdq7169243","1571754306"]');
-
-$resource = sqlsrv_query($conn, $sql, $arr);
-if ($resource !== false) {
-  $rtn = true;
-}
-// var_dump($rtn);
-
-/**************INSRT PARE  With Last Insert ID *********************/
-$rtn = array();
-$sql = 'INSERT INTO TransactionBlc(Customer,Amount,Currency,Email,Address,City,Tel,Postcode,Country,PSPID,TransTime) VALUES (?,?,?,?,?,?,?,?,?,?,?);';
-$sql .= 'SELECT SCOPE_IDENTITY() as [IDc];';
-
-$arr = json_decode('["Mr test test","314065","GBP","test@ser.se","asdf","asdfds","01245785477","se123se","UK","epdq7169243","1571754306"]');
-
-$resource = sqlsrv_query($conn, $sql, $arr);
+// // var_dump($rtn);
 
 
-sqlsrv_next_result($resource);
-sqlsrv_fetch($resource);
-$lastInsertID = sqlsrv_get_field($resource, 0);
-// echo $lastInsertID;
 
-// die();
+// /**************INSRT PARE  *********************/
+// $rtn = false;
+// $sql = 'INSERT INTO TransactionBlc(Customer,Amount,Currency,Email,Address,City,Tel,Postcode,Country,PSPID,TransTime) VALUES (?,?,?,?,?,?,?,?,?,?,?);';
+
+// $arr = json_decode('["Mr test test","314065","GBP","test@ser.se","asdf","asdfds","01245785477","se123se","UK","epdq7169243","1571754306"]');
+
+// $resource = sqlsrv_query($conn, $sql, $arr);
+// if ($resource !== false) {
+//   $rtn = true;
+// }
+// // var_dump($rtn);
+
+// /**************INSRT PARE  With Last Insert ID *********************/
+// $rtn = array();
+// $sql = 'INSERT INTO TransactionBlc(Customer,Amount,Currency,Email,Address,City,Tel,Postcode,Country,PSPID,TransTime) VALUES (?,?,?,?,?,?,?,?,?,?,?);';
+// $sql .= 'SELECT SCOPE_IDENTITY() as [IDc];';
+
+// $arr = json_decode('["Mr test test","314065","GBP","test@ser.se","asdf","asdfds","01245785477","se123se","UK","epdq7169243","1571754306"]');
+
+// $resource = sqlsrv_query($conn, $sql, $arr);
+
+
+// sqlsrv_next_result($resource);
+// sqlsrv_fetch($resource);
+// $lastInsertID = sqlsrv_get_field($resource,0);
+// // echo $lastInsertID;
+
+// // die();
 
 
 /**************INSRT PARE With Array  *********************/
 
 $rtn = false;
 
-$sql = 'INSERT INTO TransactionBlc(Customer,Amount,Currency,Email,Address,City,Tel,Postcode,Country,PSPID,TransTime) VALUES (?,?,?,?,?,?,?,?,?,?,?);';
+$sql = 'INSERT INTO TransactionBlc(Customer,Amount,Currency,Email,Address,City,Tel,Postcode,Country,PSPID,TransTime) OUTPUT INSERTED.ID VALUES (?,?,?,?,?,?,?,?,?,?,?);';
 
 $values = [
   ["Mr test test1", "314065", "GBP", "test@ser.se", "asdf", "asdfds", "01245785477", "se123se", "UK", "epdq7169243", "1571754306"],
   ["Mr test test2", "314065", "GBP", "test@ser.se", "asdf", "asdfds", "01245785477", "se123se", "UK", "epdq7169243", "1571754306"],
   ["Mr test test3", "314065", "GBP", "test@ser.se", "asdf", "asdfds", "01245785477", "se123se", "UK", "epdq7169243", "1571754306"],
 ];
-
+ 
 if (count($values) == count($values, 1)) {
   $stmt = sqlsrv_query($conn, $sql, $values);
 } else {
@@ -101,6 +101,11 @@ if (count($values) == count($values, 1)) {
     $stmt = sqlsrv_query($conn, $sql, $value);
   }
 }
+echo $lastInsertID = sqlsrv_fetch_array($stmt,SQLSRV_FETCH_ASSOC)['ID'];
+
+
+
+
 
 /** INSERT MULT Pare WITH STMT  */
 $rtn = false;
