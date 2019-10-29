@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "hollo"
+myName="Bo"
+echo $myName
+declare -r NUM=5; #this is constant
+echo $NUM
+#NUM=6
+num2=7;
+echo num3=$NUM+$num2;
+
+echo num3=$((NUM+num2));
