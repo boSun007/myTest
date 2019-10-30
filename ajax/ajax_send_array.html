@@ -1,24 +1,19 @@
-    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-<button type="button" name ="submit" onclick ="send()">Button</button>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<button type="button" name="submit" onclick="send()">Button</button>
 
 <script>
-function send(){
-var arr = { "jim": "11", "tom": "12", "lilei": "13", };
-$.ajax({
-	type:"POST",
-	url: "index.php",
-	dataType:"Json",
-	data:{po:arr},
-	success: function(data){
-	alert(data.msg);
+	function send() {
+		var arr = { "jim": "11", "tom": "12", "lilei": "13", };
+		$.ajax({
+			type: "POST",
+			url: "index.php",
+			dataType: "Json",
+			data: { po: arr },
+			success: function (data) {
+				$.each(data, function (key, value) {
+					alert(value.jim);
+				});
+			}
+		});
 	}
-
-
-
-
-});
-
-
-}
-
 </script>
