@@ -22,42 +22,42 @@ print_r($a);
 
 
 
-exit;
+// exit;
 
   
 $red = new redis();
-$red->connect('192.168.10.103');
+$red->connect('127.0.0.1');
 $red->select(14);
 
-// $red->set('a','A');
-// $red->set('b','B');
-// $red->set('c','C');
-// $red->set('d','D');
-// $red->set('e','E');
-// $red->set('f','F');
-// $red->set('g','G');
-// $red->set('h','H');
-// $red->set('i','I');
-// $red->set('j','J');
-// $red->set('k','K');
-// $red->set('l','L');
-// $red->set('m','M');
-// $red->set('n','N');
-// $red->set('o','O');
-// $red->set('p','P');
-// $red->set('q','Q');
-// $red->set('r','R');
-// $red->set('s','S');
-// $red->set('t','T');
-// $red->set('u','U');
-// $red->set('v','V');
-// $red->set('w','W');
-// $red->set('x','X');
-// $red->set('y','Y');
-// $red->set('z','Z');
+$red->set('a','A');
+$red->set('b','B');
+$red->set('c','C');
+$red->set('d','D');
+$red->set('e','E');
+$red->set('f','F');
+$red->set('g','G');
+$red->set('h','H');
+$red->set('i','I');
+$red->set('j','J');
+$red->set('k','K');
+$red->set('l','L');
+$red->set('m','M');
+$red->set('n','N');
+$red->set('o','O');
+$red->set('p','P');
+$red->set('q','Q');
+$red->set('r','R');
+$red->set('s','S');
+$red->set('t','T');
+$red->set('u','U');
+$red->set('v','V');
+$red->set('w','W');
+$red->set('x','X');
+$red->set('y','Y');
+$red->set('z','Z');
 
 // $a =  $red->del('a','b','c','d','e','f');
-$red->del($keysNeedToDelete);
+$red->del(...$keysNeedToDelete);
 
 // call_user_func_array("myfunc",$keysNeedToDelete);
 
