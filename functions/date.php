@@ -1,4 +1,15 @@
 <?php
+$Date_1 = "2020-04-01";
+$Date_2 = "2020-03-11";
+$d1 = strtotime($Date_1);
+$d2 = strtotime($Date_2);
+$Days = round(($d2 - $d1) / 3600 / 24);
+echo "今天与2008年10月11日相差" . $Days . "天";
+die();
+
+
+
+
 
 $firstday = date("Y-m-01", strtotime(date("Y-m-d")));
 echo $firstday;
