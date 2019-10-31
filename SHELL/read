@@ -1,0 +1,40 @@
+#!/bin/bash
+
+read -p "What is your name?" name
+echo "hello $name"
+
+read -p "What is your age?" age
+echo "AGE $age"
+# -ge:>=	ne:!=	le:<=	lt:<	gt >
+if [ $age -ge 16 ]
+then
+	echo "You age is greater or equte to 16"
+elif [ $age -lt 16 ]
+then
+	echo "Your age is equte to 11"
+else
+	echo "Your age is less than 11"
+fi
+
+
+
+read -p "Enter a number: " num
+if ((num == 10)); then
+	echo "your number equals 10"
+fi
+
+if ((num >10)); then
+	echo "it is greater then 10"
+else
+	echo "it is less then ten"
+fi
+
+if (( ((num % 2)) == 0)); then
+	echo "it is i even"
+fi
+
+
+
+if (( ((num > 0)) && ((num < 20)) )); then
+	echo "$num is between 1 and 20"
+fi

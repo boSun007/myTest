@@ -1,8 +1,16 @@
-disdfj asdf asdfjoisadjfos df
-sdfjasodf aosdfj osadfjo 
-oaisdjfas fasd fosadfj safas df
-asd
-fas
-df
-sadf
-ass sdaf sadfjsoadf 
+#!/bin/bash
+num7=1.2
+num8=3.4
+num9=$(python -c "print $num7+$num8")
+echo $num9
+# echo $((num7+num8)) #this is not work as can not do float number
+# num10=$(php -f "echo $num7+$num8;") #need to figure out why & how
+echo $num10
+echo $num7+$num8
+cat<< END
+this is print 
+multiline 
+and many
+lines
+END
+

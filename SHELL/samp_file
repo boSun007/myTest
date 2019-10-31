@@ -1,0 +1,5 @@
+touch samp_file && chmod +x samp_file && vim samp_file
+
+#if the samp_dir not exit then create the folder
+[ -d samp_dir ] || mkdir samp_dir
+
