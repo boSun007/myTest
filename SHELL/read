@@ -30,7 +30,7 @@ else
 fi
 
 if (( ((num % 2)) == 0)); then
-	echo "it is i even"
+	echo "it is a even"
 fi
 
 
