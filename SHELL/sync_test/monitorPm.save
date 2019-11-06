@@ -1,0 +1,12 @@
+inotifywait -m -r /home/bo/sync_test/pm/ -e modify,attrib,move,create,delete | 
+while read path action file; do
+echo "appeared in directory '$path' via '$action'"
+rsync -avu --delete /home/bo/sync_test/pm/ /home/bo/sync_test/bk/
+#do something with the fine
+done
+
+inotifywait -m /path -e create -e moved_to |
+    while read path action file; do
+        echo "The file '$file' appeared in directory '$path' via '$action'"
+        # do something with the file
+    done
