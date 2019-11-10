@@ -2,6 +2,10 @@
     "require": {
         "predis/predis": "^1.1",
         "justinrainbow/json-schema": "^5.2",
+<<<<<<< HEAD
         "elasticsearch/elasticsearch": "^7.3"
+=======
+        "php-amqplib/php-amqplib": "^2.10"
+>>>>>>> f7c126280e4786ceff797e23164e2d0d4001665c
     }
 }
