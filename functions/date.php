@@ -1,4 +1,13 @@
 <?php
+$day = "2019-11-08 10:27:35";
+
+$date = new DateTime($day);
+$week = $date->format('W');
+echo $date->format('w');
+die();
+
+
+
 $Date_1 = "2020-04-01";
 $Date_2 = "2020-03-11";
 $d1 = strtotime($Date_1);

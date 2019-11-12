@@ -8,6 +8,7 @@
    <SearchDetails>
       <ArrivalDate>2020-08-01</ArrivalDate>
       <Duration>5</Duration>
+      <PropertyID>17</PropertyID>
       <Properties>
          <PropertyID>17</PropertyID>
          <PropertyID>19</PropertyID>

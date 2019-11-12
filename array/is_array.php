@@ -1,4 +1,10 @@
 <?php
+$a = ['abc'];
+
+foreach((array)$a as $c){
+    echo $c;
+}
+die();
 
 $a = new stdClass();
 $a->a=['a','b'];
