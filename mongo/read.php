@@ -13,7 +13,6 @@ try{
     foreach($rows as $row){
         echo "$row->_id : $row->title".PHP_EOL;
     }
-    var
 }catch(Exception $e){
     $filename = basename(__FILE__);
      echo $filename.PHP_EOL;
