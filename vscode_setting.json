@@ -1,4 +1,4 @@
- {
+{
     "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "editor.minimap.enabled": false,
@@ -42,6 +42,7 @@
         "meta",
         "mssql",
         "mysqli",
+        "mongodb",
         "oci8",
         "odbc",
         "openssl",
@@ -98,7 +99,7 @@
     "workbench.colorTheme": "Monokai",
    
     "workbench.colorCustomizations": {
-        "tab.activeBackground": "#FF7042", //自定义背景色
+        "tab.activeBackground": "#119705", //自定义背景色
         "activityBarBadge.background": "#FF7042",
         "list.activeSelectionForeground": "#FF7042",
         "list.inactiveSelectionForeground": "#FF7042",
@@ -127,5 +128,6 @@
     "editor.formatOnSaveTimeout": 20,
     "extensions.ignoreRecommendations": false,
     "extensions.autoUpdate": false,
+    "emmet.showExpandedAbbreviation": "never",
    
 }
