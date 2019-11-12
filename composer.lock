@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "content-hash": "c5d8bd16b5f08bb08c298f7bee72b9cc",
-=======
-    "content-hash": "8cdcc06e016b5f96d954b5197096f891",
->>>>>>> f7c126280e4786ceff797e23164e2d0d4001665c
+    "content-hash": "26069658d5440f9a93a0e4f2bf264e07",
     "packages": [
         {
             "name": "elasticsearch/elasticsearch",
