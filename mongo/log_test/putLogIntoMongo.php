@@ -32,8 +32,9 @@ function putLogsIntoMongo($logs){
         $log['_id']= $log['RequestID'];
         try{
             $log['RawQuery'] = simplexml_load_string(preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;',  $log['RawQuery']));
+            // echo $log['RequestID'].PHP_EOL;
         }catch(Exception $e){
-            die('Have Problem with parse the XML, RequestID: '.$log['RequestID'].$e->getMessage());
+            echo ('Have Problem with parse the XML, RequestID: '.$log['RequestID'].' - '.$e->getMessage()).PHP_EOL;
         }
         unset($log['ResponseXML']);
         // $bulk->insert($log); //just insert without duplicate update
@@ -47,8 +48,9 @@ function putLogsIntoMongo($logs){
 
 
 function getLogsFromDatabase(){
-    $query = 'SELECT * FROM LogXMLAPI ORDER BY RequestID';
-    $query = 'SELECT * FROM LogXMLAPI_Dev ORDER BY RequestID';
+    $query = 'SELECT * FROM `2019-46-LogXMLAPILive` ORDER BY RequestID';
+    // $query = 'SELECT * FROM LogXMLAPI_Dev ORDER BY RequestID';
+    // $query = 'SELECT * FROM LogXMLAPI ORDER BY RequestID';
     $result = mysqlClass::gi()->query($query);
     // var_dump($result);
     return mysqli_fetch_all($result, MYSQLI_ASSOC); 
