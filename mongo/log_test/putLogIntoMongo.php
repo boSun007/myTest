@@ -16,7 +16,6 @@ set_error_handler(function($errno, $errstr, $errfile, $errline, array $errcontex
     });
 
 
-
     
 $logs = getLogsFromDatabase();
 
@@ -48,9 +47,9 @@ function putLogsIntoMongo($logs){
 
 
 function getLogsFromDatabase(){
-    $query = 'SELECT * FROM `2019-46-LogXMLAPILive` ORDER BY RequestID';
+    //$query = 'SELECT * FROM `2019-46-LogXMLAPILive` ORDER BY RequestID';
     // $query = 'SELECT * FROM LogXMLAPI_Dev ORDER BY RequestID';
-    // $query = 'SELECT * FROM LogXMLAPI ORDER BY RequestID';
+    $query = 'SELECT * FROM `LogXMLAPI` ORDER BY RequestID';
     $result = mysqlClass::gi()->query($query);
     // var_dump($result);
     return mysqli_fetch_all($result, MYSQLI_ASSOC); 
