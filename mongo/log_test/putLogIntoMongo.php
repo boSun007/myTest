@@ -17,10 +17,11 @@ set_error_handler(function($errno, $errstr, $errfile, $errline, array $errcontex
 
 
 
+    
 $logs = getLogsFromDatabase();
 
 $rs = putLogsIntoMongo($logs);
-
+var_dump($rs);
 
 
 function putLogsIntoMongo($logs){
