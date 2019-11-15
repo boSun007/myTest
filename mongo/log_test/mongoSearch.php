@@ -10,9 +10,26 @@ $mongo = mongoClass::gi();
 
 /********************** USE _id Search *************************************/
 
-$_id = 3;
-$id = new ObjectId($_id);
-$options = [];
+$filter = [
+    'RequestID'=>
+        [
+            '$eq' => '99999',
+            
+        ],
+    'RawQuery.LoginDetails.Login'=>
+    [
+        '$eq' => 'Yalago',
+        
+    ],
+     
+    ]; 
+
+    $options = [];
+
+
+
+
+
 $query = new Query($filter,$options);
 
 $rows = $mongo->executeQuery('log.test',$query)->toArray();

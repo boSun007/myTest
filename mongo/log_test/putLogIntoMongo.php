@@ -36,18 +36,20 @@ function putLogsIntoMongo($logs){
             echo ('Have Problem with parse the XML, RequestID: '.$log['RequestID'].' - '.$e->getMessage()).PHP_EOL;
         }
         unset($log['ResponseXML']);
+
+    die(var_dump( $log['RawQuery']));
         // $bulk->insert($log); //just insert without duplicate update
         $bulk->update(['_id'=>$log['RequestID']],$log,['upsert'=>true]);
         
     }
 
-   return $mongo->executeBulkWrite('log.test',$bulk);
+   return $mongo->executeBulkWrite(mongoClass::$database.'.'.mongoClass::$collections,$bulk);
 
 }
 
 
 function getLogsFromDatabase(){
-    //$query = 'SELECT * FROM `2019-46-LogXMLAPILive` ORDER BY RequestID';
+    // $query = 'SELECT * FROM `2019-46-LogXMLAPILive` ORDER BY RequestID';
     // $query = 'SELECT * FROM LogXMLAPI_Dev ORDER BY RequestID';
     $query = 'SELECT * FROM `LogXMLAPI` ORDER BY RequestID';
     $result = mysqlClass::gi()->query($query);
