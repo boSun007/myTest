@@ -20,16 +20,24 @@ set_error_handler(function($errno, $errstr, $errfile, $errline, array $errcontex
 $logs = getLogsFromDatabase();
 
 $rs = putLogsIntoMongo($logs);
-var_dump($rs);
+// var_dump($rs);
 
 
 function putLogsIntoMongo($logs){
     $mongo = mongoClass::gi();
     $bulk = new BulkWrite();
+    // var_dump($logs[26]);
+    // die();
+
+    $document = new DOMDocument();
 
     foreach($logs as $log){
         $log['_id']= $log['RequestID'];
         try{
+
+            $document->loadXML($log['RawQuery']);
+            // var_dump($document);die();
+
             $log['RawQuery'] = simplexml_load_string(preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;',  $log['RawQuery']));
             // echo $log['RequestID'].PHP_EOL;
         }catch(Exception $e){
@@ -37,7 +45,8 @@ function putLogsIntoMongo($logs){
         }
         unset($log['ResponseXML']);
 
-    die(var_dump( $log['RawQuery']));
+    // die(var_dump( $log['RawQuery']));
+    // die(var_dump( $log));
         // $bulk->insert($log); //just insert without duplicate update
         $bulk->update(['_id'=>$log['RequestID']],$log,['upsert'=>true]);
         
