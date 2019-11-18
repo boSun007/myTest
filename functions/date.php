@@ -1,4 +1,8 @@
 <?php
+$today = '2020-01-03';
+echo $lastday = date("Y-m-d", strtotime($today . " +2 day "));
+die();
+
 $day = "2019-11-08 10:27:35";
 
 $date = new DateTime($day);
