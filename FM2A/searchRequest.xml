@@ -8,7 +8,7 @@
    <SearchDetails>
       <ArrivalDate>2020-08-01</ArrivalDate>
       <Duration>5</Duration>
-    <PropertyID>crys03</PropertyID>
+    <!-- <PropertyID>crys03</PropertyID> -->
       <Properties>
          <PropertyID>crys03</PropertyID>
          <PropertyID>dewa05</PropertyID>

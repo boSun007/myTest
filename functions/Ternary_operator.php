@@ -13,7 +13,7 @@ $c=3;
       // var_dump($otherCondition);
       
       $a=false;
-      $b=false;
+      $b=true;
 
       $res = $a?'Y':$b?'a':'b';
 

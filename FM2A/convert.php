@@ -25,11 +25,15 @@ class convert
     {
         $this->parseSearchRequest($xml);
         $FM2AResponse = $this->getFM2AResponse();
-        $response = \simplexml_load_string($FM2AResponse);
-
-        var_dump($response);
-
+        $this->parseSearchResponse($FM2AResponse);
         
+
+    }
+
+    private function parseSearchResponse($xml){
+        $xml=preg_replace('/&(?!#?[a-z0-9]+;)/', '&amp;', $xml);
+        $response = \simplexml_load_string($xml);
+var_dump($response);
     }
 
     private function parseSearchRequest($xml)
@@ -76,12 +80,13 @@ class convert
     {
         $this->region[] = $searchDetails->RegionID ? $searchDetails->RegionID : false;
         // $subRegion = $searchDetails->SubRegionID?$searchDetails->SubRegionID:false;
-        $this->propcode = $searchDetails->Properties ? $searchDetails->Properties : $searchDetails->PropertyID ? $searchDetails->PropertyID : false;
-        $searchDetails->PropertyID=false;
-        // die(var_dump($searchDetails->PropertyID));
-        die(var_dump($searchDetails->Properties ?$searchDetails->Properties:$searchDetails->PropertyID));
-        die(var_dump($searchDetails->Properties ?$searchDetails->Properties:$searchDetails->PropertyID?$searchDetails->PropertyID:'N'));
-        die(var_dump($searchDetails->Properties));
+        // $this->propcode = $searchDetails->Properties ? $searchDetails->Properties : $searchDetails->PropertyID ? $searchDetails->PropertyID : false;
+        // $searchDetails->PropertyID=false;
+        // die(var_dump(isset($searchDetails->PropertyID)));
+        // die(var_dump($searchDetails->Properties ?$searchDetails->Properties:$searchDetails->PropertyID));
+        // die(var_dump($searchDetails->Properties ? $searchDetails->Properties:$searchDetails->PropertyID?$searchDetails:'N'));
+        $this->propcode = $searchDetails->Properties ? $searchDetails->Properties->PropertyID:(isset($searchDetails->PropertyID)?$searchDetails->PropertyID:false);
+        
     }
 
 
@@ -101,7 +106,7 @@ class convert
     {
         $searchRequestXML = $this->makeSearchRequestXML();
 
-        $this->postFM2ARequest($searchRequestXML);
+        return $this->postFM2ARequest($searchRequestXML);
     }
 
     private function postFM2ARequest($searchRequestXML)
@@ -120,20 +125,8 @@ class convert
           CURLOPT_TIMEOUT => 30,
           CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
           CURLOPT_CUSTOMREQUEST => "POST",
-        //   CURLOPT_POSTFIELDS => "<AVAILALLSEARCH><AGENT>VIR</AGENT><CHECKINDATE>20200801</CHECKINDATE><CHECKOUTDATE>20200806</CHECKOUTDATE><SRC>UKD</SRC><AVAIL>True</AVAIL><REGIONS></REGIONS><PROPCODE>crys03</PROPCODE><SEARCHES><SEARCH><SEARCHID>1</SEARCHID><ROOMQTY>1</ROOMQTY><ADULTS>2</ADULTS><CHILDS><CHILDAGE>8</CHILDAGE><CHILDAGE>3</CHILDAGE></CHILDS></SEARCH><SEARCH><SEARCHID>2</SEARCHID><ROOMQTY>1</ROOMQTY><ADULTS>2</ADULTS><CHILDS><CHILDAGE>8</CHILDAGE><CHILDAGE>8</CHILDAGE></CHILDS></SEARCH></SEARCHES></AVAILALLSEARCH>",
           CURLOPT_POSTFIELDS => $searchRequestXML,
-          CURLOPT_HTTPHEADER => array(
-            "Accept: */*",
-            "Accept-Encoding: gzip, deflate",
-            "Cache-Control: no-cache",
-            "Connection: keep-alive",
-            "Content-Length: 499",
-            "Content-Type: application/xml",
-            "Host: v3vir.xml.cullinan.systems",
-            "Postman-Token: bb9e531a-0afc-437b-9944-d0b270b24610,6b2431ad-16b2-4b25-8374-61380f489233",
-            "User-Agent: PostmanRuntime/7.19.0",
-            "cache-control: no-cache"
-          ),
+          
         ));
         
         $response = curl_exec($curl);
