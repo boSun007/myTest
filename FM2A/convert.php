@@ -77,8 +77,9 @@ class convert
         $this->region[] = $searchDetails->RegionID ? $searchDetails->RegionID : false;
         // $subRegion = $searchDetails->SubRegionID?$searchDetails->SubRegionID:false;
         $this->propcode = $searchDetails->Properties ? $searchDetails->Properties : $searchDetails->PropertyID ? $searchDetails->PropertyID : false;
-
+        $searchDetails->PropertyID=false;
         // die(var_dump($searchDetails->PropertyID));
+        die(var_dump($searchDetails->Properties ?$searchDetails->Properties:$searchDetails->PropertyID));
         die(var_dump($searchDetails->Properties ?$searchDetails->Properties:$searchDetails->PropertyID?$searchDetails->PropertyID:'N'));
         die(var_dump($searchDetails->Properties));
     }

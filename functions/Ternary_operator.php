@@ -10,4 +10,11 @@ $c=3;
 0!=$c?['logos.logo_length','=',$c]:null,
         ];
 
-		var_dump($otherCondition);
+      // var_dump($otherCondition);
+      
+      $a=false;
+      $b=false;
+
+      $res = $a?'Y':$b?'a':'b';
+
+      var_dump($res);
