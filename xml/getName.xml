@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <SOAP:Envelope xmlns:SOAP ="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+     <SOAP:Header/>
+     <SOAP:Body>
+         <GetServicesPricesAndAvailability xmlns="http://tempuri.org/">
+             <IncomingRequest>
+                 <VERSION_HISTORY LICENCE_KEY="8f7431ab-1347-4906-858b-f5f05815ba08" />
+                 <CLIENT_ID>1312</CLIENT_ID>
+                 <!-- static: do not change -->
+                 <ISMEALPLANSREQUIRED>1</ISMEALPLANSREQUIRED>
+                 <ReturnMatchCode>true</ReturnMatchCode>
+                 <IMAGENOTREQUIRED>1</IMAGENOTREQUIRED>
+                 <SEARCHWITHFACILITIES_OPTIONS>ALL</SEARCHWITHFACILITIES_OPTIONS>
+                 <GEO_LOCATION_TREE_REQUIRED>false</GEO_LOCATION_TREE_REQUIRED>
+                 <NotesRequired>false</NotesRequired>
+                 <HOTEL_CATEGORY_OPTIONS>ALL</HOTEL_CATEGORY_OPTIONS>
+                 <AVAILABLE_ONLY>true</AVAILABLE_ONLY>
+                 <GET_START_PRICE>true</GET_START_PRICE>
+                 <RETURN_ONLY_NON_ACCOM_SERVICES>false</RETURN_ONLY_NON_ACCOM_SERVICES>
+                 <DoNotReturnNonRefundable>false</DoNotReturnNonRefundable>
+                 <DoNotReturnWithCancellationPenalty>false</DoNotReturnWithCancellationPenalty>
+                 <IsServiceOptionDescriptionRequired>true</IsServiceOptionDescriptionRequired>
+                 <IsServiceInfoRequired>true</IsServiceInfoRequired>
+                 <ReturnAppliedOptionChargingPolicyDetails>false</ReturnAppliedOptionChargingPolicyDetails>
+                 <CalculateGSTTax>false</CalculateGSTTax>
+                 <ROOM_REPLY>
+                    <ANY_ROOM>true</ANY_ROOM>
+                 </ROOM_REPLY>
+                 <PRICETYPE>0</PRICETYPE>
+                 <SERVICETYPERATINGTYPEID>0</SERVICETYPERATINGTYPEID>
+                 <SERVICETYPERATINGID>0</SERVICETYPERATINGID>
+                 <!-- static per-client setting -->
+                 <BOOKING_TYPE_ID>369</BOOKING_TYPE_ID>
+                 <BOOKINGTYPE>369</BOOKINGTYPE>
+                 <!-- need to ensure this maps to the Service "accommodation" in static data -->
+                 <SERVICETYPEID>2</SERVICETYPEID>
+                 <SERVICEIDs>1157, 14017, 1551, 28352, 29291, 29383, 29390, 42316, 52968, 54504, 59, 878, 919</SERVICEIDs>
+                 <START_DATE>2020-01-18</START_DATE>
+                 <NUMBER_OF_NIGHTS>20</NUMBER_OF_NIGHTS>
+                 <CURRENCY>ZAR</CURRENCY>
+  <ROOMS_REQUIRED>
+         <ROOM>
+             <OCCUPANCY>3</OCCUPANCY>
+             <QUANTITY>1</QUANTITY>
+             <NO_OF_PASSENGERS>2</NO_OF_PASSENGERS>
+           </ROOM>
+         </ROOMS_REQUIRED>
+             </IncomingRequest>
+         </GetServicesPricesAndAvailability>
+     </SOAP:Body>
+ </SOAP:Envelope>
