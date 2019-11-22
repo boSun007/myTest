@@ -12,3 +12,8 @@
   <size dt:dt="int">12</size>
 </sizes>
 </shoes> -->
+
+<person>
+  <name>xiao Ming</name>
+  <age>30</age>
+</person>
