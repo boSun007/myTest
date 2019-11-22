@@ -3,7 +3,7 @@ $message = 'hello';
 
 // 没有 "use"
 $example = function () {
-    var_dump($message);
+    var_dump("message");
 };
 echo $example();
 
