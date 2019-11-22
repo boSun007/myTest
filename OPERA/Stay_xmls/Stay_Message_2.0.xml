@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?Label FSDH|STAY|290750|SUCCESS?>
+<Stay xmlns="stay.fidelio.2.0">
+	<HotelReference>
+		<hotelCode>FSDH</hotelCode>
+	</HotelReference>
+	<resortBookNo>368383</resortBookNo>
+	<pmsGuestId>276029</pmsGuestId>
+	<actualArrivalDate>2013-09-26T00:00:00.000</actualArrivalDate>
+	<actualDepartureDate>2013-09-28T00:00:00.000</actualDepartureDate>
+	<bookDate>2013-09-26T00:00:00.000</bookDate>
+	<bookedDepartureDate>2013-09-28T00:00:00.000</bookedDepartureDate>
+	<bookedArrivalDate>2013-09-26T00:00:00.000</bookedArrivalDate>
+	<compYN>N</compYN>
+	<adults>1</adults>
+	<children>0</children>
+	<pmsRoomCategory>SK</pmsRoomCategory>
+	<roomNumber>1008</roomNumber>
+	<pmsRate currencyCode="USD">
+		<valueNum>350</valueNum>
+	</pmsRate>
+	<pmsCurrencyCode>USD</pmsCurrencyCode>
+	<sourceCode>EML</sourceCode>
+	<marketCode>GC</marketCode>
+	<pmsGroupId>275778</pmsGroupId>
+	<pmsCompanyId>199213</pmsCompanyId>
+	<channel>GSO</channel>
+	<paymentMethod>CA</paymentMethod>
+	<rateCurrencyCode>USD</rateCurrencyCode>
+	<allotmentCode>WAIK260913</allotmentCode>
+	<totalRevenue>770</totalRevenue>
+	<roomRevenue>700</roomRevenue>
+	<fbRevenue>0</fbRevenue>
+	<StayRevenues>
+		<StayRevenue>
+			<revenueType>Room Revenue</revenueType>
+			<Amount currencyCode="USD">
+				<valueNum>700</valueNum>
+			</Amount>
+		</StayRevenue>
+		<StayRevenue>
+			<revenueType>F B Revenue</revenueType>
+			<Amount currencyCode="USD">
+				<valueNum>0</valueNum>
+			</Amount>
+		</StayRevenue>
+		<StayRevenue>
+			<revenueType>Other Revenue</revenueType>
+			<Amount currencyCode="USD">
+				<valueNum>70</valueNum>
+			</Amount>
+		</StayRevenue>
+	</StayRevenues>
+</Stay>

@@ -1,0 +1,16 @@
+<?xml version = '1.0'?>
+<?Label MOTTI|FINTRX|2033359|SUCCESS?>
+<FinancialTransaction xmlns="financialtransaction.fidelio.4.0">
+   <HotelReference>
+      <hotelCode>MOTTI</hotelCode>
+   </HotelReference>
+   <reservationID>1543462</reservationID>
+   <confirmationID>4675519.1</confirmationID>
+   <mfConfirmationLegNo>1</mfConfirmationLegNo>
+   <FinTransactions>
+      <FinTransaction transactionId="1286530" transactionType="DEPOSIT" amount="1105.66" currencyCode="USD" transactionCode="9000">
+         <CreditCard xmlns="profile.fidelio.3.0"/>
+         <postingDate>2009-08-12T10:30:57.000</postingDate>
+      </FinTransaction>
+   </FinTransactions>
+</FinancialTransaction>

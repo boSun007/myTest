@@ -1,0 +1,361 @@
+<?xml version = '1.0'?>
+<?Label MEXICO|RESERVATION|2033367|SUCCESS?>
+<Reservation xmlns="reservation.fidelio.4.0" mfShareAction="NA" mfReservationAction="WAITLIST">
+   <HotelReference>
+      <hotelCode>MEXICO</hotelCode>
+   </HotelReference>
+   <reservationID>1543713</reservationID>
+   <reservationOriginatorCode>SUPERVISOR</reservationOriginatorCode>
+   <mfLegNumbers>1</mfLegNumbers>
+   <originalBookingDate>2009-08-16T10:42:02.000</originalBookingDate>
+   <StayDateRange timeUnitType="DAY">
+      <startTime>2007-07-19T00:00:00.000</startTime>
+      <numberOfTimeUnits>2</numberOfTimeUnits>
+   </StayDateRange>
+   <GuestCounts>
+      <GuestCount>
+         <ageQualifyingCode>ADULT</ageQualifyingCode>
+         <mfCount>1</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILD</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN1</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN2</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN3</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN4</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN5</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+   </GuestCounts>
+   <ResComments>
+      <ResComment reservationActionType="CHANGE">
+         <resCommentRPH>0</resCommentRPH>
+         <commentOriginatorCode>SYSTEM</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>RATE_FIXED=YES</comment>
+         <mfcommentType>SYSTEM</mfcommentType>
+         <mfcommentDate>2009-08-16T10:42:38.000</mfcommentDate>
+      </ResComment>
+      <ResComment reservationActionType="CHANGE">
+         <resCommentRPH>1</resCommentRPH>
+         <commentOriginatorCode>SYSTEM</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>DISCOUNT_PERCENTAGE=0</comment>
+         <mfcommentType>SYSTEM</mfcommentType>
+         <mfcommentDate>2009-08-16T10:42:38.000</mfcommentDate>
+      </ResComment>
+      <ResComment reservationActionType="CHANGE">
+         <resCommentRPH>2</resCommentRPH>
+         <commentOriginatorCode>SYSTEM</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>PARTY=</comment>
+         <mfcommentType>SYSTEM</mfcommentType>
+         <mfcommentDate>2009-08-16T10:42:38.000</mfcommentDate>
+      </ResComment>
+      <ResComment reservationActionType="CHANGE">
+         <resCommentRPH>3</resCommentRPH>
+         <commentOriginatorCode>SYSTEM</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>HOTEL_DATE=2007-07-19</comment>
+         <mfcommentType>SYSTEM</mfcommentType>
+         <mfcommentDate>2009-08-16T10:42:38.000</mfcommentDate>
+      </ResComment>
+   </ResComments>
+   <ResGuests>
+      <ResGuest reservationActionType="CHANGE">
+         <resGuestRPH>0</resGuestRPH>
+         <profileRPHs>0</profileRPHs>
+         <InHouseTimeSpan timeUnitType="DAY">
+            <startTime>2007-07-19T00:00:00.000</startTime>
+            <numberOfTimeUnits>2</numberOfTimeUnits>
+         </InHouseTimeSpan>
+         <ArrivalTransport>
+            <transportTime>2007-07-19T00:00:00.000</transportTime>
+         </ArrivalTransport>
+         <DepartureTransport>
+            <transportTime>2007-07-21T00:00:00.000</transportTime>
+         </DepartureTransport>
+         <arrivalTime>2007-07-19T00:00:00.000</arrivalTime>
+         <departureTime>2007-07-21T00:00:00.000</departureTime>
+         <reservationID>1543713</reservationID>
+         <mfConfirmationLegNo>1</mfConfirmationLegNo>
+         <ReservationReferences>
+            <ReservationReference type="GUESTID" referenceNumber="1543713" legNumber="1"/>
+            <ReservationReference type="PMSID" referenceNumber="1543713" legNumber="1"/>
+         </ReservationReferences>
+         <preRegistered>0</preRegistered>
+         <commissionPaidTo>N</commissionPaidTo>
+      </ResGuest>
+   </ResGuests>
+   <ResProfiles>
+      <ResProfile>
+         <Profile xmlns="profile.fidelio.3.0" profileType="GUEST" gender="UNKNOWN" multiProperty="0" miniProfile="0" pseudoProfile="0" replaceAddress="0">
+            <creatorCode>SUPERVISOR</creatorCode>
+            <createdDate>2008-12-05T10:37:54.000</createdDate>
+            <lastUpdaterCode>SUPERVISOR</lastUpdaterCode>
+            <lastUpdated>2008-12-05T10:37:54.000</lastUpdated>
+            <genericName>Rader</genericName>
+            <IndividualName>
+               <nameFirst>Rader</nameFirst>
+               <nameSur>Rader</nameSur>
+            </IndividualName>
+            <primaryLanguageID>E</primaryLanguageID>
+            <PostalAddresses>
+               <PostalAddress addressType="HOME">
+                  <countryCode>US</countryCode>
+                  <mfPrimaryYN>Y</mfPrimaryYN>
+                  <mfAddressLanguage>E</mfAddressLanguage>
+                  <cleansed>0</cleansed>
+               </PostalAddress>
+            </PostalAddresses>
+            <mfResort>MEXICO</mfResort>
+            <mfResortProfileID>5930749</mfResortProfileID>
+            <mfNameCode>222948</mfNameCode>
+            <Udfs>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC01</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC02</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC20</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC28</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC31</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC32</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC37</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC38</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFD02</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+            </Udfs>
+            <SalesExtention/>
+            <PrivacyOption>
+               <mfAllowHistory>1</mfAllowHistory>
+            </PrivacyOption>
+         </Profile>
+         <resProfileRPH>0</resProfileRPH>
+      </ResProfile>
+   </ResProfiles>
+   <RoomStays>
+      <RoomStay mfShareAction="NA" mfReservationAction="WAITLIST" reservationActionType="CHANGE" reservationStatusType="WAITLISTED">
+         <roomStayRPH>0</roomStayRPH>
+         <roomInventoryCode>CK</roomInventoryCode>
+         <TimeSpan timeUnitType="DAY">
+            <startTime>2007-07-19T00:00:00.000</startTime>
+            <numberOfTimeUnits>2</numberOfTimeUnits>
+         </TimeSpan>
+         <GuestCounts>
+            <GuestCount>
+               <ageQualifyingCode>ADULT</ageQualifyingCode>
+               <mfCount>1</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILD</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN1</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN2</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN3</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN4</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN5</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+         </GuestCounts>
+         <RatePlans>
+            <RatePlan reservationActionType="CHANGE">
+               <ratePlanRPH>0</ratePlanRPH>
+               <ratePlanCode>BASE_RATE</ratePlanCode>
+               <TimeSpan timeUnitType="DAY">
+                  <startTime>2007-07-19T00:00:00.000</startTime>
+                  <numberOfTimeUnits>2</numberOfTimeUnits>
+               </TimeSpan>
+               <mfMarketCode>ALL</mfMarketCode>
+               <Rates>
+                  <Rate reservationActionType="CHANGE" rateBasisTimeUnitType="DAY">
+                     <rateRPH>0</rateRPH>
+                     <Amount currencyCode="USD">
+                        <valueNum>100</valueNum>
+                     </Amount>
+                     <rateBasisUnits>1</rateBasisUnits>
+                     <TimeSpan timeUnitType="DAY">
+                        <startTime>2007-07-19T00:00:00.000</startTime>
+                        <numberOfTimeUnits>2</numberOfTimeUnits>
+                     </TimeSpan>
+                     <mfAdults>1</mfAdults>
+                     <mfChildren>0</mfChildren>
+                     <mfCribs>0</mfCribs>
+                     <mfExtraBeds>0</mfExtraBeds>
+                     <mfsourceCode>COD</mfsourceCode>
+                     <mfMarketCode>ALL</mfMarketCode>
+                     <Discount type="AMOUNT">
+                        <valueNum>0</valueNum>
+                     </Discount>
+                     <rateRoomType>CK</rateRoomType>
+                     <mfChildren1>0</mfChildren1>
+                     <mfChildren2>0</mfChildren2>
+                     <mfChildren3>0</mfChildren3>
+                     <mfChildren4>0</mfChildren4>
+                     <mfChildren5>0</mfChildren5>
+                  </Rate>
+               </Rates>
+               <mfsourceCode>COD</mfsourceCode>
+            </RatePlan>
+         </RatePlans>
+         <marketSegmentCode>ALL</marketSegmentCode>
+         <resGuestRPHs>0</resGuestRPHs>
+         <resCommentRPHs>0, 1, 2, 3</resCommentRPHs>
+         <specialRequestRPHs>0</specialRequestRPHs>
+         <GuaranteeInfo guaranteeType="NA">
+            <mfGuaranteeType>6PM</mfGuaranteeType>
+         </GuaranteeInfo>
+         <CancelPenalties>
+            <CancelPenalty mfRuleType="CANCEL">
+               <cancelByDate>2007-07-19T10:42:02.000</cancelByDate>
+               <Amount currencyCode="USD">
+                  <valueNum>24241140</valueNum>
+               </Amount>
+               <mfRuleScope>R</mfRuleScope>
+               <mfRuleDescription>Flat cancellation charge, 3 days 6PM</mfRuleDescription>
+               <ruleCode>FLAT</ruleCode>
+            </CancelPenalty>
+         </CancelPenalties>
+         <PaymentInstructions>
+            <PaymentInstruction paymentMethodType="NA">
+               <mfPaymentMethod>CA</mfPaymentMethod>
+               <PaymentDue>
+                  <Amount currencyCode="USD">
+                     <valueNum>0</valueNum>
+                  </Amount>
+                  <cancelIfNotReceived>0</cancelIfNotReceived>
+               </PaymentDue>
+            </PaymentInstruction>
+         </PaymentInstructions>
+         <mfcomplementaryCode>CK</mfcomplementaryCode>
+         <mfsourceCode>COD</mfsourceCode>
+         <mfconfidentialRate>0</mfconfidentialRate>
+         <ReservationTraces>
+            <ReservationTrace>
+               <traceDepartment>RES</traceDepartment>
+               <traceDate>2007-07-19T00:00:00.000</traceDate>
+               <traceText>Please check for correspondence for this guest</traceText>
+            </ReservationTrace>
+         </ReservationTraces>
+         <waitlistPriority>L</waitlistPriority>
+         <waitlistReasonCode>RM</waitlistReasonCode>
+         <waitlistReasonDescription>COMMENTS HERE</waitlistReasonDescription>
+         <waitlistTelephone>2389956233</waitlistTelephone>
+      </RoomStay>
+   </RoomStays>
+   <SpecialRequests>
+      <SpecialRequest reservationActionType="CHANGE" mfSpecialRequestType="SPE">
+         <specialRequestRPH>0</specialRequestRPH>
+         <requestCode>BB</requestCode>
+         <requestComments>Bed Board</requestComments>
+      </SpecialRequest>
+   </SpecialRequests>
+   <resCommentRPHs>0, 1, 2, 3</resCommentRPHs>
+   <resProfileRPHs>0</resProfileRPHs>
+   <specialRequestRPHs>0</specialRequestRPHs>
+   <mfupdateDate>2009-08-16T10:42:37.000</mfupdateDate>
+   <mfcomplementary>0</mfcomplementary>
+   <mfImage>
+      <numRooms>1</numRooms>
+      <Describe>
+         <insertUser>SUPERVISOR</insertUser>
+         <updateUser>SUPERVISOR</updateUser>
+      </Describe>
+   </mfImage>
+   <Udfs>
+      <Udf xmlns="udf.fidelio.2.0">
+         <UdfDefinition xmlns="udfdefinition.fidelio.2.0" module="RESERVATION">
+            <pmsTableName>RESERVATION_NAME</pmsTableName>
+            <pmsColumnName>UDFC07</pmsColumnName>
+         </UdfDefinition>
+      </Udf>
+      <Udf xmlns="udf.fidelio.2.0">
+         <UdfDefinition xmlns="udfdefinition.fidelio.2.0" module="RESERVATION">
+            <pmsTableName>RESERVATION_NAME</pmsTableName>
+            <pmsColumnName>UDFC23</pmsColumnName>
+         </UdfDefinition>
+      </Udf>
+      <Udf xmlns="udf.fidelio.2.0">
+         <UdfDefinition xmlns="udfdefinition.fidelio.2.0" module="RESERVATION">
+            <pmsTableName>RESERVATION_NAME</pmsTableName>
+            <pmsColumnName>UDFC24</pmsColumnName>
+         </UdfDefinition>
+      </Udf>
+      <Udf xmlns="udf.fidelio.2.0">
+         <UdfDefinition xmlns="udfdefinition.fidelio.2.0" module="RESERVATION">
+            <pmsTableName>RESERVATION_NAME</pmsTableName>
+            <pmsColumnName>UDFC40</pmsColumnName>
+         </UdfDefinition>
+      </Udf>
+   </Udfs>
+</Reservation>

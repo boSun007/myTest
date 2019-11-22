@@ -1,0 +1,55 @@
+<?xml version = '1.0'?>
+<?Label MEXICO|RESERVATIONREGRET|2033174|SUCCESS?>
+<ReservationRegret xmlns="reservationregret.fidelio.1.0">
+   <HotelReference>
+      <hotelCode>MEXICO</hotelCode>
+   </HotelReference>
+   <reservationRegretId>45760</reservationRegretId>
+   <arrivalDate>2009-09-09T00:00:00.000</arrivalDate>
+   <nights>6</nights>
+   <noOfRooms>1</noOfRooms>
+   <marketCode>INDR</marketCode>
+   <turnawayCode>BLIST</turnawayCode>
+   <rateCode>BAR3</rateCode>
+   <roomType>KING</roomType>
+   <comments>Comments Here</comments>
+   <country>USA</country>
+   <region>NAM</region>
+   <zipCode>34105</zipCode>
+   <departureDate>2009-09-15T00:00:00.000</departureDate>
+   <rateAmount>80</rateAmount>
+   <adults>1</adults>
+   <Profile xmlns="profile.fidelio.4.0" profileType="GUEST" gender="UNKNOWN" multiProperty="0" miniProfile="0" pseudoProfile="0" replaceAddress="0">
+      <creatorCode>MYFIDELIO</creatorCode>
+      <createdDate>2009-07-30T14:16:15.000</createdDate>
+      <lastUpdaterCode>MYFIDELIO</lastUpdaterCode>
+      <lastUpdated>2009-07-30T14:16:15.000</lastUpdated>
+      <genericName>Rader</genericName>
+      <IndividualName>
+         <namePrefix>Mr</namePrefix>
+         <nameFirst>Aiden</nameFirst>
+         <nameMiddle>p</nameMiddle>
+         <nameSur>Rader</nameSur>
+         <nameOrdered>Mr Rader</nameOrdered>
+      </IndividualName>
+      <primaryLanguageID>E</primaryLanguageID>
+      <mfResort>MEXICO</mfResort>
+      <mfResortProfileID>6209756</mfResortProfileID>
+      <mfNameCode>2305828</mfNameCode>
+      <mfBlacklistMessage>~~</mfBlacklistMessage>
+      <mfAllowMail>YES</mfAllowMail>
+      <mfAllowEMail>NO</mfAllowEMail>
+      <mfAllowPhone>0</mfAllowPhone>
+      <mfAllowSMS>0</mfAllowSMS>
+      <SalesExtention/>
+      <PrivacyOption>
+         <mfAllowMail>Y</mfAllowMail>
+         <mfAllowEMail>N</mfAllowEMail>
+         <mfAllowPhone>0</mfAllowPhone>
+         <mfAllowSMS>0</mfAllowSMS>
+         <mfAllowHistory>1</mfAllowHistory>
+         <mfAllowMarketResearch>0</mfAllowMarketResearch>
+         <mfAllowThirdParty>0</mfAllowThirdParty>
+      </PrivacyOption>
+   </Profile>
+</ReservationRegret>

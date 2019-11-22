@@ -1,0 +1,17 @@
+<?xml version = '1.0'?>
+<?Label MEXICO|RESULT|2033345|NEW?>
+<RESULT xmlns="result.fidelio.4.0" success="SUCCESS" timeStamp="2009-08-15T17:03:49.000">
+   <resortId>MEXICO</resortId>
+   <resultMessage>Successfully updated reservation in Opera.</resultMessage>
+   <ResultIds>
+      <ResultId resultMsgType="RESERVATION">
+         <crsId>4675520</crsId>
+         <pmsId>1543463.1</pmsId>
+         <legNumbers>1</legNumbers>
+         <ReservationReferences>
+            <ReservationReference type="GUESTID" referenceNumber="1543463" legNumber="1"/>
+            <ReservationReference type="PMSID" referenceNumber="1543463" legNumber="1"/>
+         </ReservationReferences>
+      </ResultId>
+   </ResultIds>
+</RESULT>

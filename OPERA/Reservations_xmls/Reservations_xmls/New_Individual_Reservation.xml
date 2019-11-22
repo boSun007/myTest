@@ -1,0 +1,432 @@
+<?xml version = '1.0'?>
+<?Label MEXICO|RESERVATION|2033170|SUCCESS?>
+<Reservation xmlns="reservation.fidelio.4.0" mfShareAction="NA" mfReservationAction="ADD">
+   <HotelReference>
+      <hotelCode>MEXICO</hotelCode>
+   </HotelReference>
+   <reservationID>1543212</reservationID>
+   <reservationOriginatorCode>SUPERVISOR</reservationOriginatorCode>
+   <mfLegNumbers>1</mfLegNumbers>
+   <originalBookingDate>2009-08-15T11:27:16.000</originalBookingDate>
+   <StayDateRange timeUnitType="DAY">
+      <startTime>2009-08-15T00:00:00.000</startTime>
+      <numberOfTimeUnits>3</numberOfTimeUnits>
+   </StayDateRange>
+   <GuestCounts>
+      <GuestCount>
+         <ageQualifyingCode>ADULT</ageQualifyingCode>
+         <mfCount>1</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILD</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN1</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN2</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN3</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN4</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN5</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+   </GuestCounts>
+   <ResComments>
+      <ResComment reservationActionType="NEW">
+         <resCommentRPH>0</resCommentRPH>
+         <commentOriginatorCode>SUPERVISOR</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>Heres is where any info that needs to be conveyed to the guest can be put.</comment>
+         <mfcommentType>RESERVATION</mfcommentType>
+         <mfcommentDate>2009-08-15T11:27:17.000</mfcommentDate>
+      </ResComment>
+      <ResComment reservationActionType="NEW">
+         <resCommentRPH>1</resCommentRPH>
+         <commentOriginatorCode>SYSTEM</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>RATE_FIXED=YES</comment>
+         <mfcommentType>SYSTEM</mfcommentType>
+         <mfcommentDate>2009-08-15T11:27:27.000</mfcommentDate>
+      </ResComment>
+      <ResComment reservationActionType="NEW">
+         <resCommentRPH>2</resCommentRPH>
+         <commentOriginatorCode>SYSTEM</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>DISCOUNT_PERCENTAGE=0</comment>
+         <mfcommentType>SYSTEM</mfcommentType>
+         <mfcommentDate>2009-08-15T11:27:27.000</mfcommentDate>
+      </ResComment>
+      <ResComment reservationActionType="NEW">
+         <resCommentRPH>3</resCommentRPH>
+         <commentOriginatorCode>SYSTEM</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>PARTY=</comment>
+         <mfcommentType>SYSTEM</mfcommentType>
+         <mfcommentDate>2009-08-15T11:27:27.000</mfcommentDate>
+      </ResComment>
+      <ResComment reservationActionType="NEW">
+         <resCommentRPH>4</resCommentRPH>
+         <commentOriginatorCode>SYSTEM</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>HOTEL_DATE=2007-07-18</comment>
+         <mfcommentType>SYSTEM</mfcommentType>
+         <mfcommentDate>2009-08-15T11:27:27.000</mfcommentDate>
+      </ResComment>
+   </ResComments>
+   <ResCreditCards>
+      <ResCreditCard reservationActionType="NEW">
+         <CreditCard xmlns="profile.fidelio.3.0">
+            <creditCardCode>CA</creditCardCode>
+            <creditCardNumber>XXXXXXXXXXXXXXX</creditCardNumber>
+            <creditCardExpire>XXXX</creditCardExpire>
+            <mfPrimaryYN>Y</mfPrimaryYN>
+         </CreditCard>
+         <resCreditCardRPH>0</resCreditCardRPH>
+      </ResCreditCard>
+   </ResCreditCards>
+   <ResGuests>
+      <ResGuest reservationActionType="NEW">
+         <resGuestRPH>0</resGuestRPH>
+         <profileRPHs>0</profileRPHs>
+         <InHouseTimeSpan timeUnitType="DAY">
+            <startTime>2009-08-15T00:00:00.000</startTime>
+            <numberOfTimeUnits>3</numberOfTimeUnits>
+         </InHouseTimeSpan>
+         <ArrivalTransport>
+            <transportTime>2009-08-15T00:00:00.000</transportTime>
+         </ArrivalTransport>
+         <DepartureTransport>
+            <transportTime>2009-08-18T00:00:00.000</transportTime>
+         </DepartureTransport>
+         <arrivalTime>2009-08-15T00:00:00.000</arrivalTime>
+         <departureTime>2009-08-18T00:00:00.000</departureTime>
+         <reservationID>1543212</reservationID>
+         <mfConfirmationLegNo>1</mfConfirmationLegNo>
+         <ReservationReferences>
+            <ReservationReference type="GUESTID" referenceNumber="1543212" legNumber="1"/>
+            <ReservationReference type="PMSID" referenceNumber="1543212" legNumber="1"/>
+         </ReservationReferences>
+         <preRegistered>0</preRegistered>
+         <commissionPaidTo>N</commissionPaidTo>
+      </ResGuest>
+   </ResGuests>
+   <ResProfiles>
+      <ResProfile>
+         <Profile xmlns="profile.fidelio.3.0" profileType="GUEST" gender="UNKNOWN" multiProperty="0" miniProfile="0" pseudoProfile="0" replaceAddress="0">
+            <creatorCode>SUPERVISOR</creatorCode>
+            <createdDate>2009-08-15T11:27:11.000</createdDate>
+            <lastUpdaterCode>SUPERVISOR</lastUpdaterCode>
+            <lastUpdated>2009-08-15T11:27:13.000</lastUpdated>
+            <genericName>Rader</genericName>
+            <IndividualName>
+               <namePrefix>Mr</namePrefix>
+               <nameFirst>Sample</nameFirst>
+               <nameSur>Rader</nameSur>
+               <nameOrdered>Mr Rader</nameOrdered>
+            </IndividualName>
+            <primaryLanguageID>E</primaryLanguageID>
+            <CreditCards>
+               <CreditCard>
+                  <creditCardCode>AX</creditCardCode>
+                  <creditCardNumber>XXXXXXXXXXXXXXX</creditCardNumber>
+                  <creditCardExpire>XXXX</creditCardExpire>
+                  <mfPrimaryYN>Y</mfPrimaryYN>
+               </CreditCard>
+            </CreditCards>
+            <PostalAddresses>
+               <PostalAddress addressType="H">
+                  <countryCode>MX</countryCode>
+                  <mfPrimaryYN>Y</mfPrimaryYN>
+                  <mfAddressLanguage>E</mfAddressLanguage>
+                  <cleansed>0</cleansed>
+               </PostalAddress>
+            </PostalAddresses>
+            <PhoneNumbers>
+               <PhoneNumber phoneNumberType="HOME">
+                  <phoneNumber>23985698745</phoneNumber>
+                  <mfPrimaryYN>Y</mfPrimaryYN>
+                  <confirmation>0</confirmation>
+               </PhoneNumber>
+            </PhoneNumbers>
+            <SpecialRequests>
+               <SpecialRequest mfSpecialRequestType="SPE">
+                  <requestCode>COT</requestCode>
+                  <requestComments>Baby Cot</requestComments>
+               </SpecialRequest>
+            </SpecialRequests>
+            <mfResort>MEXICO</mfResort>
+            <mfResortProfileID>6233752</mfResortProfileID>
+            <mfAllowMail>YES</mfAllowMail>
+            <Udfs>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC01</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC02</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC20</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC28</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC31</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC32</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC37</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFC38</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+               <Udf xmlns="udf.fidelio.2.0">
+                  <UdfDefinition xmlns="udfdefinition.fidelio.2.0">
+                     <pmsTableName>NAME</pmsTableName>
+                     <pmsColumnName>UDFD02</pmsColumnName>
+                  </UdfDefinition>
+               </Udf>
+            </Udfs>
+            <SalesExtention/>
+            <PrivacyOption>
+               <mfAllowMail>Y</mfAllowMail>
+               <mfAllowHistory>0</mfAllowHistory>
+               <mfAllowMarketResearch>1</mfAllowMarketResearch>
+               <mfAllowThirdParty>1</mfAllowThirdParty>
+            </PrivacyOption>
+         </Profile>
+         <resProfileRPH>0</resProfileRPH>
+      </ResProfile>
+   </ResProfiles>
+   <RoomStays>
+      <RoomStay mfShareAction="NA" mfReservationAction="ADD" reservationActionType="NEW" reservationStatusType="RESERVED">
+         <roomStayRPH>0</roomStayRPH>
+         <roomInventoryCode>CK</roomInventoryCode>
+         <roomID>124</roomID>
+         <TimeSpan timeUnitType="DAY">
+            <startTime>2009-08-15T00:00:00.000</startTime>
+            <numberOfTimeUnits>3</numberOfTimeUnits>
+         </TimeSpan>
+         <GuestCounts>
+            <GuestCount>
+               <ageQualifyingCode>ADULT</ageQualifyingCode>
+               <mfCount>1</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILD</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN1</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN2</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN3</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN4</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN5</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+         </GuestCounts>
+         <RatePlans>
+            <RatePlan reservationActionType="NEW">
+               <ratePlanRPH>0</ratePlanRPH>
+               <ratePlanCode>HIGGINS</ratePlanCode>
+               <TimeSpan timeUnitType="DAY">
+                  <startTime>2009-08-15T00:00:00.000</startTime>
+                  <numberOfTimeUnits>3</numberOfTimeUnits>
+               </TimeSpan>
+               <mfMarketCode>PH</mfMarketCode>
+               <Rates>
+                  <Rate reservationActionType="NEW" rateBasisTimeUnitType="DAY">
+                     <rateRPH>0</rateRPH>
+                     <Amount currencyCode="MXN">
+                        <valueNum>300</valueNum>
+                     </Amount>
+                     <rateBasisUnits>1</rateBasisUnits>
+                     <TimeSpan timeUnitType="DAY">
+                        <startTime>2009-08-15T00:00:00.000</startTime>
+                        <numberOfTimeUnits>3</numberOfTimeUnits>
+                     </TimeSpan>
+                     <mfAdults>1</mfAdults>
+                     <mfChildren>0</mfChildren>
+                     <mfsourceCode>AWARD</mfsourceCode>
+                     <mfMarketCode>PH</mfMarketCode>
+                     <Discount type="AMOUNT">
+                        <valueNum>0</valueNum>
+                     </Discount>
+                     <rateRoomType>CK</rateRoomType>
+                     <mfChildren1>0</mfChildren1>
+                     <mfChildren2>0</mfChildren2>
+                     <mfChildren3>0</mfChildren3>
+                     <mfChildren4>0</mfChildren4>
+                     <mfChildren5>0</mfChildren5>
+                  </Rate>
+               </Rates>
+               <mfsourceCode>AWARD</mfsourceCode>
+            </RatePlan>
+         </RatePlans>
+         <marketSegmentCode>PH</marketSegmentCode>
+         <resGuestRPHs>0</resGuestRPHs>
+         <resCommentRPHs>0, 1, 2, 3, 4</resCommentRPHs>
+         <specialRequestRPHs>0</specialRequestRPHs>
+         <serviceRPHs>0</serviceRPHs>
+         <GuaranteeInfo guaranteeType="NA">
+            <mfGuaranteeType>6PM</mfGuaranteeType>
+         </GuaranteeInfo>
+         <CancelPenalties>
+            <CancelPenalty mfRuleType="CANCEL">
+               <cancelByDate>2009-08-12T00:00:00.000</cancelByDate>
+               <Amount currencyCode="MXN">
+                  <valueNum>24241140</valueNum>
+               </Amount>
+               <mfRuleScope>R</mfRuleScope>
+               <mfRuleDescription>Flat cancellation charge, 3 days 6PM</mfRuleDescription>
+               <ruleCode>FLAT</ruleCode>
+            </CancelPenalty>
+         </CancelPenalties>
+         <PaymentInstructions>
+            <PaymentInstruction paymentMethodType="CREDITCARD">
+               <mfPaymentMethod>CA</mfPaymentMethod>
+               <resCreditCardRPH>0</resCreditCardRPH>
+               <PaymentDue>
+                  <Amount currencyCode="MXN">
+                     <valueNum>0</valueNum>
+                  </Amount>
+                  <cancelIfNotReceived>0</cancelIfNotReceived>
+               </PaymentDue>
+            </PaymentInstruction>
+         </PaymentInstructions>
+         <mfcomplementaryCode>CK</mfcomplementaryCode>
+         <mfsourceCode>AWARD</mfsourceCode>
+         <mfchannelCode>GOC</mfchannelCode>
+         <mfconfidentialRate>0</mfconfidentialRate>
+         <InventoryItems>
+            <InventoryItem type="Housekeeping">
+               <item>CRIB</item>
+               <quantity>1</quantity>
+               <beginDate>2009-08-15</beginDate>
+               <endDate>2009-08-15</endDate>
+               <serviceInventoryCode>BB</serviceInventoryCode>
+               <beginDateTime>2009-08-15T00:01:00.000</beginDateTime>
+               <endDateTime>2009-08-15T23:59:00.000</endDateTime>
+            </InventoryItem>
+            <InventoryItem type="RANCH">
+               <item>MULERIDE</item>
+               <quantity>2</quantity>
+               <beginDate>2009-08-15</beginDate>
+               <endDate>2009-08-15</endDate>
+               <serviceInventoryCode>BB</serviceInventoryCode>
+               <beginDateTime>2009-08-15T00:01:00.000</beginDateTime>
+               <endDateTime>2009-08-15T23:59:00.000</endDateTime>
+            </InventoryItem>
+         </InventoryItems>
+      </RoomStay>
+   </RoomStays>
+   <SpecialRequests>
+      <SpecialRequest reservationActionType="NEW" mfSpecialRequestType="SPE">
+         <specialRequestRPH>0</specialRequestRPH>
+         <requestCode>COT</requestCode>
+         <requestComments>Baby Cot</requestComments>
+      </SpecialRequest>
+   </SpecialRequests>
+   <Services>
+      <Service reservationActionType="NEW" servicePricingType="NA" reservationStatusType="NA">
+         <serviceRPH>0</serviceRPH>
+         <serviceInventoryCode>BB</serviceInventoryCode>
+         <TimeSpan timeUnitType="DAY">
+            <startTime>2009-08-15T00:00:00.000</startTime>
+            <numberOfTimeUnits>3</numberOfTimeUnits>
+         </TimeSpan>
+         <Price currencyCode="USD">
+            <valueNum>0.8333</valueNum>
+         </Price>
+         <quantity>1</quantity>
+      </Service>
+   </Services>
+   <resCommentRPHs>0, 1, 2, 3, 4</resCommentRPHs>
+   <resProfileRPHs>0</resProfileRPHs>
+   <specialRequestRPHs>0</specialRequestRPHs>
+   <serviceRPHs>0</serviceRPHs>
+   <mfupdateDate>2009-08-15T11:27:17.000</mfupdateDate>
+   <mfcomplementary>0</mfcomplementary>
+   <mfImage>
+      <numRooms>1</numRooms>
+      <Describe>
+         <insertUser>SUPERVISOR</insertUser>
+         <updateUser>SUPERVISOR</updateUser>
+      </Describe>
+   </mfImage>
+   <Udfs>
+      <Udf xmlns="udf.fidelio.2.0">
+         <UdfDefinition xmlns="udfdefinition.fidelio.2.0" module="RESERVATION">
+            <pmsTableName>RESERVATION_NAME</pmsTableName>
+            <pmsColumnName>UDFC07</pmsColumnName>
+         </UdfDefinition>
+      </Udf>
+      <Udf xmlns="udf.fidelio.2.0">
+         <UdfDefinition xmlns="udfdefinition.fidelio.2.0" module="RESERVATION">
+            <pmsTableName>RESERVATION_NAME</pmsTableName>
+            <pmsColumnName>UDFC23</pmsColumnName>
+         </UdfDefinition>
+      </Udf>
+      <Udf xmlns="udf.fidelio.2.0">
+         <UdfDefinition xmlns="udfdefinition.fidelio.2.0" module="RESERVATION">
+            <pmsTableName>RESERVATION_NAME</pmsTableName>
+            <pmsColumnName>UDFC24</pmsColumnName>
+         </UdfDefinition>
+      </Udf>
+      <Udf xmlns="udf.fidelio.2.0">
+         <UdfDefinition xmlns="udfdefinition.fidelio.2.0" module="RESERVATION">
+            <pmsTableName>RESERVATION_NAME</pmsTableName>
+            <pmsColumnName>UDFC40</pmsColumnName>
+         </UdfDefinition>
+      </Udf>
+   </Udfs>
+</Reservation>

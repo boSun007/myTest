@@ -1,0 +1,358 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><?Label CASINO|RESERVATION|8226683|SUCCESS?>
+<Reservation xmlns="reservation.fidelio.5.0" mfShareAction="NA" mfReservationAction="SYNCH">
+   <HotelReference>
+      <hotelCode>CASINO</hotelCode>
+   </HotelReference>
+   <reservationID>2203568636</reservationID>
+   <reservationOriginatorCode>SUPERVISOR</reservationOriginatorCode>
+   <mfLegNumbers>1</mfLegNumbers>
+   <originalBookingDate>2019-04-01T04:25:15.000</originalBookingDate>
+   <StayDateRange timeUnitType="DAY">
+      <startTime>2016-05-04T00:00:00.000</startTime>
+      <numberOfTimeUnits>3</numberOfTimeUnits>
+   </StayDateRange>
+   <GuestCounts>
+      <GuestCount>
+         <ageQualifyingCode>ADULT</ageQualifyingCode>
+         <mfCount>1</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILD</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN1</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN2</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN3</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN4</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILDREN5</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+   </GuestCounts>
+   <ResComments>
+      <ResComment reservationActionType="SYNC">
+         <resCommentRPH>0</resCommentRPH>
+         <commentOriginatorCode>SYSTEM</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>RATE_FIXED=NO</comment>
+         <mfcommentType>SYSTEM</mfcommentType>
+         <mfcommentDate>2019-04-01T04:33:39.000</mfcommentDate>
+      </ResComment>
+      <ResComment reservationActionType="SYNC">
+         <resCommentRPH>1</resCommentRPH>
+         <commentOriginatorCode>SYSTEM</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>DISCOUNT_PERCENTAGE=0</comment>
+         <mfcommentType>SYSTEM</mfcommentType>
+         <mfcommentDate>2019-04-01T04:33:39.000</mfcommentDate>
+      </ResComment>
+      <ResComment reservationActionType="SYNC">
+         <resCommentRPH>2</resCommentRPH>
+         <commentOriginatorCode>SYSTEM</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>PARTY=</comment>
+         <mfcommentType>SYSTEM</mfcommentType>
+         <mfcommentDate>2019-04-01T04:33:39.000</mfcommentDate>
+      </ResComment>
+      <ResComment reservationActionType="SYNC">
+         <resCommentRPH>3</resCommentRPH>
+         <commentOriginatorCode>SYSTEM</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>HOTEL_DATE=2016-05-04</comment>
+         <mfcommentType>SYSTEM</mfcommentType>
+         <mfcommentDate>2019-04-01T04:33:39.000</mfcommentDate>
+      </ResComment>
+   </ResComments>
+   <ResGuests>
+      <ResGuest reservationActionType="SYNC">
+         <resGuestRPH>0</resGuestRPH>
+         <profileRPHs>0</profileRPHs>
+         <InHouseTimeSpan timeUnitType="DAY">
+            <startTime>2016-05-04T00:00:00.000</startTime>
+            <numberOfTimeUnits>3</numberOfTimeUnits>
+         </InHouseTimeSpan>
+         <ArrivalTransport>
+            <transportTime>2016-05-04T00:00:00.000</transportTime>
+         </ArrivalTransport>
+         <DepartureTransport>
+            <transportTime>2016-05-07T00:00:00.000</transportTime>
+         </DepartureTransport>
+         <arrivalTime>2016-05-04T00:00:00.000</arrivalTime>
+         <departureTime>2016-05-07T00:00:00.000</departureTime>
+         <reservationID>2203568636</reservationID>
+         <mfConfirmationLegNo>1</mfConfirmationLegNo>
+         <ReservationReferences>
+            <ReservationReference type="GUESTID" referenceNumber="2203568636" legNumber="1"/>
+            <ReservationReference type="PMSID" referenceNumber="2203568636" legNumber="1"/>
+         </ReservationReferences>
+         <preRegistered>0</preRegistered>
+         <commissionPaidTo>N</commissionPaidTo>
+         <nameTaxType>1</nameTaxType>
+         <checkoutDate>2016-05-07T00:00:00.000</checkoutDate>
+      </ResGuest>
+   </ResGuests>
+   <ResProfiles>
+      <ResProfile>
+         <Profile xmlns="profile.fidelio.5.0" profileType="GUEST" gender="UNKNOWN" multiProperty="0" miniProfile="0" pseudoProfile="0" anonymizationStatus="UNDEFINED" replaceAddress="0">
+            <creatorCode>SUPERVISOR</creatorCode>
+            <createdDate>2018-10-24T23:55:00.000</createdDate>
+            <lastUpdaterCode>SUPERVISOR</lastUpdaterCode>
+            <lastUpdated>2018-10-24T23:58:36.000</lastUpdated>
+            <genericName>venky</genericName>
+            <IndividualName>
+               <nameFirst>karris</nameFirst>
+               <nameSur>venky</nameSur>
+               <nameOrdered>E</nameOrdered>
+            </IndividualName>
+            <primaryLanguageID>E</primaryLanguageID>
+            <PostalAddresses>
+               <PostalAddress addressType="HOME">
+                  <countryCode>US</countryCode>
+                  <mfPrimaryYN>Y</mfPrimaryYN>
+                  <mfAddressLanguage>E</mfAddressLanguage>
+                  <cleansed>0</cleansed>
+               </PostalAddress>
+            </PostalAddresses>
+            <mfResort>CASINO</mfResort>
+            <mfResortProfileID>2203816633</mfResortProfileID>
+            <mfNameCode>2202047421</mfNameCode>
+            <mfAllowMail>YES</mfAllowMail>
+            <mfAllowEMail>NO</mfAllowEMail>
+            <mfGuestPriv>NO</mfGuestPriv>
+            <mfAllowPhone>0</mfAllowPhone>
+            <mfAllowSMS>0</mfAllowSMS>
+            <SalesExtention/>
+            <PrivacyOption>
+               <mfAllowMail>Y</mfAllowMail>
+               <mfAllowEMail>N</mfAllowEMail>
+               <mfAllowPhone>0</mfAllowPhone>
+               <mfAllowSMS>0</mfAllowSMS>
+               <mfAllowHistory>0</mfAllowHistory>
+               <mfAllowMarketResearch>1</mfAllowMarketResearch>
+               <mfAllowThirdParty>1</mfAllowThirdParty>
+            </PrivacyOption>
+            <ResortData>
+               <ResortDatum>
+                  <mfResort>CASINO</mfResort>
+                  <sfaAttachments>0</sfaAttachments>
+               </ResortDatum>
+            </ResortData>
+            <sfaAttachments>0</sfaAttachments>
+            <ResortList>CASINO</ResortList>
+            <MultiResortEntities>
+               <MultiResortEntity included="1">
+                  <entity>CREDIT_CARDS</entity>
+               </MultiResortEntity>
+               <MultiResortEntity included="1">
+                  <entity>RESORT_ARS</entity>
+               </MultiResortEntity>
+               <MultiResortEntity included="1">
+                  <entity>COMMENTS</entity>
+               </MultiResortEntity>
+               <MultiResortEntity included="1">
+                  <entity>PREFERENCES</entity>
+               </MultiResortEntity>
+               <MultiResortEntity included="1">
+                  <entity>NEGOTIATED_RATES</entity>
+               </MultiResortEntity>
+               <MultiResortEntity included="1">
+                  <entity>CHANNEL_ACCESS_CODES</entity>
+               </MultiResortEntity>
+               <MultiResortEntity included="1">
+                  <entity>YIELD_ADJUSTMENTS</entity>
+               </MultiResortEntity>
+               <MultiResortEntity included="1">
+                  <entity>PSEUDO_CITY_CODES</entity>
+               </MultiResortEntity>
+               <MultiResortEntity included="0">
+                  <entity>RELATIONSHIPS</entity>
+               </MultiResortEntity>
+            </MultiResortEntities>
+         </Profile>
+         <resProfileRPH>0</resProfileRPH>
+      </ResProfile>
+   </ResProfiles>
+   <RoomStays>
+      <RoomStay mfShareAction="NA" mfReservationAction="SYNCH" reservationActionType="SYNC" reservationStatusType="RESERVED">
+         <roomStayRPH>0</roomStayRPH>
+         <roomInventoryCode>SUK</roomInventoryCode>
+         <TimeSpan timeUnitType="DAY">
+            <startTime>2016-05-04T00:00:00.000</startTime>
+            <numberOfTimeUnits>3</numberOfTimeUnits>
+         </TimeSpan>
+         <GuestCounts>
+            <GuestCount>
+               <ageQualifyingCode>ADULT</ageQualifyingCode>
+               <mfCount>1</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILD</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN1</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN2</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN3</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN4</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILDREN5</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+         </GuestCounts>
+         <RatePlans>
+            <RatePlan reservationActionType="SYNC">
+               <ratePlanRPH>0</ratePlanRPH>
+               <ratePlanCode>RATEEU</ratePlanCode>
+               <TimeSpan timeUnitType="DAY">
+                  <startTime>2016-05-04T00:00:00.000</startTime>
+                  <numberOfTimeUnits>2</numberOfTimeUnits>
+               </TimeSpan>
+               <mfMarketCode>MAG</mfMarketCode>
+               <Rates>
+                  <Rate reservationActionType="SYNC" rateBasisTimeUnitType="DAY">
+                     <rateRPH>0</rateRPH>
+                     <Amount currencyCode="EUR">
+                        <valueNum>101</valueNum>
+                     </Amount>
+                     <rateBasisUnits>1</rateBasisUnits>
+                     <TimeSpan timeUnitType="DAY">
+                        <startTime>2016-05-04T00:00:00.000</startTime>
+                        <numberOfTimeUnits>2</numberOfTimeUnits>
+                     </TimeSpan>
+                     <mfAdults>1</mfAdults>
+                     <mfChildren>0</mfChildren>
+                     <mfCribs>0</mfCribs>
+                     <mfExtraBeds>0</mfExtraBeds>
+                     <mfsourceCode>AIR</mfsourceCode>
+                     <mfMarketCode>MAG</mfMarketCode>
+                     <Discount type="AMOUNT">
+                        <valueNum>0</valueNum>
+                     </Discount>
+                     <rateRoomType>SUK</rateRoomType>
+                     <mfChildren1>0</mfChildren1>
+                     <mfChildren2>0</mfChildren2>
+                     <mfChildren3>0</mfChildren3>
+                     <mfChildren4>0</mfChildren4>
+                     <mfChildren5>0</mfChildren5>
+                  </Rate>
+               </Rates>
+               <mfsourceCode>AIR</mfsourceCode>
+            </RatePlan>
+            <RatePlan reservationActionType="SYNC">
+               <ratePlanRPH>1</ratePlanRPH>
+               <ratePlanCode>NFBPA</ratePlanCode>
+               <TimeSpan timeUnitType="DAY">
+                  <startTime>2016-05-06T00:00:00.000</startTime>
+                  <numberOfTimeUnits>1</numberOfTimeUnits>
+               </TimeSpan>
+               <mfMarketCode>CORP</mfMarketCode>
+               <Rates>
+                  <Rate reservationActionType="SYNC" rateBasisTimeUnitType="DAY">
+                     <rateRPH>1</rateRPH>
+                     <Amount currencyCode="USD">
+                        <valueNum>155</valueNum>
+                     </Amount>
+                     <rateBasisUnits>1</rateBasisUnits>
+                     <TimeSpan timeUnitType="DAY">
+                        <startTime>2016-05-06T00:00:00.000</startTime>
+                        <numberOfTimeUnits>1</numberOfTimeUnits>
+                     </TimeSpan>
+                     <mfAdults>1</mfAdults>
+                     <mfChildren>0</mfChildren>
+                     <mfCribs>0</mfCribs>
+                     <mfExtraBeds>0</mfExtraBeds>
+                     <mfsourceCode>AIR</mfsourceCode>
+                     <mfMarketCode>CORP</mfMarketCode>
+                     <Discount type="AMOUNT">
+                        <valueNum>0</valueNum>
+                     </Discount>
+                     <rateRoomType>SUK</rateRoomType>
+                     <mfChildren1>0</mfChildren1>
+                     <mfChildren2>0</mfChildren2>
+                     <mfChildren3>0</mfChildren3>
+                     <mfChildren4>0</mfChildren4>
+                     <mfChildren5>0</mfChildren5>
+                  </Rate>
+               </Rates>
+               <mfsourceCode>AIR</mfsourceCode>
+            </RatePlan>
+         </RatePlans>
+         <marketSegmentCode>MAG</marketSegmentCode>
+         <resGuestRPHs>0</resGuestRPHs>
+         <resCommentRPHs>0, 1, 2, 3</resCommentRPHs>
+         <GuaranteeInfo guaranteeType="NA">
+            <mfGuaranteeType>6PM</mfGuaranteeType>
+         </GuaranteeInfo>
+         <PaymentInstructions>
+            <PaymentInstruction paymentMethodType="NA">
+               <mfPaymentMethod>CA</mfPaymentMethod>
+               <PaymentDue>
+                  <Amount currencyCode="EUR">
+                     <valueNum>0</valueNum>
+                  </Amount>
+                  <cancelIfNotReceived>0</cancelIfNotReceived>
+               </PaymentDue>
+            </PaymentInstruction>
+         </PaymentInstructions>
+         <mfcomplementaryCode>SUK</mfcomplementaryCode>
+         <mfsourceCode>AIR</mfsourceCode>
+         <mfconfidentialRate>0</mfconfidentialRate>
+         <mfAsbProrated>0</mfAsbProrated>
+         <upsold>0</upsold>
+      </RoomStay>
+   </RoomStays>
+   <resCommentRPHs>0, 1, 2, 3</resCommentRPHs>
+   <resProfileRPHs>0</resProfileRPHs>
+   <mfupdateDate>2019-04-01T04:27:04.000</mfupdateDate>
+   <mfcomplementary>0</mfcomplementary>
+   <mfImage>
+      <numRooms>1</numRooms>
+      <Describe>
+         <insertUser>SUPERVISOR</insertUser>
+         <updateUser>SUPERVISOR</updateUser>
+      </Describe>
+   </mfImage>
+   <RoomRevenues>
+      <RoomRevenue>
+         <stayDate>2016-05-04</stayDate>
+         <NetRoomRate currencyCode="EUR">
+            <valueNum>101</valueNum>
+         </NetRoomRate>
+      </RoomRevenue>
+      <RoomRevenue>
+         <stayDate>2016-05-05</stayDate>
+         <NetRoomRate currencyCode="EUR">
+            <valueNum>101</valueNum>
+         </NetRoomRate>
+      </RoomRevenue>
+      <RoomRevenue>
+         <stayDate>2016-05-06</stayDate>
+         <NetRoomRate currencyCode="EUR">
+            <valueNum>119.42</valueNum>
+         </NetRoomRate>
+      </RoomRevenue>
+   </RoomRevenues>
+</Reservation>

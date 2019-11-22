@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?Label FSDH3|RESERVATION|290982|SUCCESS?>
+
+<Reservation xmlns="reservation.fidelio.4.0" mfShareAction="NA" mfReservationAction="EDIT">
+   <HotelReference>
+      <hotelCode>FSDH3</hotelCode>
+   </HotelReference>
+   <reservationID>391633</reservationID>
+   <reservationOriginatorCode>SUPERVISOR</reservationOriginatorCode>
+   <originalBookingDate>2015-01-05T14:42:49.000</originalBookingDate>
+   <StayDateRange timeUnitType="DAY">
+      <startTime>2015-02-01T00:00:00.000</startTime>
+      <numberOfTimeUnits>2</numberOfTimeUnits>
+   </StayDateRange>
+   <GuestCounts>
+      <GuestCount>
+         <ageQualifyingCode>ADULT</ageQualifyingCode>
+         <mfCount>1</mfCount>
+      </GuestCount>
+      <GuestCount>
+         <ageQualifyingCode>CHILD</ageQualifyingCode>
+         <mfCount>0</mfCount>
+      </GuestCount>
+   </GuestCounts>
+   <ResComments>
+      <ResComment reservationActionType="CHANGE">
+         <resCommentRPH>0</resCommentRPH>
+         <commentOriginatorCode>SUPERVISOR</commentOriginatorCode>
+         <guestViewable>1</guestViewable>
+         <comment>Dual Payment Window</comment>
+         <mfcommentType>RESERVATION</mfcommentType>
+         <mfcommentDate>2015-01-05T14:42:51.000</mfcommentDate>
+      </ResComment>
+   </ResComments>
+   <ResGuests>
+      <ResGuest reservationActionType="CHANGE">
+         <resGuestRPH>0</resGuestRPH>
+         <profileRPHs>0, 1</profileRPHs>
+         <ageQualifyingCode>ADULT</ageQualifyingCode>
+         <InHouseTimeSpan timeUnitType="DAY">
+            <startTime>2015-02-01T00:00:00.000</startTime>
+            <numberOfTimeUnits>2</numberOfTimeUnits>
+         </InHouseTimeSpan>
+         <ArrivalTransport/>
+         <DepartureTransport/>
+         <arrivalTime>2015-02-01T00:00:00.000</arrivalTime>
+         <departureTime>2015-02-03T00:00:00.000</departureTime>
+         <reservationID>391633</reservationID>
+         <ReservationReferences>
+            <ReservationReference type="GUESTID" referenceNumber="391633" legNumber="1"/>
+            <ReservationReference type="PMSID" referenceNumber="391633" legNumber="1"/>
+         </ReservationReferences>
+         <preRegistered>0</preRegistered>
+         <commissionPaidTo>T</commissionPaidTo>
+         <PaymentWindows>
+            <PaymentWindow folio="2">
+               <mfPaymentMethod>MC</mfPaymentMethod>
+               <CreditCard xmlns="profile.fidelio.3.0">
+<creditCardCode>MC</creditCardCode>
+<creditCardNumber>5454545454545454</creditCardNumber>
+<creditCardExpire>2018-12-31</creditCardExpire>
+</CreditCard>
+            </PaymentWindow>
+         </PaymentWindows>
+      </ResGuest>
+   </ResGuests>
+   <ResProfiles>
+      <ResProfile>
+         <Profile xmlns="profile.fidelio.3.0" profileType="GUEST" gender="UNKNOWN" multiProperty="0" miniProfile="0" pseudoProfile="0" replaceAddress="0">
+            <creatorCode>KBALLOU</creatorCode>
+            <createdDate>2008-07-17T17:24:21.000</createdDate>
+            <lastUpdaterCode>SUPERVISOR</lastUpdaterCode>
+            <lastUpdated>2009-04-23T19:29:53.000</lastUpdated>
+            <genericName>Doe</genericName>
+            <IndividualName>
+               <namePrefix>Mr</namePrefix>
+               <nameFirst>John</nameFirst>
+               <nameSur>Doe</nameSur>
+            </IndividualName>
+            <primaryLanguageID>E</primaryLanguageID>
+            <ElectronicAddresses>
+               <ElectronicAddress electronicAddressType="EMAIL">
+                  <eAddress>john_doe@mystery.com</eAddress>
+                  <mfPrimaryYN>Y</mfPrimaryYN>
+                  <confirmation>0</confirmation>
+               </ElectronicAddress>
+            </ElectronicAddresses>
+            <PostalAddresses>
+               <PostalAddress addressType="HOME">
+                  <address1>1765 Anywhere Place</address1>
+                  <city>Delaplane</city>
+                  <stateCode>VA</stateCode>
+                  <postalCode>20144</postalCode>
+                  <countryCode>US</countryCode>
+                  <mfPrimaryYN>Y</mfPrimaryYN>
+                  <cleansed>0</cleansed>
+               </PostalAddress>
+            </PostalAddresses>
+            <PhoneNumbers>
+               <PhoneNumber phoneNumberType="HOME">
+                  <phoneNumber>411-1212-8900</phoneNumber>
+                  <mfPrimaryYN>Y</mfPrimaryYN>
+                  <confirmation>0</confirmation>
+               </PhoneNumber>
+            </PhoneNumbers>
+            <mfResort>FSDH3</mfResort>
+            <mfResortProfileID>24961</mfResortProfileID>
+            <mfVipStatus>1</mfVipStatus>
+            <mfAllowMail>NO</mfAllowMail>
+            <mfAllowEMail>NO</mfAllowEMail>
+            <mfGuestPriv>NO</mfGuestPriv>
+            <SalesExtention/>
+            <PrivacyOption>
+               <mfAllowMail>N</mfAllowMail>
+               <mfAllowEMail>N</mfAllowEMail>
+               <mfAllowPhone>0</mfAllowPhone>
+               <mfAllowSMS>0</mfAllowSMS>
+               <mfAllowHistory>1</mfAllowHistory>
+               <mfAllowMarketResearch>0</mfAllowMarketResearch>
+               <mfAllowThirdParty>0</mfAllowThirdParty>
+            </PrivacyOption>
+         </Profile>
+         <resProfileRPH>0</resProfileRPH>
+      </ResProfile>
+      <ResProfile>
+         <Profile xmlns="profile.fidelio.3.0" profileType="TRAVEL" gender="UNKNOWN" multiProperty="0" miniProfile="0" pseudoProfile="0" replaceAddress="0">
+            <creatorCode>SUPERVISOR</creatorCode>
+            <createdDate>2008-06-20T19:53:02.000</createdDate>
+            <lastUpdaterCode>SUPERVISOR</lastUpdaterCode>
+            <lastUpdated>2013-03-07T15:37:00.000</lastUpdated>
+            <genericName>Expedia TA</genericName>
+            <IndividualName>
+               <nameSur>Expedia TA</nameSur>
+            </IndividualName>
+            <PostalAddresses>
+               <PostalAddress addressType="BUSINESS">
+                  <address1>1000 Avenue of the Stars</address1>
+                  <address2>Suite 2000</address2>
+                  <city>West Hollywood</city>
+                  <stateCode>CA</stateCode>
+                  <postalCode>90069</postalCode>
+                  <countryCode>US</countryCode>
+                  <mfPrimaryYN>Y</mfPrimaryYN>
+                  <cleansed>0</cleansed>
+               </PostalAddress>
+            </PostalAddresses>
+            <PhoneNumbers>
+               <PhoneNumber phoneNumberType="FAX">
+                  <phoneNumber>213 555-6789</phoneNumber>
+                  <mfPrimaryYN>Y</mfPrimaryYN>
+                  <confirmation>0</confirmation>
+               </PhoneNumber>
+               <PhoneNumber phoneNumberType="BUSINESS">
+                  <phoneNumber>213 555-1212</phoneNumber>
+                  <mfPrimaryYN>Y</mfPrimaryYN>
+                  <confirmation>0</confirmation>
+               </PhoneNumber>
+            </PhoneNumbers>
+            <mfResort>FSDH3</mfResort>
+            <mfResortProfileID>19961</mfResortProfileID>
+            <mfNameCode>EXPEDIA</mfNameCode>
+            <mfAllowMail>NO</mfAllowMail>
+            <mfAllowEMail>NO</mfAllowEMail>
+            <mfGuestPriv>NO</mfGuestPriv>
+            <mfAllowPhone>0</mfAllowPhone>
+            <mfAllowSMS>0</mfAllowSMS>
+            <SalesExtention/>
+            <PrivacyOption>
+               <mfAllowMail>N</mfAllowMail>
+               <mfAllowEMail>N</mfAllowEMail>
+               <mfAllowPhone>0</mfAllowPhone>
+               <mfAllowSMS>0</mfAllowSMS>
+               <mfAllowHistory>1</mfAllowHistory>
+               <mfAllowMarketResearch>0</mfAllowMarketResearch>
+               <mfAllowThirdParty>0</mfAllowThirdParty>
+            </PrivacyOption>
+         </Profile>
+         <resProfileRPH>1</resProfileRPH>
+      </ResProfile>
+   </ResProfiles>
+   <RoomStays>
+      <RoomStay mfShareAction="NA" mfReservationAction="NA" reservationActionType="CHANGE" reservationStatusType="RESERVED">
+         <roomInventoryCode>TDLXR</roomInventoryCode>
+         <TimeSpan timeUnitType="DAY">
+            <startTime>2015-02-01T00:00:00.000</startTime>
+            <numberOfTimeUnits>2</numberOfTimeUnits>
+         </TimeSpan>
+         <GuestCounts>
+            <GuestCount>
+               <ageQualifyingCode>ADULT</ageQualifyingCode>
+               <mfCount>1</mfCount>
+            </GuestCount>
+            <GuestCount>
+               <ageQualifyingCode>CHILD</ageQualifyingCode>
+               <mfCount>0</mfCount>
+            </GuestCount>
+         </GuestCounts>
+         <RatePlans>
+            <RatePlan reservationActionType="CHANGE">
+               <ratePlanRPH>0</ratePlanRPH>
+               <ratePlanCode>REGULAR</ratePlanCode>
+               <TimeSpan timeUnitType="DAY">
+                  <startTime>2015-02-01T00:00:00.000</startTime>
+                  <numberOfTimeUnits>2</numberOfTimeUnits>
+               </TimeSpan>
+               <mfMarketCode>PP</mfMarketCode>
+               <Rates>
+                  <Rate reservationActionType="CHANGE" rateBasisTimeUnitType="DAY">
+                     <rateRPH>0</rateRPH>
+                     <Amount currencyCode="USD">
+                        <valueNum>550</valueNum>
+                     </Amount>
+                     <rateBasisUnits>1</rateBasisUnits>
+                     <TimeSpan timeUnitType="DAY">
+                        <startTime>2015-02-01T00:00:00.000</startTime>
+                        <numberOfTimeUnits>2</numberOfTimeUnits>
+                     </TimeSpan>
+                     <mfAdults>1</mfAdults>
+                     <mfChildren>0</mfChildren>
+                     <mfCribs>0</mfCribs>
+                     <mfExtraBeds>0</mfExtraBeds>
+                     <mfsourceCode>LEI</mfsourceCode>
+                     <mfMarketCode>PP</mfMarketCode>
+                  </Rate>
+               </Rates>
+               <mfsourceCode>LEI</mfsourceCode>
+            </RatePlan>
+         </RatePlans>
+         <marketSegmentCode>PP</marketSegmentCode>
+         <resGuestRPHs>0</resGuestRPHs>
+         <resCommentRPHs>0</resCommentRPHs>
+         <GuaranteeInfo guaranteeType="NA">
+            <mfGuaranteeType>CO</mfGuaranteeType>
+            <GuaranteeDeposit>
+               <Amount currencyCode="USD"/>
+               <cancelIfNotReceived>0</cancelIfNotReceived>
+            </GuaranteeDeposit>
+         </GuaranteeInfo>
+         <PaymentInstructions>
+            <PaymentInstruction paymentMethodType="NA">
+               <mfPaymentMethod>CA</mfPaymentMethod>
+               <PaymentDue>
+                  <Amount currencyCode="USD"/>
+                  <cancelIfNotReceived>0</cancelIfNotReceived>
+               </PaymentDue>
+            </PaymentInstruction>
+         </PaymentInstructions>
+         <mfsourceCode>LEI</mfsourceCode>
+         <mfchannelCode>GDS</mfchannelCode>
+         <mfconfidentialRate>0</mfconfidentialRate>
+      </RoomStay>
+   </RoomStays>
+   <resCommentRPHs>0</resCommentRPHs>
+   <resProfileRPHs>0, 1</resProfileRPHs>
+   <mfupdateDate>2015-01-05T14:47:39.000</mfupdateDate>
+   <mfcomplementary>0</mfcomplementary>
+   <mfImage>
+      <numRooms>1</numRooms>
+      <Describe>
+         <resortName>Property 3 Opera Demo Multi Hotel</resortName>
+         <insertUser>SUPERVISOR</insertUser>
+         <updateUser>SUPERVISOR</updateUser>
+         <roomCategory>Tower Deluxe Room</roomCategory>
+         <rateCode>Regular</rateCode>
+         <marketCode>Preferred Rate</marketCode>
+         <guarantee>CO: Company Guaranteed</guarantee>
+         <company>CHA</company>
+      </Describe>
+      <Change>
+         <bSource>1</bSource>
+         <bArrivalDate>0</bArrivalDate>
+         <bNumNights>1</bNumNights>
+         <bNumAdults>1</bNumAdults>
+         <bNumChildren>1</bNumChildren>
+         <bNumRooms>0</bNumRooms>
+         <bCribs>0</bCribs>
+         <bRoomCategory>0</bRoomCategory>
+         <bRateCode>1</bRateCode>
+         <bRateAmount>1</bRateAmount>
+         <bMarketCode>1</bMarketCode>
+         <bPaymentType>0</bPaymentType>
+         <bGuarType>0</bGuarType>
+         <bDiscountReason>0</bDiscountReason>
+         <bMultipleRateYN>0</bMultipleRateYN>
+         <bResvStatus>0</bResvStatus>
+      </Change>
+   </mfImage>
+</Reservation>

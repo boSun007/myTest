@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<weather xmlns="x-schema:dataTypeSchema.xml">
+  <date>1970-09-30</date>
+  <degrees>67.5</degrees>
+</weather>
+
+
+<!-- <shoes xmlns:dt="urn:schemas-microsoft-com:datatypes" id="f1121" sizes="mens">
+<sizes id="mens">
+  <size dt:dt="int">8</size>
+  <size dt:dt="int">10</size>
+  <size dt:dt="int">12</size>
+</sizes>
+</shoes> -->
