@@ -3,6 +3,7 @@
         "predis/predis": "^1.1",
         "justinrainbow/json-schema": "^5.2",
         "elasticsearch/elasticsearch": "^7.3",
-        "php-amqplib/php-amqplib": "^2.10"
+        "php-amqplib/php-amqplib": "^2.10",
+        "php-ai/php-ml": "^0.8.0"
     }
 }
