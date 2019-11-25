@@ -10,9 +10,9 @@ $modelPath =__DIR__.'/model/xor';
 
 $samples = array();
 $target = array();
-for($i=0;$i<1000;$i++){
-    $a = mt_rand(1,10);
-    $b = mt_rand(1,10);
+for($i=0;$i<10000000;$i++){
+    $a = mt_rand(1,1000);
+    $b = mt_rand(1,1000);
     if($a==$b){
         $c=1;
     }else{
