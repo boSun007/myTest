@@ -1,7 +1,7 @@
 <?php
-include __DIR__ . '/../autoload.php';
+include __DIR__ . '/../../autoload.php';
 
-use FM2A\convert;
+use EEAPI\FM2A\convert;
 
 $xml = simplexml_load_file(__DIR__.'/searchRequest.xml');
 

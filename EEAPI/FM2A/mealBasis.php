@@ -1,10 +1,8 @@
 <?php
 
-namespace FM2A;
+namespace EEAPI\FM2A;
 
-use PA;
-
-include __DIR__ . '/../autoload.php';
+include __DIR__ . '/../../autoload.php';
 
 class mealBasis
 {

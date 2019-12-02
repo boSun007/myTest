@@ -1,5 +1,5 @@
 <?php
-namespace FM2A;
+namespace EEAPI\FM2A;
 
 
 use PDO;
