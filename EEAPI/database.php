@@ -1,5 +1,5 @@
 <?php
-namespace EEAPI\FM2A;
+namespace EEAPI;
 
 
 use PDO;
@@ -10,7 +10,7 @@ class database{
     private static $db;
 
     private function __construct(){
-        $config = parse_ini_file('config.ini',true);
+        $config = parse_ini_file('FM2A/config.ini',true);
         
         $redis = new Redis();
         $redis->pconnect($config['redis']['host'],$config['redis']['port']);

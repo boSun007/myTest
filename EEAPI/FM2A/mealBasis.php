@@ -2,6 +2,8 @@
 
 namespace EEAPI\FM2A;
 
+use EEAPI\database;
+
 include __DIR__ . '/../../autoload.php';
 
 class mealBasis
@@ -11,6 +13,7 @@ class mealBasis
 
     public function __construct()
     {
+        
         self::$redis = database::getRedis();
         self::$db = database::getDB();
     }
