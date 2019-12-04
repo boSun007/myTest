@@ -15,11 +15,8 @@ class database{
         $redis = new Redis();
         $redis->pconnect($config['redis']['host'],$config['redis']['port']);
         $redis->select($config['redis']['database']);
-
-        // $arr = ['name'=>'bo','age'=>20];
-        // $redis->hMSet('nice',$arr);
-        $redis->set('count',0);
-        $redis->incr('count');
+        
+        
 
 
         self::$redis = $redis;

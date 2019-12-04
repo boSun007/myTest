@@ -13,9 +13,15 @@ class getEstablishments
 
     public function getEstablishmentsList()
     {
-     
       
-        // $this->test(3507, 75043, 252974);
+        // $redis = database::getRedis('YALAGO');
+        // $res = $redis->lrange('Establishment',0,-1);
+        // var_dump($res);
+        // die();
+        // echo count($res);
+        // die();
+      
+        // $this->test(10673, 207231, 1147431);
         // die();
         $countries = $this->getCountries();
         $province = $this->getProvinces($countries);
@@ -23,57 +29,60 @@ class getEstablishments
         $establishments = $this->getEstablishment($location);
     }
 
-    private function test($countryCode, $proviceCode, $location)
-    {
-        $establishments = array();
-        $redis = database::getRedis('YALAGO');
-        $curlOptions = array(
-            CURLOPT_URL => "https://pp.api.yalago.com/hotels/Inventory/GetEstablishments",
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_ENCODING => "",
-            CURLOPT_MAXREDIRS => 10,
-            CURLOPT_TIMEOUT => 30,
-            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-            CURLOPT_CUSTOMREQUEST => "POST",
-            CURLOPT_POSTFIELDS => "{\r\nCountryId: {$countryCode},\r\nProvinceId: {$proviceCode},\r\nLocationId: {$location},\r\nLanguages: [\"en\"]\r\n}\r\n",
-            CURLOPT_HTTPHEADER => array(
-                "Accept: */*",
-                "Accept-Encoding: gzip, deflate",
-                "Cache-Control: no-cache",
-                "Connection: keep-alive",
-                "Content-Length: 74",
-                "Content-Type: application/json",
-                "Cookie: __cfduid=da3fa84622fb86efb1ba40bd830f1d6b01574864929",
-                "Host: pp.api.yalago.com",
-                "Postman-Token: fa8cf33c-ded3-429e-8638-25b3e5afd23f,d7d9f18d-edfd-490d-be60-bf57634cdf96",
-                "User-Agent: PostmanRuntime/7.20.1",
-                "X-Api-Key: 680576fc-67ac-47b6-b00f-e6d2a74f0a37",
-                "cache-control: no-cache"
-            ),
-        );
-
-        $res = $this->curl($curlOptions);
-        if ($res['status']) {
-
-            foreach (json_decode($res['data'], true)['Establishments'] as $establishment) {
-                $establishment['Description'] = $establishment['Description']['en'];
-                $establishment['Summary'] = $establishment['Summary']['en'];
-                $establishment['Images'] = json_encode($establishment['Images']);
-                $establishment['RoomTypes'] = json_encode($establishment['RoomTypes']);
-                $facility = array();
-                if($establishment['Facilities']){
-                    foreach ($establishment['Facilities'] as $facilityArr) {
-                        $facility[$establishment['EstablishmentId']][$facilityArr['FacilityId']] = $facilityArr['Description'];
-                    }
+//     private function test($countryCode, $proviceCode, $location)
+//     {
+//         $establishments = array();
+//         $redis = database::getRedis('YALAGO');
+//         $curlOptions = array(
+//             CURLOPT_URL => "https://pp.api.yalago.com/hotels/Inventory/GetEstablishments",
+//             CURLOPT_RETURNTRANSFER => true,
+//             CURLOPT_ENCODING => "",
+//             CURLOPT_MAXREDIRS => 10,
+//             CURLOPT_TIMEOUT => 30,
+//             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+//             CURLOPT_CUSTOMREQUEST => "POST",
+//             CURLOPT_POSTFIELDS => "{\r\nCountryId: {$countryCode},\r\nProvinceId: {$proviceCode},\r\nLocationId: {$location},\r\nLanguages: [\"en\"]\r\n}\r\n",
+//             CURLOPT_HTTPHEADER => array(
+//                 "Accept: */*",
+//                 "Accept-Encoding: gzip, deflate",
+//                 "Cache-Control: no-cache",
+//                 "Connection: keep-alive",
+//                 "Content-Length: 87",
+//                 "Content-Type: application/json",
+//                 "Cookie: __cfduid=da3fa84622fb86efb1ba40bd830f1d6b01574864929",
+//                 "Host: pp.api.yalago.com",
+//                 "Postman-Token: 179dab79-60d2-4c5d-80ed-7ddc445bb726,8b1408c9-0f40-40e8-8719-31117980ddfc",
+//                 "User-Agent: PostmanRuntime/7.20.1",
+//                 "X-Api-Key: 680576fc-67ac-47b6-b00f-e6d2a74f0a37",
+//                 "cache-control: no-cache"
+//               ),
+//         );
+  
+    
+ 
+//         $res = $this->curl($curlOptions);
+//         if ($res['status']) {
+// var_dump(json_decode($res['data'], true));
+// // die();
+//             foreach (json_decode($res['data'], true)['Establishments'] as $establishment) {
+//                 $establishment['Description'] = $establishment['Description']['en'];
+//                 $establishment['Summary'] = $establishment['Summary']['en'];
+//                 $establishment['Images'] = json_encode($establishment['Images']);
+//                 $establishment['RoomTypes'] = json_encode($establishment['RoomTypes']);
+//                 $facility = array();
+//                 if($establishment['Facilities']){
+//                     foreach ($establishment['Facilities'] as $facilityArr) {
+//                         $facility[$establishment['EstablishmentId']][$facilityArr['FacilityId']] = $facilityArr['Description'];
+//                     }
                     
-                    $redis->hMset('Facility_' . $establishment['EstablishmentId'], $facility[$establishment['EstablishmentId']]);
-                }
-                unset($establishment['Facilities']);
-                $establishments[$establishment['EstablishmentId']] = $establishment;
-                $redis->hMset($establishment['EstablishmentId'], $establishments[$establishment['EstablishmentId']]);
-            }
-        }
-    }
+//                     $redis->hMset('Facility_' . $establishment['EstablishmentId'], $facility[$establishment['EstablishmentId']]);
+//                 }
+//                 unset($establishment['Facilities']);
+//                 $establishments[$establishment['EstablishmentId']] = $establishment;
+//                 $redis->hMset($establishment['EstablishmentId'], $establishments[$establishment['EstablishmentId']]);
+//             }
+//         }
+//     }
 
 
 
@@ -123,6 +132,8 @@ class getEstablishments
                             $establishment['Summary'] = $establishment['Summary']['en'];
                             $establishment['Images'] = json_encode($establishment['Images']);
                             $establishment['RoomTypes'] = json_encode($establishment['RoomTypes']);
+                            $establishment['CountryCode'] = $countryCode;
+                            $establishment['ProviceCode'] = $proviceCode;
                             $facility = array();
                             if($establishment['Facilities']){
                                 foreach ($establishment['Facilities'] as $facilityArr) {
@@ -133,7 +144,7 @@ class getEstablishments
                             }
                             unset($establishment['Facilities']);
                             $establishments[$establishment['EstablishmentId']] = $establishment;
-                            $redis->lset('Establishment',$establishment['EstablishmentId']);
+                            $redis->lPush('Establishment',$establishment['EstablishmentId']);
                             $redis->hMset($establishment['EstablishmentId'], $establishments[$establishment['EstablishmentId']]);
                             $redis->incr('count');
                             
