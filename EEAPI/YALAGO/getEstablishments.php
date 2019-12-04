@@ -14,12 +14,16 @@ class getEstablishments
     public function getEstablishmentsList()
     {
       
-        // $redis = database::getRedis('YALAGO');
-        // $res = $redis->lrange('Establishment',0,-1);
-        // var_dump($res);
+        $redis = database::getRedis('YALAGO');
+        $res = $redis->lrange('Establishment',0,-1);
+        $arr= array();
+        foreach($res as $re){
+            $arr[]=$re;
+        }
+        $count = $redis->get('count');
         // die();
-        // echo count($res);
-        // die();
+        var_dump(count($arr) == $count);
+        die();
       
         // $this->test(10673, 207231, 1147431);
         // die();
