@@ -1,5 +1,8 @@
 <?php
-$today = '2020-01-03';
+$arrival = '2020-01-03';
+$today = date('Y-m-d');
+echo round((strtotime($arrival)-strtotime($today))/3600/24);
+die();
 echo $lastday = date("Y-m-d", strtotime($today . " +2 day "));
 die();
 

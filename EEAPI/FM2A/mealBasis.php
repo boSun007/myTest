@@ -10,12 +10,12 @@ class mealBasis
 {
     private static $redis;
     private static $db;
+    private static $configFolder = 'FM2A';
 
     public function __construct()
     {
-        
-        self::$redis = database::getRedis();
-        self::$db = database::getDB();
+        self::$redis = database::getRedis(self::$configFolder);
+        self::$db = database::getDB(self::$configFolder);
     }
 
     public function cacheMealBasis()
@@ -32,7 +32,6 @@ class mealBasis
     }
 
     private function updateRedis(array $array){
-        $result =array();
         return self::$redis->hMSet('mealBasis',$array);
     }
 

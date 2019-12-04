@@ -9,8 +9,8 @@ class database{
     private static $redis;
     private static $db;
 
-    private function __construct(){
-        $config = parse_ini_file('FM2A/config.ini',true);
+    private function __construct($configFolder){
+        $config = parse_ini_file("$configFolder/config.ini",true);
         
         $redis = new Redis();
         $redis->pconnect($config['redis']['host'],$config['redis']['port']);
@@ -25,9 +25,9 @@ class database{
 
     }
 
-    public static function getRedis(){
+    public static function getRedis($configFolder){
         if(!self::$redis){
-            new self();
+            new self($configFolder);
         }
         
 
@@ -35,9 +35,9 @@ class database{
 
     }
 
-    public static function getDB(){
+    public static function getDB($configFolder){
         if(!self::$db){
-            new self();
+            new self($configFolder);
         }
 
         return self::$db;
