@@ -316,10 +316,3 @@ class getEstablishments
         return $rtn;
     }
 }
-
-include __DIR__ . '/../../autoload.php';
-// include __DIR__.'/../../vendor/autoload.php';
-
-
-$obj = new getEstablishments();
-echo $obj->getEstablishmentsList();
